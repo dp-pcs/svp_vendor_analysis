@@ -1,0 +1,387 @@
+Vendor Name ,Department ,Last 12 months Cost (USD),1-line Description on what the Vendor does,Suggestions (Consolidate / Terminate / Optimize costs)
+Amazon Web Services,IT/Infrastructure,"$3,117,226","Cloud computing infrastructure providing compute, storage, and hosting services.",Optimize
+Google Workspace,IT/Infrastructure,"$357,984","Enterprise email, document collaboration, and productivity suite platform.",Optimize
+Salesforce,Sales,"$343,081",Customer relationship management and sales pipeline tracking platform.,Optimize
+Slack Technologies,IT/Infrastructure,"$263,821",Team messaging and workplace collaboration communication platform.,Optimize
+Atlassian,Engineering,"$208,675",Project management and issue tracking software including Jira and Confluence.,Optimize
+Microsoft Corporation,IT/Infrastructure,"$183,754","Enterprise software licenses including Office, Windows, and Azure services.",Optimize
+DataDog,Engineering,"$147,348",Application performance monitoring and infrastructure observability platform.,Optimize
+GitHub,Engineering,"$144,093",Source code repository hosting and version control collaboration platform.,Optimize
+Zoom Video Communications,IT/Infrastructure,"$142,700",Video conferencing and virtual meeting platform for remote collaboration.,Optimize
+Okta,IT/Infrastructure,"$133,507",Identity and access management platform for single sign-on authentication.,Optimize
+HubSpot,Marketing,"$124,661",Marketing automation and inbound lead generation platform.,Optimize
+Snowflake Computing,Engineering,"$117,078",Cloud data warehouse platform for analytics and data storage.,Optimize
+Workday,HR,"$106,399","Human capital management system for payroll, benefits, and talent management.",Optimize
+Zendesk,Support,"$89,880",Customer support ticketing and help desk management platform.,Optimize
+DocuSign,Legal,"$80,823",Electronic signature and digital contract execution platform.,Optimize
+Greenhouse Software,HR,"$71,860",Applicant tracking system for recruiting and hiring workflow management.,Optimize
+Carta,Finance,"$67,414",Cap table management and equity administration platform for private companies.,Optimize
+Expensify,Finance,"$66,570",Employee expense reporting and reimbursement management platform.,Optimize
+Brex,Finance,"$66,131",Corporate credit cards and spend management platform for businesses.,Optimize
+Gusto,HR,"$65,418","Payroll processing, benefits administration, and tax filing platform.",Consolidate
+LinkedIn Corporation,HR,"$64,373",Professional recruiting platform for job postings and candidate sourcing.,Optimize
+MongoDB,Engineering,"$60,661",NoSQL database hosting and management platform.,Optimize
+New Relic,Engineering,"$57,929",Application performance monitoring and observability analytics platform.,Consolidate
+PagerDuty,Engineering,"$57,560",Incident response and on-call management alerting platform.,Optimize
+Intercom,Support,"$55,573",Customer messaging and live chat support platform for user engagement.,Consolidate
+Akamai Technologies,IT/Infrastructure,"$52,825",Content delivery network (CDN) and cloud security services for web application performance and DDoS protection.,Optimize
+Shopify,Sales,"$46,895","E-commerce platform for online store management, payment processing, and order fulfillment.",Optimize
+Brex,Finance,"$46,539",Corporate credit card and spend management platform with integrated expense tracking.,Optimize
+Stripe,Engineering,"$44,299",Payment processing API and infrastructure for online transactions and billing.,Optimize
+Lattice,HR,"$39,966","Performance management and employee engagement platform for reviews, goals, and feedback.",Optimize
+Zenefits,HR,"$39,342","Human resources information system (HRIS) for benefits administration, payroll, and compliance.",Consolidate
+Gusto,HR,"$38,841","Payroll processing, benefits administration, and HR compliance management platform.",Consolidate
+Namely,HR,"$38,148","All-in-one HR platform providing payroll, benefits, talent management, and compliance tools.",Consolidate
+RingCentral,IT/Infrastructure,"$37,461","Cloud-based business phone system with VoIP, video conferencing, and team messaging.",Consolidate
+Twilio,Engineering,"$32,427","Programmable communications API for SMS, voice calls, and video integration into applications.",Optimize
+Segment,Engineering,"$32,187","Customer data platform for collecting, cleaning, and routing user analytics to other tools.",Optimize
+Amplitude,Product,"$30,614","Product analytics platform for tracking user behavior, feature adoption, and conversion funnels.",Optimize
+Mixpanel,Product,"$27,741","Product analytics tool for user event tracking, cohort analysis, and engagement metrics.",Consolidate
+Algolia,Engineering,"$27,013","Search and discovery API providing fast, relevant search functionality for websites and applications.",Optimize
+Contentful,Engineering,"$26,091",Headless content management system (CMS) for managing and delivering digital content via API.,Optimize
+Intercom,Support,"$24,952","Customer messaging platform with live chat, help desk ticketing, and in-app communication tools.",Optimize
+Zendesk,Support,"$24,798",Customer service and support ticket management system with knowledge base and chat functionality.,Consolidate
+HubSpot,Marketing,"$24,135","Marketing automation and CRM platform for email campaigns, lead management, and sales pipeline tracking.",Optimize
+Marketo,Marketing,"$24,045","Marketing automation platform for email marketing, lead nurturing, and campaign management.",Consolidate
+Outreach,Sales,"$23,887","Sales engagement platform for automating outbound sequences, tracking emails, and managing sales cadences.",Optimize
+Gong,Sales,"$22,800",Revenue intelligence platform that records and analyzes sales calls for coaching and deal insights.,Optimize
+DocuSign,Legal,"$22,275",Electronic signature and digital transaction management platform for contract execution and workflow automation.,Optimize
+Carta,Finance,"$21,952",Cap table management and equity administration platform for startups tracking ownership and stock options.,Optimize
+Expensify,Finance,"$19,042","Expense report automation with receipt scanning, reimbursement workflows, and corporate card reconciliation.",Consolidate
+Bill.com,Finance,"$18,537",Accounts payable and receivable automation platform for invoice processing and vendor payments.,Optimize
+Vimeo,Marketing,"$18,164",Video hosting and streaming platform for marketing and corporate communications content.,Optimize
+Stripe,Finance,"$18,084",Payment processing platform for accepting credit card and online payments.,Optimize
+Algolia,Engineering,"$17,810",Search-as-a-service API platform for implementing product and site search functionality.,Optimize
+Netlify,Engineering,"$17,108",Web application hosting and deployment platform with CDN and continuous deployment.,Optimize
+Twilio,Engineering,"$17,074","Cloud communications platform providing SMS, voice, and messaging APIs.",Optimize
+Airtable,Product,"$16,900",Collaborative database and project management platform for workflows and content management.,Optimize
+SendGrid,Engineering,"$16,438",Transactional and marketing email delivery API service.,Consolidate
+MongoDB Atlas,Engineering,"$16,274",Managed cloud database service for MongoDB hosting and operations.,Optimize
+Mailchimp,Marketing,"$16,101",Email marketing automation and newsletter distribution platform.,Consolidate
+Loom,G&A,"$15,684",Screen and video recording tool for async team communication and documentation.,Optimize
+DocuSign,Legal,"$15,360",Electronic signature and digital contract execution platform.,Optimize
+Typeform,Marketing,"$14,913",Interactive online form and survey builder for lead generation and feedback collection.,Optimize
+Calendly,Sales,"$14,642",Meeting scheduling automation tool for booking appointments without email back-and-forth.,Optimize
+Zapier,IT/Infrastructure,"$14,508",Workflow automation platform connecting apps and automating repetitive tasks between services.,Optimize
+Miro,Product,"$13,870",Online collaborative whiteboard platform for brainstorming and visual planning sessions.,Optimize
+Hotjar,Product,"$13,785",Website heatmap and user behavior analytics tool for understanding visitor interactions.,Optimize
+Segment,Engineering,"$13,659",Customer data platform for collecting and routing analytics events to multiple destinations.,Optimize
+Auth0,Engineering,"$13,249",Identity and access management platform providing authentication and authorization services.,Optimize
+PagerDuty,IT/Infrastructure,"$12,879",Incident management and on-call scheduling platform for alerting and response coordination.,Optimize
+Mixpanel,Product,"$12,463",Product analytics platform tracking user behavior and engagement within applications.,Consolidate
+Zendesk,Support,"$12,117",Customer support ticketing system and help desk software platform.,Optimize
+LaunchDarkly,Engineering,"$11,637",Feature flag management platform for controlling software releases and A/B testing.,Optimize
+Postman,Engineering,"$11,605",API development and testing platform for building and documenting REST APIs.,Optimize
+Vercel,Engineering,"$11,516",Frontend deployment and hosting platform optimized for Next.js and serverless functions.,Consolidate
+Canva,Marketing,"$11,241",Online graphic design tool for creating social media graphics and marketing materials.,Optimize
+Airtable,Product,"$10,488",Cloud-based collaborative database and project management platform for building custom business applications.,Optimize
+Checkr,HR,"$10,100",Background check and identity verification service for employment screening.,Optimize
+Canva,Marketing,"$10,046",Online graphic design and visual content creation platform for marketing materials.,Optimize
+Cloudflare,IT/Infrastructure,"$10,018",Content delivery network (CDN) and DDoS protection service for website performance and security.,Optimize
+Zoom,IT/Infrastructure,"$9,822",Video conferencing and virtual meeting platform for remote collaboration.,Consolidate
+Stripe,Finance,"$9,603",Payment processing infrastructure for accepting and managing online transactions.,Optimize
+Adobe,Marketing,"$9,559","Creative software suite for design, video editing, and digital marketing tools.",Consolidate
+Atlassian,Engineering,"$9,206",Software development and project management tools including Jira and Confluence.,Optimize
+Gusto,HR,"$8,395","Payroll, benefits administration, and HR management platform for employee compensation.",Optimize
+DocuSign,Legal,"$8,269",Electronic signature and digital transaction management platform for contract execution.,Optimize
+LinkedIn,HR,"$8,070",Professional recruiting platform and employer branding for talent acquisition.,Optimize
+Intercom,Support,"$7,360","Customer messaging and support platform for live chat, help desk, and user engagement.",Optimize
+HubSpot,Marketing,"$7,316","Inbound marketing automation, CRM, and lead management platform.",Optimize
+Twilio,Engineering,"$6,987","Cloud communications platform providing APIs for SMS, voice, and video functionality.",Optimize
+monday.com,Product,"$6,674",Work operating system for team collaboration and project tracking.,Consolidate
+Zendesk,Support,"$6,596",Customer service and ticketing platform for support case management.,Consolidate
+Salesforce,Sales,"$6,157",Customer relationship management (CRM) platform for sales pipeline and account management.,Optimize
+Dropbox,IT/Infrastructure,"$6,099",Cloud file storage and synchronization service for document sharing and collaboration.,Consolidate
+Figma,Product,"$5,972",Collaborative interface design and prototyping tool for product teams.,Optimize
+Notion,Product,"$5,731","All-in-one workspace for documentation, knowledge management, and team wikis.",Consolidate
+GitHub,Engineering,"$5,624",Code repository hosting and version control platform for software development.,Optimize
+Mailchimp,Marketing,"$5,444",Email marketing automation and campaign management platform.,Consolidate
+Asana,Product,"$5,413",Work and project management platform for task tracking and team coordination.,Consolidate
+Slack,IT/Infrastructure,"$5,402",Team messaging and workplace collaboration platform for internal communications.,Optimize
+QuickBooks,Finance,"$5,366",Accounting and bookkeeping software for financial management and invoicing.,Optimize
+Airtable,Product,"$5,285",Low-code database and project management platform for building collaborative applications.,Optimize
+Atlassian,Engineering,"$5,153","Software development and collaboration tools including Jira, Confluence, and Bitbucket.",Optimize
+Auth0,Engineering,"$5,134",Authentication and authorization platform for implementing secure user login and identity management.,Optimize
+Baremetrics,Finance,"$4,995",Subscription analytics and revenue metrics dashboard for SaaS businesses.,Consolidate
+BambooHR,HR,"$4,991","Human resources information system for employee data management, time tracking, and onboarding.",Optimize
+BigCommerce,Sales,"$4,917",E-commerce platform for building and managing online storefronts and product catalogs.,Optimize
+Brex,Finance,"$4,879",Corporate credit card and expense management platform for startups and technology companies.,Optimize
+Checkr,HR,"$4,836",Background check and employment screening service for candidate verification.,Optimize
+Cloudflare,IT/Infrastructure,"$4,800","Content delivery network, DDoS protection, and web application security services.",Optimize
+Contentful,Product,"$4,399",Headless content management system for managing and delivering digital content via APIs.,Optimize
+Coursera,HR,"$4,393",Online learning platform providing employee training courses and professional development programs.,Consolidate
+Databricks,Engineering,"$4,083","Unified analytics platform for big data processing, machine learning, and data lakehouse architecture.",Optimize
+Drift,Sales,"$4,062",Conversational marketing platform with chatbots and live chat for website visitor engagement.,Consolidate
+Docusign,Legal,"$4,056",Electronic signature and digital transaction management platform for contract execution.,Optimize
+Dropbox Business,IT/Infrastructure,"$4,025","Cloud file storage, synchronization, and collaboration platform for business teams.",Consolidate
+Expensify,Finance,"$3,929",Receipt scanning and expense report automation platform for employee reimbursements.,Consolidate
+Figma,Product,"$3,842","Collaborative design tool for creating user interfaces, prototypes, and design systems.",Optimize
+Freshdesk,Support,"$3,735",Customer support ticketing system and helpdesk software for managing service requests.,Consolidate
+G2,Marketing,"$3,700",Software review platform for collecting customer reviews and competitive market intelligence.,Optimize
+Gusto,HR,"$3,692","Payroll processing, benefits administration, and HR compliance platform for small businesses.",Optimize
+HackerRank,HR,"$3,689",Technical assessment platform for evaluating software engineering candidates through coding challenges.,Optimize
+Heap,Product,"$3,548",Digital analytics platform that automatically captures user interactions and behavioral data.,Consolidate
+HelloSign,G&A,"$3,541",Electronic signature solution for document signing and workflow automation.,Consolidate
+HubSpot,Marketing,"$3,535","Inbound marketing automation, CRM, and sales enablement platform.",Optimize
+Hopin,Marketing,"$4,078","Virtual and hybrid event platform for hosting conferences, webinars, and networking events.",Optimize
+Airtable,Product,"$4,071",Cloud-based collaborative database and spreadsheet platform for workflow management and project tracking.,Optimize
+Algolia,Engineering,"$3,994",Search-as-a-service API platform providing fast and relevant search functionality for websites and applications.,Optimize
+Amazon Web Services,IT/Infrastructure,"$3,955","Cloud computing infrastructure services including compute, storage, and networking resources.",Optimize
+American Express,Finance,"$3,900",Corporate credit card and business payment processing services.,Optimize
+Amplitude,Product,"$3,899",Product analytics platform for tracking user behavior and engagement metrics across digital products.,Optimize
+Asana,G&A,"$3,868",Team collaboration and project management software for task tracking and workflow coordination.,Consolidate
+Atlassian,Engineering,"$3,730","Software development and collaboration tools including Jira, Confluence, and project management platforms.",Optimize
+Auth0,Engineering,"$3,726",Authentication and authorization platform providing identity management and single sign-on services.,Optimize
+AWS Marketplace,Engineering,"$3,672",Digital catalog for purchasing and deploying third-party software on Amazon Web Services infrastructure.,Consolidate
+Bamboo HR,HR,"$3,610","Human resources information system for employee data management, time tracking, and HR workflows.",Optimize
+Baremetrics,Finance,"$3,545",Subscription analytics and revenue metrics platform for SaaS businesses tracking MRR and churn.,Optimize
+Bill.com,Finance,"$3,536",Accounts payable and receivable automation platform for invoice processing and vendor payments.,Optimize
+Box,IT/Infrastructure,"$3,483",Cloud content management and file sharing platform for secure document storage and collaboration.,Consolidate
+Brex,Finance,"$3,357",Corporate credit card and expense management platform with integrated spend controls and rewards.,Consolidate
+Calendly,Sales,"$3,254",Automated meeting scheduling tool that syncs with calendars to eliminate back-and-forth booking.,Optimize
+Carta,Finance,"$3,200",Cap table management and equity administration platform for tracking ownership and stock options.,Optimize
+Checkr,HR,"$3,195",Background check and employment screening service for verifying candidate credentials and history.,Optimize
+Cisco Meraki,IT/Infrastructure,"$3,036","Cloud-managed networking equipment including wireless access points, switches, and security appliances.",Optimize
+Clearbit,Sales,"$2,995",B2B data enrichment and lead intelligence platform providing company and contact information APIs.,Optimize
+ClickUp,G&A,"$2,954","All-in-one productivity platform combining task management, docs, goals, and team collaboration features.",Consolidate
+Cloudflare,IT/Infrastructure,"$2,930",Content delivery network and DDoS protection service providing web performance and security.,Optimize
+Confluence,Engineering,"$2,924",Team documentation and knowledge base platform for creating and organizing internal wiki content.,Consolidate
+Contentful,Engineering,"$2,838",Headless content management system API for managing and delivering digital content across platforms.,Optimize
+Copper,Sales,"$2,838",Customer relationship management system integrated with Google Workspace for managing sales pipelines.,Consolidate
+Crowdstrike,IT/Infrastructure,"$2,807",Endpoint detection and response platform providing cloud-based antivirus and cybersecurity protection.,Optimize
+Zoho Corporation,Sales,"$2,744",Cloud-based CRM and sales automation platform for pipeline management and customer tracking.,Consolidate
+Shippo,G&A,"$2,711",Multi-carrier shipping API and label generation platform for e-commerce fulfillment.,Optimize
+Bandwidth Inc,IT/Infrastructure,"$2,663",Voice and messaging API provider for telephony and SMS communications infrastructure.,Optimize
+Checkr,HR,"$2,653",Background check and employment screening service for candidate verification.,Optimize
+Rev.com,G&A,"$2,606",Transcription and captioning service for audio and video content conversion.,Terminate
+Webflow,Marketing,"$2,489",No-code website builder and CMS platform for marketing site management.,Consolidate
+Expensify,Finance,"$2,436",Expense report management and receipt tracking automation platform.,Consolidate
+Baremetrics,Finance,"$2,419",SaaS metrics and subscription analytics dashboard for revenue tracking and forecasting.,Optimize
+Crazy Egg,Marketing,"$2,302",Website heatmap and user behavior analytics tool for conversion optimization.,Consolidate
+Abstract,Product,"$2,293",Design file version control and collaboration platform for design teams.,Terminate
+Help Scout,Support,"$2,251",Customer support helpdesk and email management platform for support ticket handling.,Consolidate
+DigitalOcean,IT/Infrastructure,"$2,205",Cloud infrastructure and virtual private server hosting platform.,Consolidate
+MongoDB Atlas,Engineering,"$2,194",Cloud-hosted NoSQL database service with automated backup and scaling.,Optimize
+Ahrefs,Marketing,"$2,163","SEO toolset for backlink analysis, keyword research, and competitive intelligence.",Consolidate
+Loom,G&A,"$2,154",Screen recording and video messaging tool for asynchronous team communication.,Terminate
+Calendly,Sales,"$2,136",Meeting scheduling automation tool for booking appointments without email back-and-forth.,Consolidate
+Netlify,Engineering,"$2,110",Static site hosting and serverless function deployment platform with CI/CD integration.,Optimize
+UserTesting,Product,"$2,107",Remote user research and usability testing platform with on-demand participant panels.,Optimize
+Drift,Sales,"$2,044",Conversational marketing chatbot and live chat platform for website visitor engagement.,Consolidate
+Miro,Product,"$2,032",Online whiteboard and visual collaboration platform for remote team workshops and brainstorming.,Consolidate
+Vonage,IT/Infrastructure,"$2,031","Cloud communications API platform for voice, video, and messaging integration.",Consolidate
+Canva Pro,Marketing,"$1,989",Graphic design platform with templates for creating social media and marketing visuals.,Consolidate
+Vimeo,Marketing,"$1,935",Video hosting and streaming platform for marketing and internal video content.,Terminate
+Typeform,Marketing,"$1,913",Interactive online form and survey builder for lead generation and feedback collection.,Consolidate
+LogRocket,Engineering,"$1,813",Frontend monitoring and session replay tool for debugging user experience issues.,Optimize
+Airtable,Product,"$1,762",Low-code database and workflow management platform for project tracking and collaboration.,Consolidate
+Algolia,Engineering,"$1,732","Search-as-a-service API providing fast, configurable search functionality for applications.",Optimize
+Amazon Web Services EMEA SARL,IT/Infrastructure,"$1,723","Cloud infrastructure services for European region compute, storage, and networking resources.",Consolidate
+Axosoft,Engineering,"$1,706",Agile project management and issue tracking software for development teams.,Consolidate
+Better Proposals,Sales,"$1,678",Sales proposal creation and tracking software with templates and analytics.,Consolidate
+Birchbox,G&A,"$1,659",Subscription beauty and grooming product sample delivery service.,Terminate
+Bounty,Facilities,"$1,654",Office cleaning and paper product supplies vendor.,Terminate
+Brand24,Marketing,"$1,654",Social media and online brand mention monitoring and sentiment analysis platform.,Consolidate
+Breather,Facilities,"$1,646",On-demand private workspace and meeting room rental platform.,Terminate
+Breezy HR,HR,"$1,549","Applicant tracking system for job posting, candidate management, and recruitment workflows.",Consolidate
+Burgh Coffee,Facilities,"$1,536",Local coffee supplier for office beverage service.,Terminate
+Campaign Monitor,Marketing,"$1,493",Email marketing automation and campaign management platform.,Consolidate
+Casper,Facilities,"$1,419",Mattress and bedding products vendor for office nap rooms or employee perks.,Terminate
+ChartMogul,Finance,"$1,406",Subscription revenue analytics and SaaS metrics reporting platform.,Consolidate
+Checkr,HR,"$1,363",Background check and screening services for employee and candidate verification.,Optimize
+CircleCI,Engineering,"$1,338",Continuous integration and delivery platform for automated software testing and deployment.,Optimize
+Cloudability,IT/Infrastructure,"$1,327","Cloud cost management and financial optimization platform for AWS, Azure, and GCP.",Optimize
+Contentful,Product,"$1,308",Headless content management system API for managing and delivering digital content.,Optimize
+Convertkit,Marketing,"$1,287",Email marketing automation platform for newsletters and subscriber management.,Consolidate
+Copper,Sales,"$1,253",CRM software integrated with Google Workspace for contact and pipeline management.,Consolidate
+Cratejoy,Marketing,"$1,219",Subscription box e-commerce platform for recurring product delivery services.,Terminate
+Crew,HR,"$1,179",Team communication and shift scheduling app for deskless workers.,Consolidate
+Criteo,Marketing,"$1,162",Performance marketing and retargeting advertising platform for e-commerce.,Optimize
+Crowdfire,Marketing,"$1,158",Social media management and scheduling tool for multi-platform content posting.,Consolidate
+Crystal,Sales,"$1,150",Personality assessment and communication insights platform for sales and recruiting.,Terminate
+Adobe Stock,Marketing,"$1,135","Stock photography, video, and creative asset licensing platform for marketing materials.",Consolidate
+Airtable,Product,"$1,107",Cloud-based collaborative database and project management platform for workflow tracking.,Consolidate
+Amazon Web Services,IT/Infrastructure,"$1,080",Cloud computing infrastructure and hosting services for application deployment.,Optimize
+Atlassian,Engineering,"$1,064",Software development and collaboration tools including Jira and Confluence for engineering teams.,Optimize
+Box,IT/Infrastructure,"$1,054","Cloud file storage, sharing, and collaboration platform for enterprise document management.",Consolidate
+Calendly,Sales,"$1,051",Meeting scheduling automation tool for booking sales calls and customer meetings.,Consolidate
+Canva,Marketing,"$1,012",Online graphic design platform for creating social media graphics and marketing collateral.,Consolidate
+Carta,Finance,"$1,001",Cap table management and equity administration platform for startup equity tracking.,Optimize
+DigitalOcean,IT/Infrastructure,$993,Cloud infrastructure provider for hosting development and production application environments.,Consolidate
+Doordash,Facilities,$981,Food delivery service for employee meals and office catering.,Terminate
+Dropbox,IT/Infrastructure,$971,Cloud file storage and synchronization service for team file sharing.,Consolidate
+Expensify,Finance,$961,Expense reporting and reimbursement management platform for employee spend tracking.,Consolidate
+FedEx,G&A,$923,Shipping and logistics service for package delivery and freight services.,Consolidate
+Figma,Product,$920,Collaborative interface design and prototyping tool for product design teams.,Optimize
+GitHub,Engineering,$920,Code repository hosting and version control platform for software development collaboration.,Optimize
+Google Workspace,IT/Infrastructure,$908,"Business email, productivity, and collaboration suite including Gmail and Google Drive.",Optimize
+Grubhub,Facilities,$851,Food delivery service for employee meals and team lunches.,Terminate
+HelloSign,Legal,$851,Electronic signature and document workflow platform for contract execution.,Consolidate
+HubSpot,Marketing,$850,Inbound marketing automation and CRM platform for lead generation and nurturing.,Optimize
+Intercom,Support,$833,Customer messaging and live chat platform for customer support and engagement.,Optimize
+LinkedIn,HR,$832,Professional networking platform with recruiter tools for talent acquisition and employer branding.,Optimize
+Loom,G&A,$823,Video messaging and screen recording tool for asynchronous team communication.,Consolidate
+Mailchimp,Marketing,$814,Email marketing automation platform for newsletter campaigns and customer communications.,Consolidate
+Miro,Product,$806,Online collaborative whiteboarding platform for brainstorming and workshop facilitation.,Consolidate
+Notion,G&A,$803,"All-in-one workspace for documentation, project management, and knowledge management.",Consolidate
+USPS,G&A,$797,United States Postal Service mail and package shipping services for routine business correspondence.,Optimize
+Indeed,HR,$765,Job posting platform for recruiting and candidate sourcing across multiple roles.,Optimize
+Fedex,G&A,$764,Express shipping and logistics services for time-sensitive business deliveries.,Consolidate
+Adobe,Product,$681,"Creative cloud software suite for design, video editing, and document management tools.",Optimize
+UPS,G&A,$681,Package shipping and freight services for business deliveries and logistics.,Consolidate
+GoDaddy,IT/Infrastructure,$670,Domain name registration and DNS hosting services for company web properties.,Optimize
+Dropbox,IT/Infrastructure,$669,Cloud file storage and sharing platform for team collaboration and document management.,Optimize
+LinkedIn,HR,$664,Professional networking platform with recruiter licenses for talent acquisition and employer branding.,Consolidate
+Comcast,IT/Infrastructure,$662,Business internet and cable services for office connectivity and communications.,Optimize
+Verizon,IT/Infrastructure,$662,Wireless mobile services and cellular data plans for employee devices.,Optimize
+Zoom,IT/Infrastructure,$613,Video conferencing and virtual meeting platform for remote collaboration.,Optimize
+Namecheap,IT/Infrastructure,$610,Domain registration and SSL certificate provider for web infrastructure management.,Consolidate
+GitHub,Engineering,$596,Source code repository hosting and version control platform for software development.,Optimize
+Grubhub,G&A,$581,Food delivery service for employee meals and office catering orders.,Terminate
+DocuSign,Legal,$568,Electronic signature and digital contract execution platform for legal agreements.,Optimize
+Microsoft,IT/Infrastructure,$567,"Enterprise software licensing for Office 365, Azure, and productivity tools.",Optimize
+Staples,Facilities,$565,"Office supplies and equipment vendor for desk accessories, paper, and stationery.",Optimize
+DoorDash,G&A,$535,On-demand food delivery platform for employee meals and team events.,Terminate
+Atlassian,Engineering,$534,Project management and issue tracking software suite including Jira and Confluence.,Optimize
+MailChimp,Marketing,$524,"Email marketing automation platform for newsletters, campaigns, and customer communications.",Optimize
+Twilio,Product,$523,"Cloud communications API platform for SMS, voice, and messaging functionality.",Optimize
+Canva,Marketing,$512,"Online graphic design tool for creating marketing materials, social media graphics, and presentations.",Optimize
+Uber,G&A,$510,Rideshare transportation service for employee business travel and client meetings.,Terminate
+QuickBooks,Finance,$502,"Accounting software platform for bookkeeping, invoicing, and financial reporting.",Optimize
+Costco,Facilities,$490,"Warehouse retail supplier for bulk office supplies, snacks, and break room provisions.",Terminate
+ADOBE STOCK,Marketing,$486,"Stock photography, video, and design asset licensing platform for creative content.",Terminate
+HARVEST,Finance,$483,Time tracking and invoicing software for project-based billing and resource management.,Terminate
+USPS,G&A,$483,Postal mail and package shipping services for business correspondence and small parcel delivery.,Terminate
+LEGALZOOM.COM INC,Legal,$474,Online legal document preparation and business formation services for routine legal filings.,Terminate
+GRUBHUB,G&A,$473,Food delivery service for team meals and employee food orders.,Terminate
+SURVEYMONKEY,Product,$473,Online survey and feedback collection platform for user research and data gathering.,Terminate
+FEDEX,G&A,$467,Express shipping and logistics services for urgent package and document delivery.,Consolidate
+DOORDASH,G&A,$460,On-demand food and restaurant delivery service for employee meals and office catering.,Terminate
+CANVA,Marketing,$458,Graphic design and visual content creation platform for marketing materials and social media assets.,Terminate
+EVENTBRITE,Marketing,$457,"Event registration, ticketing, and attendee management platform for hosted events and webinars.",Terminate
+VIMEO,Marketing,$433,"Video hosting, streaming, and management platform for professional business video content.",Terminate
+CALENDLY,Sales,$432,Automated meeting scheduling and calendar coordination tool for sales and client bookings.,Terminate
+OFFICE DEPOT,G&A,$427,"Office supplies, furniture, and workplace equipment retail vendor for day-to-day business needs.",Terminate
+STAPLES,G&A,$426,"Office supplies, business equipment, and workplace product vendor for general purchasing needs.",Consolidate
+UBER EATS,G&A,$412,Restaurant and food delivery service for employee meals and office food orders.,Terminate
+UPS,G&A,$378,Package shipping and freight logistics services for business deliveries and supply chain operations.,Consolidate
+VISTAPRINT,Marketing,$378,"Custom printed marketing materials, business cards, and promotional product manufacturing service.",Terminate
+MAILCHIMP,Marketing,$371,Email marketing automation and campaign management platform for customer communications and newsletters.,Terminate
+TYPEFORM,Marketing,$364,Interactive online form and survey builder for lead generation and customer feedback collection.,Terminate
+WETRANSFER,G&A,$358,Large file transfer and digital asset sharing service for sending oversized documents and media.,Terminate
+SHUTTERSTOCK,Marketing,$358,"Stock image, video footage, and music licensing library for creative and marketing content production.",Consolidate
+MIRO,Product,$347,Collaborative online whiteboard and visual workspace platform for team brainstorming and planning sessions.,Terminate
+FIGMA,Product,$341,Collaborative interface design and prototyping tool for product design and user experience workflows.,Terminate
+NOTION,G&A,$339,"All-in-one workspace and knowledge management platform for documentation, notes, and project wikis.",Terminate
+LOOM,G&A,$318,Screen recording and async video messaging tool for internal communications and product demos.,Terminate
+USPS,G&A,$315,United States Postal Service mail and package shipping services for business correspondence and deliveries.,Optimize
+FedEx,G&A,$312,Express shipping and logistics services for time-sensitive package delivery and freight.,Consolidate
+UPS,G&A,$307,Package shipping and logistics services for domestic and international deliveries.,Consolidate
+Amazon Business,G&A,$302,"Online procurement platform for office supplies, equipment, and miscellaneous business purchases.",Optimize
+Staples,G&A,$301,"Office supplies, furniture, and business equipment retailer for workplace essentials.",Consolidate
+Office Depot,G&A,$287,"Office supplies and equipment retailer providing stationery, furniture, and workplace products.",Consolidate
+LinkedIn,HR,$284,Professional networking platform and recruiting tool for talent acquisition and employer branding.,Optimize
+Indeed,HR,$281,Job posting and recruiting platform for candidate sourcing and applicant tracking.,Consolidate
+Zoom,IT/Infrastructure,$273,Video conferencing and virtual meeting platform for remote collaboration and webinars.,Optimize
+Dropbox,IT/Infrastructure,$265,Cloud file storage and sharing platform for document collaboration and backup.,Optimize
+DocuSign,Legal,$263,Electronic signature and digital contract management platform for legally binding document execution.,Optimize
+Adobe,Product,$263,"Creative software suite including PDF tools, design applications, and digital content creation platforms.",Optimize
+Canva,Marketing,$259,"Online graphic design tool for creating marketing materials, presentations, and social media content.",Optimize
+Grubhub,G&A,$241,Food delivery service for employee meals and team events.,Terminate
+DoorDash,G&A,$233,Restaurant delivery platform for employee meal orders and office catering.,Terminate
+Uber Eats,G&A,$248,Food delivery service for employee meals and office food orders.,Terminate
+Costco,G&A,$241,"Wholesale retailer for bulk office supplies, snacks, and facility consumables.",Optimize
+Home Depot,Facilities,$235,"Hardware and building materials retailer for office maintenance, repairs, and facility improvements.",Optimize
+Lowe's,Facilities,$226,"Home improvement retailer providing hardware, tools, and building materials for facility maintenance.",Consolidate
+Verizon Wireless,IT/Infrastructure,$225,"Wireless carrier providing mobile voice, data, and IoT connectivity services for business operations.",Optimize
+AT&T,IT/Infrastructure,$224,Telecommunications provider for mobile phone services and business connectivity.,Consolidate
+T-Mobile,IT/Infrastructure,$220,Wireless carrier providing mobile phone service and data plans for employees.,Consolidate
+Starbucks,G&A,$203,Coffee shop purchases for employee refreshments and client meetings.,Terminate
+Walgreens,G&A,$199,Pharmacy and retail store for miscellaneous health supplies and incidental business purchases.,Terminate
+CVS,G&A,$198,Pharmacy and convenience retailer for occasional health supplies and miscellaneous items.,Terminate
+AMZN Mktp US*2K8HX5NK3,G&A,$195,Amazon marketplace purchase for office supplies or miscellaneous items.,Terminate
+DROPBOX*9J7KQHV8CTCB,IT/Infrastructure,$191,Cloud file storage and collaboration platform subscription.,Terminate
+Adobe Stock,Marketing,$190,Stock photography and digital asset licensing platform.,Terminate
+SurveyMonkey,Product,$188,Online survey and questionnaire creation platform.,Terminate
+GITHUB.COM,Engineering,$183,Code repository hosting and version control platform.,Terminate
+Canva,Marketing,$183,Graphic design and visual content creation platform.,Terminate
+Grammarly,G&A,$182,AI-powered writing assistant and grammar checking tool.,Terminate
+ZOOM.US,IT/Infrastructure,$178,Video conferencing and virtual meeting platform.,Terminate
+LinkedIn Premium,Sales,$167,Professional networking platform premium subscription for recruitment and outreach.,Terminate
+Mailchimp,Marketing,$166,Email marketing automation and campaign management platform.,Terminate
+DocuSign,Legal,$164,Electronic signature and digital transaction management platform.,Terminate
+Monday.com,Product,$162,Work operating system and project management platform.,Terminate
+AMZN Mktp US*3M9PL6TR2,G&A,$161,Amazon marketplace purchase for office supplies or miscellaneous items.,Terminate
+Figma,Product,$159,Collaborative interface design and prototyping platform.,Terminate
+Zapier,IT/Infrastructure,$155,Workflow automation platform connecting apps and services.,Terminate
+Calendly,Sales,$154,Automated meeting scheduling and calendar coordination tool.,Terminate
+HubSpot,Marketing,$154,CRM and inbound marketing automation platform.,Terminate
+Airtable,Product,$152,Collaborative spreadsheet-database hybrid for project tracking.,Terminate
+Notion,Product,$143,"All-in-one workspace for notes, docs, and project management.",Terminate
+Slack Premium,IT/Infrastructure,$143,Team messaging and collaboration platform premium tier.,Terminate
+AMZN Mktp US*5J2NT8WP1,G&A,$143,Amazon marketplace purchase for office supplies or miscellaneous items.,Terminate
+Miro,Product,$141,Online collaborative whiteboarding platform for visual brainstorming.,Terminate
+Asana,Product,$138,Project and task management platform for team coordination.,Terminate
+TypeForm,Marketing,$137,Interactive form and survey builder for customer engagement.,Terminate
+Intercom,Support,$133,Customer messaging and support chat platform.,Terminate
+USPS,G&A,$131,United States Postal Service for standard mail and package shipping.,Terminate
+Amazon,G&A,$131,General office supplies and miscellaneous product purchases.,Terminate
+Staples,G&A,$130,Office supplies and basic workplace materials vendor.,Terminate
+FedEx,G&A,$129,Express shipping and courier services for packages and documents.,Consolidate
+UPS,G&A,$128,Package shipping and logistics services.,Consolidate
+Uber,G&A,$123,Employee ride-sharing and ground transportation services.,Terminate
+Lyft,G&A,$123,On-demand ride-hailing services for employee transportation.,Consolidate
+Starbucks,Facilities,$120,Coffee and beverage purchases for office or meetings.,Terminate
+Panera Bread,Facilities,$120,Catering and meal services for office meetings and events.,Terminate
+Chipotle,Facilities,$119,Restaurant meals and catering for team lunches.,Terminate
+Subway,Facilities,$119,Food and catering services for employee meals.,Terminate
+Office Depot,G&A,$104,"Office furniture, supplies, and workplace equipment vendor.",Terminate
+Home Depot,Facilities,$95,"Hardware, tools, and facility maintenance supplies.",Terminate
+Walmart,G&A,$93,General merchandise and miscellaneous supply purchases.,Terminate
+Target,G&A,$92,Retail purchases for general office and miscellaneous supplies.,Terminate
+CVS,G&A,$89,Pharmacy and convenience store purchases for miscellaneous items.,Terminate
+Walgreens,G&A,$89,Pharmacy and retail purchases for office miscellaneous needs.,Terminate
+Shell,G&A,$88,Fuel purchases for company vehicles or employee reimbursements.,Terminate
+Chevron,G&A,$88,Gasoline and fuel purchases for business transportation.,Terminate
+BP,G&A,$88,Fuel and gas station purchases for vehicle operations.,Terminate
+Exxon,G&A,$86,Petroleum and fuel purchases for company transportation needs.,Terminate
+Dunkin Donuts,Facilities,$82,Coffee and snack purchases for office and meetings.,Terminate
+McDonald's,Facilities,$80,Quick-service restaurant purchases for employee meals.,Terminate
+Costco,G&A,$78,Bulk purchasing warehouse for office supplies and consumables.,Terminate
+Whole Foods,Facilities,$77,Grocery and prepared food purchases for office events and snacks.,Terminate
+USPS,G&A,$76,United States Postal Service for standard mail and package shipping.,Terminate
+Amazon,G&A,$67,Online retailer for miscellaneous office supplies and equipment purchases.,Terminate
+Fedex,G&A,$66,Express shipping and courier service for overnight and expedited deliveries.,Consolidate
+UPS,G&A,$64,Package delivery and shipping service for domestic and international freight.,Consolidate
+Staples,G&A,$63,"Office supply retailer for stationery, printing, and workplace essentials.",Terminate
+Office Depot,G&A,$62,"Office supply retailer for desk accessories, paper products, and basic equipment.",Consolidate
+Home Depot,Facilities,$62,Hardware and building materials retailer for facility maintenance and repairs.,Terminate
+Lowes,Facilities,$59,Home improvement retailer for facilities maintenance supplies and equipment.,Consolidate
+Costco,G&A,$56,Wholesale membership warehouse for bulk office snacks and supplies.,Terminate
+Walmart,G&A,$56,General merchandise retailer for ad-hoc office and supply purchases.,Terminate
+Target,G&A,$56,Retail store for miscellaneous office items and employee gift purchases.,Terminate
+Best Buy,IT/Infrastructure,$55,Consumer electronics retailer for small technology and accessory purchases.,Terminate
+Apple Store,IT/Infrastructure,$55,"Retail channel for Apple devices, accessories, and replacement equipment.",Terminate
+Google Ads,Marketing,$55,Search engine and display advertising platform for customer acquisition campaigns.,Optimize
+Microsoft Store,IT/Infrastructure,$54,Retail channel for Microsoft software licenses and Surface device purchases.,Terminate
+LinkedIn,HR,$53,Professional networking platform for recruiting and employer branding.,Terminate
+Facebook,Marketing,$52,Social media advertising platform for brand awareness and lead generation campaigns.,Optimize
+Twitter,Marketing,$50,Social media platform for brand promotion and advertising campaigns.,Terminate
+Indeed,HR,$50,Job board and recruiting platform for posting positions and sourcing candidates.,Consolidate
+Uber,G&A,$47,Rideshare service for employee transportation and client meeting travel.,Terminate
+Lyft,G&A,$45,Rideshare platform for employee ground transportation and business trips.,Consolidate
+Starbucks,G&A,$41,Coffee shop for employee meetings and client entertainment expenses.,Terminate
+Dunkin,G&A,$40,Coffee and food chain for employee breakfast and meeting refreshments.,Terminate
+Panera,G&A,$36,Bakery-cafe for team lunches and small meeting catering.,Terminate
+Chipotle,G&A,$35,Fast-casual restaurant for employee meals and team lunch orders.,Terminate
+AMZN Mktp US*2K8DO9CT3,G&A,$32,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($32).,Terminate
+AMZN Mktp US*2K0UJ4OP3,G&A,$30,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($30).,Terminate
+AMZN Mktp US*2K36R5UQ3,G&A,$29,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($29).,Terminate
+AMZN Mktp US*2K4D96IG3,G&A,$26,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($26).,Terminate
+AMZN Mktp US*2K1IQ7PG3,G&A,$21,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($21).,Terminate
+AMZN Mktp US*2K8MN6E93,G&A,$20,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($20).,Terminate
+AMZN Mktp US*2K2LG5653,G&A,$20,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($20).,Terminate
+AMZN Mktp US*2K9OP42Y3,G&A,$20,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($20).,Terminate
+AMZN Mktp US*2K5NN29T3,G&A,$19,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($19).,Terminate
+AMZN Mktp US*2K18J7VW3,G&A,$18,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($18).,Terminate
+AMZN Mktp US*2K7J63VE3,G&A,$18,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($18).,Terminate
