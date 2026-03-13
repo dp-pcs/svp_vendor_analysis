@@ -55,9 +55,9 @@ All 386 vendors were exported from Google Sheets to `data/vendors.csv` using the
 **Batch processing was used** to stay within API token limits and to allow partial recovery if a batch fails.
 
 ### Phase 4 — Multi-Agent Cross-Validation
-Two independent Claude Code sessions classified the same 386 vendors **without shared context**. This is a **multi-agent ensemble validation** pattern:
-- Session A (this repository) produced one set of classifications
-- Session B (separate Claude Code instance) produced an independent set
+Two independent Claude Code agent sessions classified the same 386 vendors **without shared context**. This is a **multi-agent ensemble validation** pattern:
+- Agent 1 produced one set of classifications
+- Agent 2 (a separate Claude Code instance with no shared context) produced an independent set
 - Divergent classifications were identified and resolved using a reconciliation judgment pass
 
 This approach catches classification errors that a single-pass review would miss, because two agents trained on the same data can still diverge on ambiguous vendors (e.g., a legal-tech SaaS that straddles Legal and Engineering).
@@ -137,7 +137,7 @@ The QA process specifically looked for:
 ---
 
 ## Tools Used
-- **Claude Code CLI** — primary tool for all script generation and execution
+- **Claude Code CLI (Agent 1 + Agent 2)** — two independent sessions for classification and cross-validation
 - **Anthropic API** (`claude-sonnet-4-5`) — vendor classification
 - **Python 3** — scripting, CSV processing, validation
 - **Google Sheets API** (via `gws` CLI) — data extraction and output upload
