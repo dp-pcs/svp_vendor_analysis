@@ -421,3 +421,28 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+def score_name_integrity(vendors_path: str, source_path: str) -> tuple:
+    """CRITICAL: Verify output vendor names match source input names exactly."""
+    import csv
+    issues = []
+
+    with open(source_path) as f:
+        source = [list({k.strip(): v.strip() for k, v in r.items()}.values())[0]
+                  for r in csv.DictReader(f)]
+    with open(vendors_path) as f:
+        output = [list({k.strip(): v.strip() for k, v in r.items()}.values())[0]
+                  for r in csv.DictReader(f)]
+
+    mismatches = [(i+1, source[i], output[i]) for i in range(min(len(source), len(output)))
+                  if source[i] != output[i]]
+
+    if mismatches:
+        issues.append(f"CRITICAL: {len(mismatches)} vendor name mismatches (model hallucinated names)")
+        for row, src, out in mismatches[:5]:
+            issues.append(f"  Row {row}: source='{src}' → output='{out}'")
+        return 0, issues
+
+    issues.append(f"✅ All {len(source)} vendor names match source exactly")
+    return 10, issues

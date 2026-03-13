@@ -1,387 +1,387 @@
 Vendor Name ,Department ,Last 12 months Cost (USD),1-line Description on what the Vendor does,Suggestions (Consolidate / Terminate / Optimize costs)
-Amazon Web Services,IT/Infrastructure,"$3,117,226","Cloud computing infrastructure providing compute, storage, and hosting services.",Optimize
-Google Workspace,IT/Infrastructure,"$357,984","Enterprise email, document collaboration, and productivity suite platform.",Optimize
-Salesforce,Sales,"$343,081",Customer relationship management and sales pipeline tracking platform.,Optimize
-Slack Technologies,IT/Infrastructure,"$263,821",Team messaging and workplace collaboration communication platform.,Optimize
-Atlassian,Engineering,"$208,675",Project management and issue tracking software including Jira and Confluence.,Optimize
-Microsoft Corporation,IT/Infrastructure,"$183,754","Enterprise software licenses including Office, Windows, and Azure services.",Optimize
-DataDog,Engineering,"$147,348",Application performance monitoring and infrastructure observability platform.,Optimize
-GitHub,Engineering,"$144,093",Source code repository hosting and version control collaboration platform.,Optimize
-Zoom Video Communications,IT/Infrastructure,"$142,700",Video conferencing and virtual meeting platform for remote collaboration.,Optimize
-Okta,IT/Infrastructure,"$133,507",Identity and access management platform for single sign-on authentication.,Optimize
-HubSpot,Marketing,"$124,661",Marketing automation and inbound lead generation platform.,Optimize
-Snowflake Computing,Engineering,"$117,078",Cloud data warehouse platform for analytics and data storage.,Optimize
-Workday,HR,"$106,399","Human capital management system for payroll, benefits, and talent management.",Optimize
-Zendesk,Support,"$89,880",Customer support ticketing and help desk management platform.,Optimize
-DocuSign,Legal,"$80,823",Electronic signature and digital contract execution platform.,Optimize
-Greenhouse Software,HR,"$71,860",Applicant tracking system for recruiting and hiring workflow management.,Optimize
-Carta,Finance,"$67,414",Cap table management and equity administration platform for private companies.,Optimize
-Expensify,Finance,"$66,570",Employee expense reporting and reimbursement management platform.,Optimize
-Brex,Finance,"$66,131",Corporate credit cards and spend management platform for businesses.,Optimize
-Gusto,HR,"$65,418","Payroll processing, benefits administration, and tax filing platform.",Consolidate
-LinkedIn Corporation,HR,"$64,373",Professional recruiting platform for job postings and candidate sourcing.,Optimize
-MongoDB,Engineering,"$60,661",NoSQL database hosting and management platform.,Optimize
-New Relic,Engineering,"$57,929",Application performance monitoring and observability analytics platform.,Consolidate
-PagerDuty,Engineering,"$57,560",Incident response and on-call management alerting platform.,Optimize
-Intercom,Support,"$55,573",Customer messaging and live chat support platform for user engagement.,Consolidate
-Akamai Technologies,IT/Infrastructure,"$52,825",Content delivery network (CDN) and cloud security services for web application performance and DDoS protection.,Optimize
-Shopify,Sales,"$46,895","E-commerce platform for online store management, payment processing, and order fulfillment.",Optimize
-Brex,Finance,"$46,539",Corporate credit card and spend management platform with integrated expense tracking.,Optimize
-Stripe,Engineering,"$44,299",Payment processing API and infrastructure for online transactions and billing.,Optimize
-Lattice,HR,"$39,966","Performance management and employee engagement platform for reviews, goals, and feedback.",Optimize
-Zenefits,HR,"$39,342","Human resources information system (HRIS) for benefits administration, payroll, and compliance.",Consolidate
-Gusto,HR,"$38,841","Payroll processing, benefits administration, and HR compliance management platform.",Consolidate
-Namely,HR,"$38,148","All-in-one HR platform providing payroll, benefits, talent management, and compliance tools.",Consolidate
-RingCentral,IT/Infrastructure,"$37,461","Cloud-based business phone system with VoIP, video conferencing, and team messaging.",Consolidate
-Twilio,Engineering,"$32,427","Programmable communications API for SMS, voice calls, and video integration into applications.",Optimize
-Segment,Engineering,"$32,187","Customer data platform for collecting, cleaning, and routing user analytics to other tools.",Optimize
-Amplitude,Product,"$30,614","Product analytics platform for tracking user behavior, feature adoption, and conversion funnels.",Optimize
-Mixpanel,Product,"$27,741","Product analytics tool for user event tracking, cohort analysis, and engagement metrics.",Consolidate
-Algolia,Engineering,"$27,013","Search and discovery API providing fast, relevant search functionality for websites and applications.",Optimize
-Contentful,Engineering,"$26,091",Headless content management system (CMS) for managing and delivering digital content via API.,Optimize
-Intercom,Support,"$24,952","Customer messaging platform with live chat, help desk ticketing, and in-app communication tools.",Optimize
-Zendesk,Support,"$24,798",Customer service and support ticket management system with knowledge base and chat functionality.,Consolidate
-HubSpot,Marketing,"$24,135","Marketing automation and CRM platform for email campaigns, lead management, and sales pipeline tracking.",Optimize
-Marketo,Marketing,"$24,045","Marketing automation platform for email marketing, lead nurturing, and campaign management.",Consolidate
-Outreach,Sales,"$23,887","Sales engagement platform for automating outbound sequences, tracking emails, and managing sales cadences.",Optimize
-Gong,Sales,"$22,800",Revenue intelligence platform that records and analyzes sales calls for coaching and deal insights.,Optimize
-DocuSign,Legal,"$22,275",Electronic signature and digital transaction management platform for contract execution and workflow automation.,Optimize
-Carta,Finance,"$21,952",Cap table management and equity administration platform for startups tracking ownership and stock options.,Optimize
-Expensify,Finance,"$19,042","Expense report automation with receipt scanning, reimbursement workflows, and corporate card reconciliation.",Consolidate
-Bill.com,Finance,"$18,537",Accounts payable and receivable automation platform for invoice processing and vendor payments.,Optimize
-Vimeo,Marketing,"$18,164",Video hosting and streaming platform for marketing and corporate communications content.,Optimize
-Stripe,Finance,"$18,084",Payment processing platform for accepting credit card and online payments.,Optimize
-Algolia,Engineering,"$17,810",Search-as-a-service API platform for implementing product and site search functionality.,Optimize
-Netlify,Engineering,"$17,108",Web application hosting and deployment platform with CDN and continuous deployment.,Optimize
-Twilio,Engineering,"$17,074","Cloud communications platform providing SMS, voice, and messaging APIs.",Optimize
-Airtable,Product,"$16,900",Collaborative database and project management platform for workflows and content management.,Optimize
-SendGrid,Engineering,"$16,438",Transactional and marketing email delivery API service.,Consolidate
-MongoDB Atlas,Engineering,"$16,274",Managed cloud database service for MongoDB hosting and operations.,Optimize
-Mailchimp,Marketing,"$16,101",Email marketing automation and newsletter distribution platform.,Consolidate
-Loom,G&A,"$15,684",Screen and video recording tool for async team communication and documentation.,Optimize
-DocuSign,Legal,"$15,360",Electronic signature and digital contract execution platform.,Optimize
-Typeform,Marketing,"$14,913",Interactive online form and survey builder for lead generation and feedback collection.,Optimize
-Calendly,Sales,"$14,642",Meeting scheduling automation tool for booking appointments without email back-and-forth.,Optimize
-Zapier,IT/Infrastructure,"$14,508",Workflow automation platform connecting apps and automating repetitive tasks between services.,Optimize
-Miro,Product,"$13,870",Online collaborative whiteboard platform for brainstorming and visual planning sessions.,Optimize
-Hotjar,Product,"$13,785",Website heatmap and user behavior analytics tool for understanding visitor interactions.,Optimize
-Segment,Engineering,"$13,659",Customer data platform for collecting and routing analytics events to multiple destinations.,Optimize
-Auth0,Engineering,"$13,249",Identity and access management platform providing authentication and authorization services.,Optimize
-PagerDuty,IT/Infrastructure,"$12,879",Incident management and on-call scheduling platform for alerting and response coordination.,Optimize
-Mixpanel,Product,"$12,463",Product analytics platform tracking user behavior and engagement within applications.,Consolidate
-Zendesk,Support,"$12,117",Customer support ticketing system and help desk software platform.,Optimize
-LaunchDarkly,Engineering,"$11,637",Feature flag management platform for controlling software releases and A/B testing.,Optimize
-Postman,Engineering,"$11,605",API development and testing platform for building and documenting REST APIs.,Optimize
-Vercel,Engineering,"$11,516",Frontend deployment and hosting platform optimized for Next.js and serverless functions.,Consolidate
-Canva,Marketing,"$11,241",Online graphic design tool for creating social media graphics and marketing materials.,Optimize
-Airtable,Product,"$10,488",Cloud-based collaborative database and project management platform for building custom business applications.,Optimize
-Checkr,HR,"$10,100",Background check and identity verification service for employment screening.,Optimize
-Canva,Marketing,"$10,046",Online graphic design and visual content creation platform for marketing materials.,Optimize
-Cloudflare,IT/Infrastructure,"$10,018",Content delivery network (CDN) and DDoS protection service for website performance and security.,Optimize
-Zoom,IT/Infrastructure,"$9,822",Video conferencing and virtual meeting platform for remote collaboration.,Consolidate
-Stripe,Finance,"$9,603",Payment processing infrastructure for accepting and managing online transactions.,Optimize
-Adobe,Marketing,"$9,559","Creative software suite for design, video editing, and digital marketing tools.",Consolidate
-Atlassian,Engineering,"$9,206",Software development and project management tools including Jira and Confluence.,Optimize
-Gusto,HR,"$8,395","Payroll, benefits administration, and HR management platform for employee compensation.",Optimize
-DocuSign,Legal,"$8,269",Electronic signature and digital transaction management platform for contract execution.,Optimize
-LinkedIn,HR,"$8,070",Professional recruiting platform and employer branding for talent acquisition.,Optimize
-Intercom,Support,"$7,360","Customer messaging and support platform for live chat, help desk, and user engagement.",Optimize
-HubSpot,Marketing,"$7,316","Inbound marketing automation, CRM, and lead management platform.",Optimize
-Twilio,Engineering,"$6,987","Cloud communications platform providing APIs for SMS, voice, and video functionality.",Optimize
-monday.com,Product,"$6,674",Work operating system for team collaboration and project tracking.,Consolidate
-Zendesk,Support,"$6,596",Customer service and ticketing platform for support case management.,Consolidate
-Salesforce,Sales,"$6,157",Customer relationship management (CRM) platform for sales pipeline and account management.,Optimize
-Dropbox,IT/Infrastructure,"$6,099",Cloud file storage and synchronization service for document sharing and collaboration.,Consolidate
-Figma,Product,"$5,972",Collaborative interface design and prototyping tool for product teams.,Optimize
-Notion,Product,"$5,731","All-in-one workspace for documentation, knowledge management, and team wikis.",Consolidate
-GitHub,Engineering,"$5,624",Code repository hosting and version control platform for software development.,Optimize
-Mailchimp,Marketing,"$5,444",Email marketing automation and campaign management platform.,Consolidate
-Asana,Product,"$5,413",Work and project management platform for task tracking and team coordination.,Consolidate
-Slack,IT/Infrastructure,"$5,402",Team messaging and workplace collaboration platform for internal communications.,Optimize
-QuickBooks,Finance,"$5,366",Accounting and bookkeeping software for financial management and invoicing.,Optimize
-Airtable,Product,"$5,285",Low-code database and project management platform for building collaborative applications.,Optimize
-Atlassian,Engineering,"$5,153","Software development and collaboration tools including Jira, Confluence, and Bitbucket.",Optimize
-Auth0,Engineering,"$5,134",Authentication and authorization platform for implementing secure user login and identity management.,Optimize
-Baremetrics,Finance,"$4,995",Subscription analytics and revenue metrics dashboard for SaaS businesses.,Consolidate
-BambooHR,HR,"$4,991","Human resources information system for employee data management, time tracking, and onboarding.",Optimize
-BigCommerce,Sales,"$4,917",E-commerce platform for building and managing online storefronts and product catalogs.,Optimize
-Brex,Finance,"$4,879",Corporate credit card and expense management platform for startups and technology companies.,Optimize
-Checkr,HR,"$4,836",Background check and employment screening service for candidate verification.,Optimize
-Cloudflare,IT/Infrastructure,"$4,800","Content delivery network, DDoS protection, and web application security services.",Optimize
-Contentful,Product,"$4,399",Headless content management system for managing and delivering digital content via APIs.,Optimize
-Coursera,HR,"$4,393",Online learning platform providing employee training courses and professional development programs.,Consolidate
-Databricks,Engineering,"$4,083","Unified analytics platform for big data processing, machine learning, and data lakehouse architecture.",Optimize
-Drift,Sales,"$4,062",Conversational marketing platform with chatbots and live chat for website visitor engagement.,Consolidate
-Docusign,Legal,"$4,056",Electronic signature and digital transaction management platform for contract execution.,Optimize
-Dropbox Business,IT/Infrastructure,"$4,025","Cloud file storage, synchronization, and collaboration platform for business teams.",Consolidate
-Expensify,Finance,"$3,929",Receipt scanning and expense report automation platform for employee reimbursements.,Consolidate
-Figma,Product,"$3,842","Collaborative design tool for creating user interfaces, prototypes, and design systems.",Optimize
-Freshdesk,Support,"$3,735",Customer support ticketing system and helpdesk software for managing service requests.,Consolidate
-G2,Marketing,"$3,700",Software review platform for collecting customer reviews and competitive market intelligence.,Optimize
-Gusto,HR,"$3,692","Payroll processing, benefits administration, and HR compliance platform for small businesses.",Optimize
-HackerRank,HR,"$3,689",Technical assessment platform for evaluating software engineering candidates through coding challenges.,Optimize
-Heap,Product,"$3,548",Digital analytics platform that automatically captures user interactions and behavioral data.,Consolidate
-HelloSign,G&A,"$3,541",Electronic signature solution for document signing and workflow automation.,Consolidate
-HubSpot,Marketing,"$3,535","Inbound marketing automation, CRM, and sales enablement platform.",Optimize
-Hopin,Marketing,"$4,078","Virtual and hybrid event platform for hosting conferences, webinars, and networking events.",Optimize
-Airtable,Product,"$4,071",Cloud-based collaborative database and spreadsheet platform for workflow management and project tracking.,Optimize
-Algolia,Engineering,"$3,994",Search-as-a-service API platform providing fast and relevant search functionality for websites and applications.,Optimize
-Amazon Web Services,IT/Infrastructure,"$3,955","Cloud computing infrastructure services including compute, storage, and networking resources.",Optimize
-American Express,Finance,"$3,900",Corporate credit card and business payment processing services.,Optimize
-Amplitude,Product,"$3,899",Product analytics platform for tracking user behavior and engagement metrics across digital products.,Optimize
-Asana,G&A,"$3,868",Team collaboration and project management software for task tracking and workflow coordination.,Consolidate
-Atlassian,Engineering,"$3,730","Software development and collaboration tools including Jira, Confluence, and project management platforms.",Optimize
-Auth0,Engineering,"$3,726",Authentication and authorization platform providing identity management and single sign-on services.,Optimize
-AWS Marketplace,Engineering,"$3,672",Digital catalog for purchasing and deploying third-party software on Amazon Web Services infrastructure.,Consolidate
-Bamboo HR,HR,"$3,610","Human resources information system for employee data management, time tracking, and HR workflows.",Optimize
-Baremetrics,Finance,"$3,545",Subscription analytics and revenue metrics platform for SaaS businesses tracking MRR and churn.,Optimize
-Bill.com,Finance,"$3,536",Accounts payable and receivable automation platform for invoice processing and vendor payments.,Optimize
-Box,IT/Infrastructure,"$3,483",Cloud content management and file sharing platform for secure document storage and collaboration.,Consolidate
-Brex,Finance,"$3,357",Corporate credit card and expense management platform with integrated spend controls and rewards.,Consolidate
-Calendly,Sales,"$3,254",Automated meeting scheduling tool that syncs with calendars to eliminate back-and-forth booking.,Optimize
-Carta,Finance,"$3,200",Cap table management and equity administration platform for tracking ownership and stock options.,Optimize
-Checkr,HR,"$3,195",Background check and employment screening service for verifying candidate credentials and history.,Optimize
-Cisco Meraki,IT/Infrastructure,"$3,036","Cloud-managed networking equipment including wireless access points, switches, and security appliances.",Optimize
-Clearbit,Sales,"$2,995",B2B data enrichment and lead intelligence platform providing company and contact information APIs.,Optimize
-ClickUp,G&A,"$2,954","All-in-one productivity platform combining task management, docs, goals, and team collaboration features.",Consolidate
-Cloudflare,IT/Infrastructure,"$2,930",Content delivery network and DDoS protection service providing web performance and security.,Optimize
-Confluence,Engineering,"$2,924",Team documentation and knowledge base platform for creating and organizing internal wiki content.,Consolidate
-Contentful,Engineering,"$2,838",Headless content management system API for managing and delivering digital content across platforms.,Optimize
-Copper,Sales,"$2,838",Customer relationship management system integrated with Google Workspace for managing sales pipelines.,Consolidate
-Crowdstrike,IT/Infrastructure,"$2,807",Endpoint detection and response platform providing cloud-based antivirus and cybersecurity protection.,Optimize
-Zoho Corporation,Sales,"$2,744",Cloud-based CRM and sales automation platform for pipeline management and customer tracking.,Consolidate
-Shippo,G&A,"$2,711",Multi-carrier shipping API and label generation platform for e-commerce fulfillment.,Optimize
-Bandwidth Inc,IT/Infrastructure,"$2,663",Voice and messaging API provider for telephony and SMS communications infrastructure.,Optimize
-Checkr,HR,"$2,653",Background check and employment screening service for candidate verification.,Optimize
-Rev.com,G&A,"$2,606",Transcription and captioning service for audio and video content conversion.,Terminate
-Webflow,Marketing,"$2,489",No-code website builder and CMS platform for marketing site management.,Consolidate
-Expensify,Finance,"$2,436",Expense report management and receipt tracking automation platform.,Consolidate
-Baremetrics,Finance,"$2,419",SaaS metrics and subscription analytics dashboard for revenue tracking and forecasting.,Optimize
-Crazy Egg,Marketing,"$2,302",Website heatmap and user behavior analytics tool for conversion optimization.,Consolidate
-Abstract,Product,"$2,293",Design file version control and collaboration platform for design teams.,Terminate
-Help Scout,Support,"$2,251",Customer support helpdesk and email management platform for support ticket handling.,Consolidate
-DigitalOcean,IT/Infrastructure,"$2,205",Cloud infrastructure and virtual private server hosting platform.,Consolidate
-MongoDB Atlas,Engineering,"$2,194",Cloud-hosted NoSQL database service with automated backup and scaling.,Optimize
-Ahrefs,Marketing,"$2,163","SEO toolset for backlink analysis, keyword research, and competitive intelligence.",Consolidate
-Loom,G&A,"$2,154",Screen recording and video messaging tool for asynchronous team communication.,Terminate
-Calendly,Sales,"$2,136",Meeting scheduling automation tool for booking appointments without email back-and-forth.,Consolidate
-Netlify,Engineering,"$2,110",Static site hosting and serverless function deployment platform with CI/CD integration.,Optimize
-UserTesting,Product,"$2,107",Remote user research and usability testing platform with on-demand participant panels.,Optimize
-Drift,Sales,"$2,044",Conversational marketing chatbot and live chat platform for website visitor engagement.,Consolidate
-Miro,Product,"$2,032",Online whiteboard and visual collaboration platform for remote team workshops and brainstorming.,Consolidate
-Vonage,IT/Infrastructure,"$2,031","Cloud communications API platform for voice, video, and messaging integration.",Consolidate
-Canva Pro,Marketing,"$1,989",Graphic design platform with templates for creating social media and marketing visuals.,Consolidate
-Vimeo,Marketing,"$1,935",Video hosting and streaming platform for marketing and internal video content.,Terminate
-Typeform,Marketing,"$1,913",Interactive online form and survey builder for lead generation and feedback collection.,Consolidate
-LogRocket,Engineering,"$1,813",Frontend monitoring and session replay tool for debugging user experience issues.,Optimize
-Airtable,Product,"$1,762",Low-code database and workflow management platform for project tracking and collaboration.,Consolidate
-Algolia,Engineering,"$1,732","Search-as-a-service API providing fast, configurable search functionality for applications.",Optimize
-Amazon Web Services EMEA SARL,IT/Infrastructure,"$1,723","Cloud infrastructure services for European region compute, storage, and networking resources.",Consolidate
-Axosoft,Engineering,"$1,706",Agile project management and issue tracking software for development teams.,Consolidate
-Better Proposals,Sales,"$1,678",Sales proposal creation and tracking software with templates and analytics.,Consolidate
-Birchbox,G&A,"$1,659",Subscription beauty and grooming product sample delivery service.,Terminate
-Bounty,Facilities,"$1,654",Office cleaning and paper product supplies vendor.,Terminate
-Brand24,Marketing,"$1,654",Social media and online brand mention monitoring and sentiment analysis platform.,Consolidate
-Breather,Facilities,"$1,646",On-demand private workspace and meeting room rental platform.,Terminate
-Breezy HR,HR,"$1,549","Applicant tracking system for job posting, candidate management, and recruitment workflows.",Consolidate
-Burgh Coffee,Facilities,"$1,536",Local coffee supplier for office beverage service.,Terminate
-Campaign Monitor,Marketing,"$1,493",Email marketing automation and campaign management platform.,Consolidate
-Casper,Facilities,"$1,419",Mattress and bedding products vendor for office nap rooms or employee perks.,Terminate
-ChartMogul,Finance,"$1,406",Subscription revenue analytics and SaaS metrics reporting platform.,Consolidate
-Checkr,HR,"$1,363",Background check and screening services for employee and candidate verification.,Optimize
-CircleCI,Engineering,"$1,338",Continuous integration and delivery platform for automated software testing and deployment.,Optimize
-Cloudability,IT/Infrastructure,"$1,327","Cloud cost management and financial optimization platform for AWS, Azure, and GCP.",Optimize
-Contentful,Product,"$1,308",Headless content management system API for managing and delivering digital content.,Optimize
-Convertkit,Marketing,"$1,287",Email marketing automation platform for newsletters and subscriber management.,Consolidate
-Copper,Sales,"$1,253",CRM software integrated with Google Workspace for contact and pipeline management.,Consolidate
-Cratejoy,Marketing,"$1,219",Subscription box e-commerce platform for recurring product delivery services.,Terminate
-Crew,HR,"$1,179",Team communication and shift scheduling app for deskless workers.,Consolidate
-Criteo,Marketing,"$1,162",Performance marketing and retargeting advertising platform for e-commerce.,Optimize
-Crowdfire,Marketing,"$1,158",Social media management and scheduling tool for multi-platform content posting.,Consolidate
-Crystal,Sales,"$1,150",Personality assessment and communication insights platform for sales and recruiting.,Terminate
-Adobe Stock,Marketing,"$1,135","Stock photography, video, and creative asset licensing platform for marketing materials.",Consolidate
-Airtable,Product,"$1,107",Cloud-based collaborative database and project management platform for workflow tracking.,Consolidate
-Amazon Web Services,IT/Infrastructure,"$1,080",Cloud computing infrastructure and hosting services for application deployment.,Optimize
-Atlassian,Engineering,"$1,064",Software development and collaboration tools including Jira and Confluence for engineering teams.,Optimize
-Box,IT/Infrastructure,"$1,054","Cloud file storage, sharing, and collaboration platform for enterprise document management.",Consolidate
-Calendly,Sales,"$1,051",Meeting scheduling automation tool for booking sales calls and customer meetings.,Consolidate
-Canva,Marketing,"$1,012",Online graphic design platform for creating social media graphics and marketing collateral.,Consolidate
-Carta,Finance,"$1,001",Cap table management and equity administration platform for startup equity tracking.,Optimize
-DigitalOcean,IT/Infrastructure,$993,Cloud infrastructure provider for hosting development and production application environments.,Consolidate
-Doordash,Facilities,$981,Food delivery service for employee meals and office catering.,Terminate
-Dropbox,IT/Infrastructure,$971,Cloud file storage and synchronization service for team file sharing.,Consolidate
-Expensify,Finance,$961,Expense reporting and reimbursement management platform for employee spend tracking.,Consolidate
-FedEx,G&A,$923,Shipping and logistics service for package delivery and freight services.,Consolidate
-Figma,Product,$920,Collaborative interface design and prototyping tool for product design teams.,Optimize
-GitHub,Engineering,$920,Code repository hosting and version control platform for software development collaboration.,Optimize
-Google Workspace,IT/Infrastructure,$908,"Business email, productivity, and collaboration suite including Gmail and Google Drive.",Optimize
-Grubhub,Facilities,$851,Food delivery service for employee meals and team lunches.,Terminate
-HelloSign,Legal,$851,Electronic signature and document workflow platform for contract execution.,Consolidate
-HubSpot,Marketing,$850,Inbound marketing automation and CRM platform for lead generation and nurturing.,Optimize
-Intercom,Support,$833,Customer messaging and live chat platform for customer support and engagement.,Optimize
-LinkedIn,HR,$832,Professional networking platform with recruiter tools for talent acquisition and employer branding.,Optimize
-Loom,G&A,$823,Video messaging and screen recording tool for asynchronous team communication.,Consolidate
-Mailchimp,Marketing,$814,Email marketing automation platform for newsletter campaigns and customer communications.,Consolidate
-Miro,Product,$806,Online collaborative whiteboarding platform for brainstorming and workshop facilitation.,Consolidate
-Notion,G&A,$803,"All-in-one workspace for documentation, project management, and knowledge management.",Consolidate
-USPS,G&A,$797,United States Postal Service mail and package shipping services for routine business correspondence.,Optimize
-Indeed,HR,$765,Job posting platform for recruiting and candidate sourcing across multiple roles.,Optimize
-Fedex,G&A,$764,Express shipping and logistics services for time-sensitive business deliveries.,Consolidate
-Adobe,Product,$681,"Creative cloud software suite for design, video editing, and document management tools.",Optimize
-UPS,G&A,$681,Package shipping and freight services for business deliveries and logistics.,Consolidate
-GoDaddy,IT/Infrastructure,$670,Domain name registration and DNS hosting services for company web properties.,Optimize
-Dropbox,IT/Infrastructure,$669,Cloud file storage and sharing platform for team collaboration and document management.,Optimize
-LinkedIn,HR,$664,Professional networking platform with recruiter licenses for talent acquisition and employer branding.,Consolidate
-Comcast,IT/Infrastructure,$662,Business internet and cable services for office connectivity and communications.,Optimize
-Verizon,IT/Infrastructure,$662,Wireless mobile services and cellular data plans for employee devices.,Optimize
-Zoom,IT/Infrastructure,$613,Video conferencing and virtual meeting platform for remote collaboration.,Optimize
-Namecheap,IT/Infrastructure,$610,Domain registration and SSL certificate provider for web infrastructure management.,Consolidate
-GitHub,Engineering,$596,Source code repository hosting and version control platform for software development.,Optimize
-Grubhub,G&A,$581,Food delivery service for employee meals and office catering orders.,Terminate
-DocuSign,Legal,$568,Electronic signature and digital contract execution platform for legal agreements.,Optimize
-Microsoft,IT/Infrastructure,$567,"Enterprise software licensing for Office 365, Azure, and productivity tools.",Optimize
-Staples,Facilities,$565,"Office supplies and equipment vendor for desk accessories, paper, and stationery.",Optimize
-DoorDash,G&A,$535,On-demand food delivery platform for employee meals and team events.,Terminate
-Atlassian,Engineering,$534,Project management and issue tracking software suite including Jira and Confluence.,Optimize
-MailChimp,Marketing,$524,"Email marketing automation platform for newsletters, campaigns, and customer communications.",Optimize
-Twilio,Product,$523,"Cloud communications API platform for SMS, voice, and messaging functionality.",Optimize
-Canva,Marketing,$512,"Online graphic design tool for creating marketing materials, social media graphics, and presentations.",Optimize
-Uber,G&A,$510,Rideshare transportation service for employee business travel and client meetings.,Terminate
-QuickBooks,Finance,$502,"Accounting software platform for bookkeeping, invoicing, and financial reporting.",Optimize
-Costco,Facilities,$490,"Warehouse retail supplier for bulk office supplies, snacks, and break room provisions.",Terminate
-ADOBE STOCK,Marketing,$486,"Stock photography, video, and design asset licensing platform for creative content.",Terminate
-HARVEST,Finance,$483,Time tracking and invoicing software for project-based billing and resource management.,Terminate
-USPS,G&A,$483,Postal mail and package shipping services for business correspondence and small parcel delivery.,Terminate
-LEGALZOOM.COM INC,Legal,$474,Online legal document preparation and business formation services for routine legal filings.,Terminate
-GRUBHUB,G&A,$473,Food delivery service for team meals and employee food orders.,Terminate
-SURVEYMONKEY,Product,$473,Online survey and feedback collection platform for user research and data gathering.,Terminate
-FEDEX,G&A,$467,Express shipping and logistics services for urgent package and document delivery.,Consolidate
-DOORDASH,G&A,$460,On-demand food and restaurant delivery service for employee meals and office catering.,Terminate
-CANVA,Marketing,$458,Graphic design and visual content creation platform for marketing materials and social media assets.,Terminate
-EVENTBRITE,Marketing,$457,"Event registration, ticketing, and attendee management platform for hosted events and webinars.",Terminate
-VIMEO,Marketing,$433,"Video hosting, streaming, and management platform for professional business video content.",Terminate
-CALENDLY,Sales,$432,Automated meeting scheduling and calendar coordination tool for sales and client bookings.,Terminate
-OFFICE DEPOT,G&A,$427,"Office supplies, furniture, and workplace equipment retail vendor for day-to-day business needs.",Terminate
-STAPLES,G&A,$426,"Office supplies, business equipment, and workplace product vendor for general purchasing needs.",Consolidate
-UBER EATS,G&A,$412,Restaurant and food delivery service for employee meals and office food orders.,Terminate
-UPS,G&A,$378,Package shipping and freight logistics services for business deliveries and supply chain operations.,Consolidate
-VISTAPRINT,Marketing,$378,"Custom printed marketing materials, business cards, and promotional product manufacturing service.",Terminate
-MAILCHIMP,Marketing,$371,Email marketing automation and campaign management platform for customer communications and newsletters.,Terminate
-TYPEFORM,Marketing,$364,Interactive online form and survey builder for lead generation and customer feedback collection.,Terminate
-WETRANSFER,G&A,$358,Large file transfer and digital asset sharing service for sending oversized documents and media.,Terminate
-SHUTTERSTOCK,Marketing,$358,"Stock image, video footage, and music licensing library for creative and marketing content production.",Consolidate
-MIRO,Product,$347,Collaborative online whiteboard and visual workspace platform for team brainstorming and planning sessions.,Terminate
-FIGMA,Product,$341,Collaborative interface design and prototyping tool for product design and user experience workflows.,Terminate
-NOTION,G&A,$339,"All-in-one workspace and knowledge management platform for documentation, notes, and project wikis.",Terminate
-LOOM,G&A,$318,Screen recording and async video messaging tool for internal communications and product demos.,Terminate
-USPS,G&A,$315,United States Postal Service mail and package shipping services for business correspondence and deliveries.,Optimize
-FedEx,G&A,$312,Express shipping and logistics services for time-sensitive package delivery and freight.,Consolidate
-UPS,G&A,$307,Package shipping and logistics services for domestic and international deliveries.,Consolidate
-Amazon Business,G&A,$302,"Online procurement platform for office supplies, equipment, and miscellaneous business purchases.",Optimize
-Staples,G&A,$301,"Office supplies, furniture, and business equipment retailer for workplace essentials.",Consolidate
-Office Depot,G&A,$287,"Office supplies and equipment retailer providing stationery, furniture, and workplace products.",Consolidate
-LinkedIn,HR,$284,Professional networking platform and recruiting tool for talent acquisition and employer branding.,Optimize
-Indeed,HR,$281,Job posting and recruiting platform for candidate sourcing and applicant tracking.,Consolidate
-Zoom,IT/Infrastructure,$273,Video conferencing and virtual meeting platform for remote collaboration and webinars.,Optimize
-Dropbox,IT/Infrastructure,$265,Cloud file storage and sharing platform for document collaboration and backup.,Optimize
-DocuSign,Legal,$263,Electronic signature and digital contract management platform for legally binding document execution.,Optimize
-Adobe,Product,$263,"Creative software suite including PDF tools, design applications, and digital content creation platforms.",Optimize
-Canva,Marketing,$259,"Online graphic design tool for creating marketing materials, presentations, and social media content.",Optimize
-Grubhub,G&A,$241,Food delivery service for employee meals and team events.,Terminate
-DoorDash,G&A,$233,Restaurant delivery platform for employee meal orders and office catering.,Terminate
-Uber Eats,G&A,$248,Food delivery service for employee meals and office food orders.,Terminate
-Costco,G&A,$241,"Wholesale retailer for bulk office supplies, snacks, and facility consumables.",Optimize
-Home Depot,Facilities,$235,"Hardware and building materials retailer for office maintenance, repairs, and facility improvements.",Optimize
-Lowe's,Facilities,$226,"Home improvement retailer providing hardware, tools, and building materials for facility maintenance.",Consolidate
-Verizon Wireless,IT/Infrastructure,$225,"Wireless carrier providing mobile voice, data, and IoT connectivity services for business operations.",Optimize
-AT&T,IT/Infrastructure,$224,Telecommunications provider for mobile phone services and business connectivity.,Consolidate
-T-Mobile,IT/Infrastructure,$220,Wireless carrier providing mobile phone service and data plans for employees.,Consolidate
-Starbucks,G&A,$203,Coffee shop purchases for employee refreshments and client meetings.,Terminate
-Walgreens,G&A,$199,Pharmacy and retail store for miscellaneous health supplies and incidental business purchases.,Terminate
-CVS,G&A,$198,Pharmacy and convenience retailer for occasional health supplies and miscellaneous items.,Terminate
-AMZN Mktp US*2K8HX5NK3,G&A,$195,Amazon marketplace purchase for office supplies or miscellaneous items.,Terminate
-DROPBOX*9J7KQHV8CTCB,IT/Infrastructure,$191,Cloud file storage and collaboration platform subscription.,Terminate
-Adobe Stock,Marketing,$190,Stock photography and digital asset licensing platform.,Terminate
-SurveyMonkey,Product,$188,Online survey and questionnaire creation platform.,Terminate
-GITHUB.COM,Engineering,$183,Code repository hosting and version control platform.,Terminate
-Canva,Marketing,$183,Graphic design and visual content creation platform.,Terminate
-Grammarly,G&A,$182,AI-powered writing assistant and grammar checking tool.,Terminate
-ZOOM.US,IT/Infrastructure,$178,Video conferencing and virtual meeting platform.,Terminate
-LinkedIn Premium,Sales,$167,Professional networking platform premium subscription for recruitment and outreach.,Terminate
-Mailchimp,Marketing,$166,Email marketing automation and campaign management platform.,Terminate
-DocuSign,Legal,$164,Electronic signature and digital transaction management platform.,Terminate
-Monday.com,Product,$162,Work operating system and project management platform.,Terminate
-AMZN Mktp US*3M9PL6TR2,G&A,$161,Amazon marketplace purchase for office supplies or miscellaneous items.,Terminate
-Figma,Product,$159,Collaborative interface design and prototyping platform.,Terminate
-Zapier,IT/Infrastructure,$155,Workflow automation platform connecting apps and services.,Terminate
-Calendly,Sales,$154,Automated meeting scheduling and calendar coordination tool.,Terminate
-HubSpot,Marketing,$154,CRM and inbound marketing automation platform.,Terminate
-Airtable,Product,$152,Collaborative spreadsheet-database hybrid for project tracking.,Terminate
-Notion,Product,$143,"All-in-one workspace for notes, docs, and project management.",Terminate
-Slack Premium,IT/Infrastructure,$143,Team messaging and collaboration platform premium tier.,Terminate
-AMZN Mktp US*5J2NT8WP1,G&A,$143,Amazon marketplace purchase for office supplies or miscellaneous items.,Terminate
-Miro,Product,$141,Online collaborative whiteboarding platform for visual brainstorming.,Terminate
-Asana,Product,$138,Project and task management platform for team coordination.,Terminate
-TypeForm,Marketing,$137,Interactive form and survey builder for customer engagement.,Terminate
-Intercom,Support,$133,Customer messaging and support chat platform.,Terminate
-USPS,G&A,$131,United States Postal Service for standard mail and package shipping.,Terminate
-Amazon,G&A,$131,General office supplies and miscellaneous product purchases.,Terminate
-Staples,G&A,$130,Office supplies and basic workplace materials vendor.,Terminate
-FedEx,G&A,$129,Express shipping and courier services for packages and documents.,Consolidate
-UPS,G&A,$128,Package shipping and logistics services.,Consolidate
-Uber,G&A,$123,Employee ride-sharing and ground transportation services.,Terminate
-Lyft,G&A,$123,On-demand ride-hailing services for employee transportation.,Consolidate
-Starbucks,Facilities,$120,Coffee and beverage purchases for office or meetings.,Terminate
-Panera Bread,Facilities,$120,Catering and meal services for office meetings and events.,Terminate
-Chipotle,Facilities,$119,Restaurant meals and catering for team lunches.,Terminate
-Subway,Facilities,$119,Food and catering services for employee meals.,Terminate
-Office Depot,G&A,$104,"Office furniture, supplies, and workplace equipment vendor.",Terminate
-Home Depot,Facilities,$95,"Hardware, tools, and facility maintenance supplies.",Terminate
-Walmart,G&A,$93,General merchandise and miscellaneous supply purchases.,Terminate
-Target,G&A,$92,Retail purchases for general office and miscellaneous supplies.,Terminate
-CVS,G&A,$89,Pharmacy and convenience store purchases for miscellaneous items.,Terminate
-Walgreens,G&A,$89,Pharmacy and retail purchases for office miscellaneous needs.,Terminate
-Shell,G&A,$88,Fuel purchases for company vehicles or employee reimbursements.,Terminate
-Chevron,G&A,$88,Gasoline and fuel purchases for business transportation.,Terminate
-BP,G&A,$88,Fuel and gas station purchases for vehicle operations.,Terminate
-Exxon,G&A,$86,Petroleum and fuel purchases for company transportation needs.,Terminate
-Dunkin Donuts,Facilities,$82,Coffee and snack purchases for office and meetings.,Terminate
-McDonald's,Facilities,$80,Quick-service restaurant purchases for employee meals.,Terminate
-Costco,G&A,$78,Bulk purchasing warehouse for office supplies and consumables.,Terminate
-Whole Foods,Facilities,$77,Grocery and prepared food purchases for office events and snacks.,Terminate
-USPS,G&A,$76,United States Postal Service for standard mail and package shipping.,Terminate
-Amazon,G&A,$67,Online retailer for miscellaneous office supplies and equipment purchases.,Terminate
-Fedex,G&A,$66,Express shipping and courier service for overnight and expedited deliveries.,Consolidate
-UPS,G&A,$64,Package delivery and shipping service for domestic and international freight.,Consolidate
-Staples,G&A,$63,"Office supply retailer for stationery, printing, and workplace essentials.",Terminate
-Office Depot,G&A,$62,"Office supply retailer for desk accessories, paper products, and basic equipment.",Consolidate
-Home Depot,Facilities,$62,Hardware and building materials retailer for facility maintenance and repairs.,Terminate
-Lowes,Facilities,$59,Home improvement retailer for facilities maintenance supplies and equipment.,Consolidate
-Costco,G&A,$56,Wholesale membership warehouse for bulk office snacks and supplies.,Terminate
-Walmart,G&A,$56,General merchandise retailer for ad-hoc office and supply purchases.,Terminate
-Target,G&A,$56,Retail store for miscellaneous office items and employee gift purchases.,Terminate
-Best Buy,IT/Infrastructure,$55,Consumer electronics retailer for small technology and accessory purchases.,Terminate
-Apple Store,IT/Infrastructure,$55,"Retail channel for Apple devices, accessories, and replacement equipment.",Terminate
-Google Ads,Marketing,$55,Search engine and display advertising platform for customer acquisition campaigns.,Optimize
-Microsoft Store,IT/Infrastructure,$54,Retail channel for Microsoft software licenses and Surface device purchases.,Terminate
-LinkedIn,HR,$53,Professional networking platform for recruiting and employer branding.,Terminate
-Facebook,Marketing,$52,Social media advertising platform for brand awareness and lead generation campaigns.,Optimize
-Twitter,Marketing,$50,Social media platform for brand promotion and advertising campaigns.,Terminate
-Indeed,HR,$50,Job board and recruiting platform for posting positions and sourcing candidates.,Consolidate
-Uber,G&A,$47,Rideshare service for employee transportation and client meeting travel.,Terminate
-Lyft,G&A,$45,Rideshare platform for employee ground transportation and business trips.,Consolidate
-Starbucks,G&A,$41,Coffee shop for employee meetings and client entertainment expenses.,Terminate
-Dunkin,G&A,$40,Coffee and food chain for employee breakfast and meeting refreshments.,Terminate
-Panera,G&A,$36,Bakery-cafe for team lunches and small meeting catering.,Terminate
-Chipotle,G&A,$35,Fast-casual restaurant for employee meals and team lunch orders.,Terminate
-AMZN Mktp US*2K8DO9CT3,G&A,$32,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($32).,Terminate
-AMZN Mktp US*2K0UJ4OP3,G&A,$30,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($30).,Terminate
-AMZN Mktp US*2K36R5UQ3,G&A,$29,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($29).,Terminate
-AMZN Mktp US*2K4D96IG3,G&A,$26,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($26).,Terminate
-AMZN Mktp US*2K1IQ7PG3,G&A,$21,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($21).,Terminate
-AMZN Mktp US*2K8MN6E93,G&A,$20,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($20).,Terminate
-AMZN Mktp US*2K2LG5653,G&A,$20,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($20).,Terminate
-AMZN Mktp US*2K9OP42Y3,G&A,$20,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($20).,Terminate
-AMZN Mktp US*2K5NN29T3,G&A,$19,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($19).,Terminate
-AMZN Mktp US*2K18J7VW3,G&A,$18,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($18).,Terminate
-AMZN Mktp US*2K7J63VE3,G&A,$18,Amazon Marketplace one-time purchase; likely ad-hoc office or operational supply ($18).,Terminate
+Salesforce Uk Ltd-Uk,Sales,"$3,117,226","Provides cloud-based CRM platform for managing sales pipeline, customer data, and revenue operations.",Optimize
+Navan (Tripactions Inc),G&A,"$357,984",Provides corporate travel booking and expense management platform for employee business trips.,Consolidate
+Bdo Llp,Finance,"$343,081","Provides external audit, tax advisory, and accounting services as a mid-tier accounting firm.",Optimize
+Tog Uk Properties Limited,Facilities,"$263,821",Provides managed office space and serviced office solutions in UK locations.,Optimize
+Cloudcrossing Bvba,Facilities,"$208,675",Provides coworking or serviced office space in Belgium for local team presence.,Optimize
+Zagrebtower D.O.O.,Facilities,"$183,754",Provides office space or real estate services in Croatia for regional operations.,Optimize
+Innovent Spaces Private Limited,Facilities,"$147,348",Provides managed office space and workplace solutions in India.,Optimize
+Weking D.O.O.,Facilities,"$144,093",Provides office space or facility services in Croatia or Balkan region.,Consolidate
+Jensten Insurance Brokers,Finance,"$142,700",Provides commercial insurance brokerage services for corporate risk and liability coverage.,Optimize
+Gpt Space & Co,Facilities,"$133,507",Provides coworking space or managed office facilities for remote teams.,Consolidate
+Aetna Life And Casualty Ltd,HR,"$124,661",Provides group health and life insurance coverage for international employees.,Optimize
+Rsm Uk Corporate Finance Llp,Finance,"$117,078","Provides M&A advisory, due diligence, and corporate finance transaction services.",Optimize
+Amazon Web Services Llc,IT/Infrastructure,"$106,399","Provides cloud computing infrastructure including servers, storage, and managed services.",Optimize
+Telefonica Global Services Gmbh,IT/Infrastructure,"$89,880",Provides global telecommunications and network connectivity services across multiple countries.,Optimize
+Hr Solution International Gmbh,HR,"$80,823",Provides international payroll processing and HR administration services in Germany.,Optimize
+4I Advisory Services,Finance,"$71,860",Provides financial advisory and business consulting services for strategic planning.,Optimize
+Bisley Law Ltd,Legal,"$67,414",Provides specialized legal counsel and advisory services on corporate matters.,Optimize
+Infosys,IT/Infrastructure,"$66,570","Provides IT consulting, systems integration, and technology outsourcing services.",Optimize
+Big Frontier Pty Ltd (Cult Of Monday),Marketing,"$66,131","Provides brand strategy, creative design, and marketing campaign development services.",Optimize
+Harmonic Group Limited,Marketing,"$65,418","Provides marketing operations, campaign execution, and demand generation services.",Optimize
+Wework Singapore Pte. Ltd.,Facilities,"$64,373",Provides flexible workspace and coworking office space in Singapore.,Consolidate
+Cloud Technology Solutions Ltd,IT/Infrastructure,"$60,661","Provides cloud migration, infrastructure management, and technical consulting services.",Optimize
+"Navan, Inc",G&A,"$57,929",Provides corporate travel booking and expense management platform for employee business trips.,Consolidate
+Tmforum,Product,"$57,560","Provides industry standards, best practices, and collaborative frameworks for telecom operators.",Optimize
+Linkedin Ireland Limited,Marketing,"$55,573",Provides professional networking platform advertising and talent recruitment solutions.,Optimize
+Kimble Applications Ltd,Product,"$52,825",Provides professional services automation (PSA) software for project-based businesses to manage resource allocation and billing.,Optimize
+Sage Uk Limited,Finance,"$46,895",Delivers cloud accounting and business management software for SMBs including payroll and invoicing.,Optimize
+Grant Thornton,Finance,"$46,539","Provides audit, tax advisory, and accounting services as a mid-tier professional services firm.",Optimize
+"SveuäIliå¡Te U Zagrebu, Studentski Centar",HR,"$44,299",Operates student meal voucher and subsidy programs for employees in Croatia through university student centers.,Optimize
+Ss&C Intralinks Inc,Legal,"$39,966","Provides secure virtual data rooms for M&A due diligence, dealmaking, and confidential document sharing.",Optimize
+Veniture D.O.O.,Engineering,"$39,342",Provides software development and IT consulting services based in Croatia.,Consolidate
+Accutrainee Limited,HR,"$38,841",Delivers graduate recruitment training programs and apprenticeship schemes for early-career talent.,Optimize
+Mason Frank International Ltd,HR,"$38,148",Specializes in recruiting Salesforce professionals and CRM technical talent.,Consolidate
+"Houlihan Lokey Advisors, Llc",Finance,"$37,461","Provides M&A advisory, capital raising, and financial restructuring services as an investment bank.",Optimize
+Vector Capital Management Lp,Finance,"$32,427",Provides private equity fund management services and likely portfolio company support fees.,Optimize
+Hubspot Ireland Limited,Marketing,"$32,187","Delivers inbound marketing automation platform with CRM, email campaigns, and lead management tools.",Optimize
+Nefron - Obrt Za Poslovne Usluge,G&A,"$30,614",Provides business consulting and administrative support services in Croatia.,Terminate
+"Planful, Inc.",Finance,"$27,741",Offers cloud-based financial planning and analysis (FP&A) software for budgeting and forecasting.,Optimize
+Cognism Limited,Sales,"$27,013",Provides B2B contact data intelligence and sales prospecting platform with intent signals.,Optimize
+Uberflip,Marketing,"$26,091",Delivers content experience platform for personalizing and distributing marketing content at scale.,Optimize
+Agram Life Osiguranje D.O.O.,HR,"$24,952",Provides life insurance benefits and policies for employees in Croatia.,Optimize
+Google Ireland Limited,Marketing,"$24,798",Delivers cloud services and Google Ads advertising spend through Irish subsidiary.,Optimize
+Zuric I Partneri Odvjetnicko Drustvo D.O.O.,Legal,"$24,135",Provides corporate legal services and counsel through a Croatian law firm partnership.,Optimize
+Care Health Insurance Company Limited,HR,"$24,045",Provides employee health insurance coverage and medical benefits in India.,Optimize
+New Star Networks(Nsn),IT/Infrastructure,"$23,887","Provides network infrastructure equipment, cabling, and telecommunications hardware solutions.",Optimize
+Bupa- Supplier,HR,"$22,800",Provides private medical insurance and healthcare benefits for UK employees.,Optimize
+Shree Info System Solutions Pvt Ltd,Engineering,"$22,275","Provides software development, IT staffing, and technology consulting services in India.",Consolidate
+Technet It Recruitment,HR,"$21,952",Provides technology recruitment services specializing in IT and software engineering placements.,Consolidate
+Mightyhive Ltd,Marketing,"$19,042",Provides programmatic advertising management and Google Marketing Platform consulting services.,Optimize
+Cedar Recruitment Ltd,HR,"$18,537",Provides recruitment agency services for permanent and contract technology hiring.,Consolidate
+Eurofast International Ltd-Greec,Finance,"$18,164","Provides accounting, tax compliance, and financial advisory services in Greece.",Optimize
+Hrvatski Telekom D.D.,IT/Infrastructure,"$18,084",Provides telecommunications and internet connectivity services in Croatia.,Optimize
+Sodexo Svc India Private Limited,Facilities,"$17,810",Provides corporate cafeteria and food services for Indian offices.,Optimize
+Peakon Aps,HR,"$17,108",Provides employee engagement surveys and continuous feedback software platform.,Optimize
+Plus Your Business Ltd,G&A,"$17,074",Provides virtual office services and business administration support in the UK.,Optimize
+Benefit Systems D.O.O.,HR,"$16,900",Provides employee benefits card program for sports and recreation in Croatia.,Optimize
+Smart Group Services D.O.O.,Facilities,"$16,438",Provides office cleaning and facility maintenance services in Croatia.,Optimize
+Jones Lang Lasalle (Nsw) Pty Ltd,Facilities,"$16,274",Provides commercial real estate brokerage and property management services in Australia.,Optimize
+"Workato, Inc.",Engineering,"$16,101",Provides iPaaS automation platform for integrating cloud applications and workflows.,Optimize
+Konzum Plus D.O.O.,Facilities,"$15,684",Provides office supplies and grocery provisioning for Croatian office pantry.,Optimize
+Westbrook Advisers,Finance,"$15,360",Provides corporate finance advisory and transaction consulting services.,Optimize
+Work Easy Space Solutions Private Limited,Facilities,"$14,913",Provides managed office space and coworking solutions in India.,Optimize
+"Taxstudio, Ltd.",Finance,"$14,642",Provides corporate tax preparation and compliance services in Eastern Europe.,Consolidate
+Pingo D.O.O.,Facilities,"$14,508",Provides office furniture and workspace equipment supplies in Croatia.,Optimize
+Magazin Raunalni Sistemi D.O.O.,IT/Infrastructure,"$13,870","Provides computer hardware, IT equipment, and technology retail in Croatia.",Optimize
+Tp Prime D.O.O.,Facilities,"$13,785","Provides office supplies, stationery, and business consumables in Croatia.",Consolidate
+Granttree Limited,Finance,"$13,659",Provides R&D tax credit claim preparation and government incentive recovery services.,Optimize
+Cigna Sg,HR,"$13,249",Provides corporate health insurance coverage for employees in Singapore.,Optimize
+Collards Chartered Accountants,Finance,"$12,879","Provides accounting, bookkeeping, and tax compliance services in the UK.",Consolidate
+Bupa Australia,HR,"$12,463",Provides corporate health insurance coverage for employees in Australia.,Optimize
+4I Management Consulting Private Limited,G&A,"$12,117",Provides management consulting and business process advisory services in India.,Optimize
+"Grad Zagreb, Gradski Ured Za Prostorno Ureä‘Enje,..",Facilities,"$11,637",Pays municipal construction permits and zoning fees to Zagreb city government.,Optimize
+Bijeli Pijesak Obrt Za Poslovno Savjetovanje,G&A,"$11,605",Provides business consulting and corporate advisory services in Croatia.,Optimize
+Ramiro D.O.O.,Facilities,"$11,516",Provides landscaping and outdoor maintenance services in Croatia.,Optimize
+Visalogic Limited,HR,"$11,241",Provides immigration visa processing and work permit services for employee relocation.,Optimize
+Poles Ltd - Hanbury Manor,Facilities,"$10,488",Provides venue rental and event space services at Hanbury Manor hotel property.,Optimize
+Shoff Darby Companies,Facilities,"$10,100",Provides insurance and risk management services for commercial properties.,Optimize
+Emerge Development Consultancy Ltd,Engineering,"$10,046",Provides software development and technical consulting services for custom application builds.,Optimize
+Performancepro,HR,"$10,018",Provides performance management software for employee reviews and goal tracking.,Optimize
+Microsoft Ireland Operations Limited,IT/Infrastructure,"$9,822",Provides Microsoft 365 cloud licenses and enterprise software subscriptions.,Optimize
+Catering Muring,Facilities,"$9,603",Provides catering and food services for office events and meetings.,Terminate
+Omonia D.O.O.,Facilities,"$9,559",Provides office cleaning and facility maintenance services in Croatia region.,Optimize
+Outreach Corporation,Sales,"$9,206",Provides sales engagement platform for email sequencing and outbound prospecting automation.,Optimize
+Cbre Limited,Facilities,"$8,395",Provides commercial real estate brokerage and property management consulting services.,Optimize
+Studentski Centar - Split,Facilities,"$8,269","Provides student accommodation and conference venue services in Split, Croatia.",Terminate
+The Guardian,Marketing,"$8,070",Provides job posting and recruitment advertising in The Guardian newspaper and website.,Optimize
+Intertrust Singapore Corporate Services Pte Ltd - Csc,Legal,"$7,360",Provides corporate secretarial and registered agent services in Singapore jurisdiction.,Optimize
+Goto Technologies Uk Limited,IT/Infrastructure,"$7,316",Provides GoToMeeting and GoToWebinar video conferencing and webinar software licenses.,Consolidate
+Hrsolution International Ag,HR,"$6,987",Provides international HR outsourcing and payroll administration services across multiple countries.,Optimize
+Trello,Product,"$6,674",Provides kanban-style project management and team collaboration board software.,Consolidate
+Obrt Sjaj Sunca,Facilities,"$6,596",Provides office cleaning and janitorial services in Croatia region.,Consolidate
+Telefã³Nica Compras Electrã³Nicas S.L.,IT/Infrastructure,"$6,157",Provides telecommunications and mobile phone services through Telefónica network in Spain.,Optimize
+Allianz Australia Workers' Compensation (Victoria) Limited,HR,"$6,099","Provides workers' compensation insurance coverage for employees in Victoria, Australia.",Optimize
+Icici Lombard Gic Ltd,HR,"$5,972",Provides group health insurance and employee benefits coverage in India.,Optimize
+Mosaic Concept D.O.O.,Facilities,"$5,731",Provides office furniture and interior design services for workspace setup.,Terminate
+Limes Plus D.O.O.,Facilities,"$5,624",Provides office supplies and stationery procurement services in Croatia.,Optimize
+Mercer Limited,HR,"$5,444",Provides employee benefits consulting and compensation benchmarking advisory services.,Optimize
+Acclime Corporate Services,Legal,"$5,413",Provides corporate secretarial and entity management services in Asian jurisdictions.,Optimize
+Green Commute Initiative,HR,"$5,402",Provides salary sacrifice bicycle leasing program for employee commuter benefits.,Optimize
+Tattu Manchester Limited,Facilities,"$5,366",Provides restaurant catering and corporate dining services in Manchester area.,Terminate
+Athlete Service Ltd,HR,"$5,285",Provides employee wellness programs and athletic/fitness services for staff.,Optimize
+Amazon Web Services Inc.,IT/Infrastructure,"$5,153","Provides cloud computing infrastructure, storage, and platform services.",Optimize
+Telemach Hrvatska D.O.O.,IT/Infrastructure,"$5,134",Provides telecommunications and internet connectivity services in Croatia.,Optimize
+"Acclime Usa, Inc",Finance,"$4,995","Provides accounting, tax compliance, and corporate secretarial services in multiple jurisdictions.",Optimize
+Centar Za Sigurnost D.O.O.,Facilities,"$4,991",Provides physical security services and access control systems in Croatia.,Optimize
+Profi Bar D.O.O.,Facilities,"$4,917",Provides office catering and beverage services in Croatia.,Terminate
+Pricewaterhousecoopers Llp,Finance,"$4,879","Provides external audit, tax advisory, and financial consulting services.",Optimize
+Pinnacle Partnership Ca,HR,"$4,836",Provides recruitment and talent acquisition services in Canada.,Optimize
+The Virtual Legal Counsel Ltd,Legal,"$4,800",Provides outsourced general counsel and contract review services.,Optimize
+Australian Payroll Professionals Pty Ltd,HR,"$4,399",Provides payroll processing and compliance services for Australian employees.,Optimize
+Inter Continental Chennai Mahabalipuram Resort,G&A,"$4,393","Provides hotel accommodations for company events or travel in Chennai, India.",Terminate
+Jetbrains S.R.O.,Engineering,"$4,083",Provides integrated development environment software licenses for developers.,Optimize
+Crowe Horwath Revizija D.O.O.,Finance,"$4,062",Provides audit and assurance services in Croatia.,Consolidate
+Puducherry Backwater Resort Private Limited,G&A,"$4,056",Provides resort accommodations for company offsites or events in India.,Terminate
+Orionw Llc,IT/Infrastructure,"$4,025",Provides cloud infrastructure management and DevOps consulting services.,Optimize
+Adobe Systems Software,Marketing,"$3,929","Provides Creative Cloud licenses for design, video editing, and content creation tools.",Optimize
+"Common Desk, Llc",Facilities,"$3,842",Provides coworking space and flexible office memberships.,Optimize
+Hep Elektra D.O.O.,Facilities,"$3,735",Provides electricity utility services in Croatia.,Optimize
+Zivi Napitak D.O.O.,Facilities,"$3,700",Provides beverage and drink supplies for office pantry in Croatia.,Terminate
+Gym4You D.O.O.,HR,"$3,692",Provides corporate gym memberships and fitness facility access in Croatia.,Consolidate
+Aha! Labs Inc,Product,"$3,689",Provides product roadmapping and strategic planning software for product teams.,Optimize
+Apple Retail Uk Ltd,IT/Infrastructure,"$3,548",Provides Apple hardware purchases including laptops and mobile devices for employees.,Optimize
+"Kryterion, Inc.",HR,"$3,541",Provides online certification exam delivery and credentialing platform services.,Optimize
+Npm Inc,Engineering,"$3,535",Provides enterprise subscription to npm package registry for JavaScript development.,Optimize
+Pinsent Masons Mpillay Llp,Legal,"$4,078",Provides legal advisory services specializing in corporate and commercial law.,Consolidate
+Calm Achiever(A Unit Of Mohsin Ali Vakil),HR,"$4,071",Provides employee wellness or training services in India.,Optimize
+Pluxee India Private Limited,HR,"$3,994",Provides employee meal vouchers and benefits programs in India.,Optimize
+Oâ€™Donnell Salzano Lawyers,Legal,"$3,955",Provides legal services and counsel.,Optimize
+Papertrail Inc,IT/Infrastructure,"$3,900",Provides cloud-based log management and monitoring for application infrastructure.,Optimize
+Sniper Systems And Solutions Private Limited,IT/Infrastructure,"$3,899",Provides IT systems integration and technology solutions in India.,Optimize
+Trocadero (London) Hotel Ltd,G&A,"$3,868",Hotel accommodation in London for business travel.,Terminate
+Semrush Inc,Marketing,"$3,730",Provides SEO analytics and competitive research tools for digital marketing.,Optimize
+Golubica Parking D.O.O.,Facilities,"$3,726",Provides parking services in Croatia.,Terminate
+Vodafone (Australian),IT/Infrastructure,"$3,672",Provides mobile telecommunications services in Australia.,Consolidate
+Ikea Hrvatska D.O.O.,Facilities,"$3,610",Furniture and office equipment purchases in Croatia.,Terminate
+Orcola D.O.O.,Facilities,"$3,545",Provides office cleaning or facility maintenance services in Croatia.,Optimize
+Info Edge India Limited,HR,"$3,536",Provides job board and recruitment advertising services in India (Naukri.com).,Optimize
+Grad Split,Facilities,"$3,483","Municipal utility or facility services in Split, Croatia.",Optimize
+T-Mobile,IT/Infrastructure,"$3,357",Provides mobile telecommunications services.,Consolidate
+Akton D.O.O.,Facilities,"$3,254",Provides office supplies or furniture in Croatia.,Terminate
+Bureau Veritas Croatia D.O.O.,Facilities,"$3,200",Provides safety inspections and compliance certification services in Croatia.,Optimize
+Cici Prudential Life Insurance Co. Ltd.,HR,"$3,195",Provides employee life insurance benefits.,Optimize
+Ncc Services Limited,IT/Infrastructure,"$3,036",Provides IT infrastructure and managed services in the UK.,Optimize
+Smartsheet Inc.,Product,"$2,995",Provides cloud-based collaborative work management and project tracking platform.,Optimize
+Good Game Global D.O.O.,G&A,"$2,954",Provides team building or entertainment services in Croatia.,Terminate
+Garaå¾A Firule D.O.O.,Facilities,"$2,930",Provides parking garage services in Croatia.,Terminate
+Crossland,G&A,"$2,924",Provides serviced office space or accommodation.,Optimize
+It London,G&A,"$2,838",Hotel accommodation in London for business travel.,Terminate
+Terrapinn Holdings Ltd,Marketing,"$2,838",Provides B2B conference and event services for marketing and lead generation.,Optimize
+Elemental Life Solutions Llp,HR,"$2,807",Provides employee benefits administration or insurance solutions in India.,Optimize
+United Flow Ltd (The Goodness Project),G&A,"$2,744",Corporate gifting and charitable donation platform for employee engagement programs.,Optimize
+Mcburneys Charted Accountants,Finance,"$2,711",Chartered accounting firm providing external audit and tax compliance services.,Optimize
+Cleverland Winery Resort,G&A,"$2,663",Winery resort venue used for corporate offsites or team events.,Terminate
+Ag Grid Ltd,Engineering,"$2,653",JavaScript data grid component library for building interactive table interfaces in web applications.,Optimize
+Lusha,Sales,"$2,606",B2B contact data enrichment platform providing email addresses and phone numbers for prospecting.,Optimize
+My Foodiverse Llp,Facilities,"$2,489",Catering service providing meal delivery for office events and meetings.,Consolidate
+4Imprint Direct Ltd,Marketing,"$2,436",Promotional products supplier for branded merchandise and corporate swag.,Optimize
+City Pantry Ltd,Facilities,"$2,419",Office catering platform delivering restaurant meals for team lunches and events.,Consolidate
+Stipe Piric,Engineering,"$2,302",Individual contractor payment for software development or technical consulting services.,Terminate
+Office Move London,Facilities,"$2,293",Commercial relocation service for moving office equipment and furniture between locations.,Terminate
+Pink Ribbon Shop,Marketing,"$2,251",Branded merchandise vendor specializing in charity awareness and cause-related promotional items.,Terminate
+Starhub Ltd (Supplier),IT/Infrastructure,"$2,205",Singapore telecommunications provider for internet connectivity and mobile services.,Optimize
+N S Shastri And Co,Finance,"$2,194",Indian accounting firm providing tax filing and statutory compliance services.,Optimize
+John Smith,G&A,"$2,163",Individual contractor or consultant payment for professional services.,Terminate
+Fabiola Thistlewhaite,G&A,"$2,154",Individual contractor or consultant payment for professional services.,Terminate
+Hp Inc Uk Limited,IT/Infrastructure,"$2,136","HP hardware supplier for laptops, printers, and computer equipment procurement.",Optimize
+Cision Pr Newswire,Marketing,"$2,110",Press release distribution service for sending corporate announcements to media outlets.,Optimize
+George Anchor,G&A,"$2,107",Individual contractor or consultant payment for professional services.,Terminate
+"Yoxel, Inc",Sales,"$2,044",Cloud phone system providing virtual business phone numbers and call management.,Optimize
+Grt Hotels And Resorts P Ltd,G&A,"$2,032",Hotel chain used for employee business travel accommodations and lodging.,Terminate
+Apple Pty Ltd,IT/Infrastructure,"$2,031","Apple hardware reseller for MacBooks, iPhones, and other devices for employees.",Consolidate
+Slack Technologies Limited,IT/Infrastructure,"$1,989","Team collaboration platform for workplace messaging, file sharing, and integrations.",Optimize
+G S Notary Public Limited,Legal,"$1,935",Notary public service for document authentication and legal certification.,Terminate
+Apple Distribution International Ltd,IT/Infrastructure,"$1,913","Apple authorized distributor for purchasing Mac computers, iPads, and accessories.",Consolidate
+Porezno Savjetniå¡Tvo Tuk D.O.O.,Finance,"$1,813",Croatian tax advisory firm providing local tax consulting and compliance services.,Optimize
+Susan Lee,Engineering,"$1,762",Individual contractor providing software development or technical services.,Optimize
+Ansar Madovic,Engineering,"$1,732",Individual contractor providing software development or technical services.,Optimize
+"Radius Group, Inc",Marketing,"$1,723","Provides market research, strategy consulting, or advertising services.",Optimize
+Aquila Remete D.O.O.,Engineering,"$1,706",Software development or IT outsourcing vendor based in the Balkans.,Optimize
+Clime India Private Limited,Engineering,"$1,678",Indian software development and IT services outsourcing provider.,Consolidate
+"Golden Mean, Inc",Engineering,"$1,659",Software development or consulting firm providing technical services.,Optimize
+Paint & Fun Vl. Martina Milkova Nikolova,Facilities,"$1,654",Provides painting services or team-building art activities for office spaces.,Terminate
+Carrington Communications,Marketing,"$1,654",Public relations and corporate communications agency.,Optimize
+Crayond Digital Private Limited,Engineering,"$1,646",Indian digital product development and software engineering services firm.,Consolidate
+Studentski Centar Karlovac,Facilities,"$1,549",Student center venue rental for company events or conferences in Croatia.,Terminate
+Lajnap Comedy Booking D.O.O.,HR,"$1,536",Books comedians and entertainment acts for company events.,Terminate
+British Telecommunications,IT/Infrastructure,"$1,493",Provides telecommunications services including phone lines and internet connectivity.,Optimize
+Etm Concessions Ltd,Facilities,"$1,419",Operates food and beverage concessions at event venues or office locations.,Terminate
+Radisson Grt - Unit Of Hotels & Resorts Pvt Ltd,G&A,"$1,406",Hotel accommodations for business travel and company events.,Terminate
+Ariba Inc,Finance,"$1,363",Provides procurement and supplier management software platform.,Optimize
+Chamiers Recreation Club,Facilities,"$1,338",Recreation club membership fees for employee wellness in India.,Terminate
+Quadrant Law Llc,Legal,"$1,327",Law firm providing corporate legal counsel and advisory services.,Optimize
+Docusign,Legal,"$1,308",Electronic signature and contract management platform for document workflows.,Optimize
+Inside Edge Novated Leasing,Finance,"$1,287",Manages vehicle novated leasing arrangements for employee benefits in Australia.,Optimize
+Rhea D.O.O.,Engineering,"$1,253",Software development or IT services vendor based in the Balkans.,Consolidate
+P S Recreation Club,Facilities,"$1,219",Recreation club membership fees for employee wellness in India.,Consolidate
+Fastspring,Finance,"$1,179",E-commerce payment processing and subscription billing platform.,Optimize
+Dsv Solutions A/S,G&A,"$1,162",Logistics and freight forwarding services for international shipping.,Optimize
+Curzon Green Solicitors,Legal,"$1,158",Law firm providing immigration and employment legal services.,Consolidate
+Icare Nsw,HR,"$1,150","Workers compensation insurance provider in New South Wales, Australia.",Optimize
+Thomas Mansfield Solicitors Limited,Legal,"$1,135",UK-based law firm providing solicitor services for legal matters.,Terminate
+Amazon.Co.Uk,G&A,"$1,107",UK marketplace purchases for general office supplies or equipment.,Terminate
+Backoffice Associates,Finance,"$1,080","Provides back-office accounting, bookkeeping, or financial processing services.",Optimize
+Oladi D.O.O.,Facilities,"$1,064",Croatian vendor providing facility maintenance or building services.,Terminate
+Integrated Personnel Services,HR,"$1,054",Staffing agency providing temporary workers or recruitment services.,Optimize
+Mãœller Trgovina Zagreb D.O.O.,Facilities,"$1,051",Croatian retail/trading company likely providing office supplies or equipment.,Terminate
+Lunch Nutrition D.O.O.,Facilities,"$1,012",Croatian food catering service providing employee lunches.,Terminate
+Winmaxi Tours & Travels,G&A,"$1,001",Travel agency handling flight bookings and business travel arrangements.,Consolidate
+Digitalna Produkcija J.D.O.O.,Marketing,$993,Croatian digital production agency creating video or multimedia content.,Terminate
+Computershare-Caboodle Technology Limited,Finance,$981,Provides equity compensation management and shareholder administration software.,Optimize
+Allianz Wa,Finance,$971,"Insurance provider for business liability, property, or employee coverage in Western Australia.",Optimize
+Trending Technology Services Gmbh,IT/Infrastructure,$961,German technology services provider for IT consulting or infrastructure support.,Terminate
+"Godaddy.Com, Llc",IT/Infrastructure,$923,Domain registration and web hosting services for company websites.,Optimize
+Time Out Group,Marketing,$920,Media company providing advertising or promotional placements in Time Out publications.,Terminate
+Raiffeisenbank Austria D.D.,Finance,$920,Croatian bank providing business banking and treasury services.,Optimize
+Galop-Prijevoz D.O.O.,G&A,$908,Croatian transportation company providing courier or logistics services.,Consolidate
+Lane Ip Limited,Legal,$851,UK firm specializing in intellectual property trademark and patent services.,Optimize
+Urbani Eventi D.O.O.,Marketing,$851,Croatian event management company organizing promotional or corporate events.,Terminate
+Smashing Media Ag,Product,$850,Publisher of Smashing Magazine providing web development subscriptions and resources.,Optimize
+Epignosis Llc,HR,$833,Provides TalentLMS learning management system for employee training.,Optimize
+Croatia Airlines,G&A,$832,Croatian national airline providing business travel flights.,Consolidate
+Bb Football Scouting J.D.O.O.,G&A,$823,"Croatian sports scouting service, likely unrelated to core business operations.",Terminate
+Boe Croatia D.O.O.,IT/Infrastructure,$814,Croatian BOE distributor providing office technology or printing equipment.,Terminate
+Potomac D.O.O.,Facilities,$806,Croatian vendor providing facility or building-related services.,Terminate
+"President Hotel And Tower Co., Ltd",G&A,$803,Hotel accommodation for business travel in Asia.,Terminate
+Friends Sports Club,Facilities,$797,Provides corporate sports club membership access for employee wellness programs.,Optimize
+The Cycle Gap Adyar,Facilities,$765,Operates bicycle retail and repair shop for employee commuter bike purchases or repairs.,Terminate
+Apple - Amer,IT/Infrastructure,$764,Supplies Apple hardware devices and computers for employee workstations.,Optimize
+Klg - Kalra Legal Group,Legal,$681,Provides specialized legal services and counsel through Kalra Legal Group.,Consolidate
+Kilgannon & Partners Llp,Legal,$681,Delivers legal advisory and representation services through UK-based law partnership.,Consolidate
+Uk Postbox Limited,G&A,$670,Provides virtual mailbox and business mail forwarding services in the United Kingdom.,Optimize
+Catering Iviä‡ D.O.O.,Facilities,$669,Supplies catering services for office meals and company events in Croatia.,Terminate
+Blink Events,Marketing,$664,"Produces and manages corporate events, product launches, and marketing activations.",Optimize
+Grafo-Jan,Marketing,$662,Provides commercial printing and graphic design services for marketing materials.,Terminate
+Mesa Verde,Facilities,$662,Operates restaurant providing team meals or catering for local office.,Terminate
+Pixsy Inc,Legal,$613,Monitors and enforces image copyright protection across the internet for brand assets.,Optimize
+Dun & Bradstreet D.O.O.,Finance,$610,Provides business credit reports and company risk intelligence data for vendor evaluation.,Optimize
+Induslaw,Legal,$596,Delivers India-focused legal counsel and regulatory compliance advisory services.,Consolidate
+Trans-Agram Obrt Za Dostavu,Facilities,$581,Provides local courier and package delivery services in Croatia.,Terminate
+Landu Law Solicitors,Legal,$568,Offers UK-based legal representation and solicitor services for regulatory matters.,Consolidate
+Arena Center Zagreb D.O.O.,Facilities,$567,Operates commercial event and conference venue space rental in Zagreb.,Terminate
+Obrt Za Ugostiteljstvo Mirakul,Facilities,$565,Provides hospitality and catering services for employee meals in Croatia.,Terminate
+Oakberry Jr D.O.O.,Facilities,$535,Supplies acai bowl and healthy food offerings for office pantry or events.,Terminate
+Tau On-Line D.O.O.,IT/Infrastructure,$534,Provides internet connectivity and telecommunications services in Croatia.,Optimize
+Magic Mountain Saloon,Facilities,$524,Operates restaurant and bar used for employee meals or team gatherings.,Terminate
+Hotel Zonar,Facilities,$523,Provides hotel accommodation for employee travel and business trips.,Terminate
+Roto Dinamic D.O.O.,Facilities,$512,"Supplies printing, copying, and document management services in Croatia.",Terminate
+Tm Forum,Product,$510,"Provides telecom industry standards, frameworks, and collaborative membership resources.",Optimize
+Marvie Hotel - Krupa D.O.O.,Facilities,$502,Provides hotel lodging services for business travel and employee accommodations.,Terminate
+Merchandise Ltd,Marketing,$490,Manufactures and supplies branded promotional merchandise and corporate swag items.,Optimize
+Yellow Submarine D.O.O.,Facilities,$486,Croatian restaurant or catering service provider for employee meals or events.,Terminate
+Streamlinereforms Inc,G&A,$483,Business process improvement or organizational consulting services.,Terminate
+Make And Grow Ltd,Marketing,$483,Marketing agency or growth consulting services for business development.,Terminate
+Obiteljski Hoteli D.O.O.,Facilities,$474,Croatian family hotel chain providing accommodation for business travel.,Terminate
+Rudan D.O.O.,Facilities,$473,Croatian vendor providing local services or supplies.,Terminate
+Entrio Tehnologije D.O.O.,Sales,$473,Croatian ticketing and event management platform for processing event admissions.,Terminate
+Vivat Fina Vina D.O.O.,Facilities,$467,Croatian wine distributor or retailer for corporate events or gifts.,Terminate
+"Figma, Inc.",Product,$460,Collaborative design and prototyping tool for UI/UX designers and product teams.,Optimize
+E-Disti D.O.O.,Facilities,$458,Croatian distribution or wholesale vendor for office supplies or goods.,Terminate
+Greencell Express Private Limited,Facilities,$457,Indian logistics and transportation service for package delivery and courier needs.,Terminate
+Edwardian Pastoria Hotels Ltd (The Londoner),Facilities,$433,London hotel providing accommodation for business travel and employee lodging.,Terminate
+Tiganda J.D.O.O.,Facilities,$432,Croatian retail or service vendor for local purchases.,Terminate
+"Franklin, Gringer & Cohen, P.C.",Legal,$427,U.S. law firm providing legal counsel and representation services.,Optimize
+Blitz - Cinestar D.O.O.,Facilities,$426,Croatian cinema chain for employee entertainment or team event tickets.,Terminate
+Lancefield Bus Service,Facilities,$412,UK bus charter service for employee transportation or company events.,Terminate
+Super Odrediå¡Te D.O.O.,Facilities,$378,Croatian destination or travel services vendor.,Terminate
+Pmi Global Operations Center,Facilities,$378,Philip Morris International operations center for goods or services procurement.,Terminate
+Student Packers & Movers,Facilities,$371,Indian moving and relocation service for office or employee relocations.,Terminate
+Del Posto D.O.O.,Facilities,$364,Croatian restaurant providing catering or meal services for employees.,Terminate
+Inicijativa Centar Za Edukaciju,HR,$358,Croatian education center providing training programs or workshops for employees.,Terminate
+Niva Transport J.D.O.O.,Facilities,$358,Croatian transportation company providing local logistics or employee transit services.,Terminate
+Doctor Anywhere Operations Pte Ltd,HR,$347,Singapore-based telemedicine platform providing virtual healthcare consultations for employees.,Optimize
+Spar Hrvatska D.O.O.,Facilities,$341,"Croatian supermarket chain for office snacks, supplies, or employee purchases.",Terminate
+Pepe'S Italian And Liquor,Facilities,$339,Restaurant and bar providing catering or meals for company events.,Terminate
+"Pluralsight, Llc",Engineering,$318,Online technology learning platform providing video training courses for software development skills.,Optimize
+Maniax Melbourne Cbd,HR,$315,Provides team building or corporate entertainment activities in Melbourne CBD.,Terminate
+Dnsimple,IT/Infrastructure,$312,Manages domain name registration and DNS hosting services.,Optimize
+Treci Posao D.O.O.,HR,$307,Croatian recruitment agency providing job placement and staffing services.,Terminate
+Gaucho Restaurants,G&A,$302,Upscale restaurant chain used for client dinners or team meals.,Terminate
+Formswift,Legal,$301,Provides online legal document templates and form generation tools.,Optimize
+Safestore Ltd,Facilities,$287,Offers self-storage units for physical inventory or equipment storage.,Optimize
+Split Tech City,HR,$284,Croatian coworking space and startup community membership provider.,Terminate
+National Securities Depository Limited(Nsdl),Finance,$281,Indian securities depository managing dematerialized shareholding accounts.,Terminate
+Adamma Info Services Private Limited,Finance,$273,Indian financial services provider for tax filing and compliance support.,Terminate
+The Riding House Cafe,G&A,$265,London restaurant used for employee meals or client entertainment.,Terminate
+Stillmark Zagreb D.O.O.,Marketing,$263,Croatian digital marketing or branding agency providing promotional services.,Terminate
+Lastpass Ireland Limited,IT/Infrastructure,$263,Enterprise password management platform for credential storage and sharing.,Optimize
+Taste Of Health,G&A,$259,Health food catering or meal delivery service for office provisions.,Terminate
+Infodata,IT/Infrastructure,$241,"Provides data management, analytics, or information technology consulting services.",Terminate
+Amazon (Aus),G&A,$233,"General office supplies, equipment, and miscellaneous purchases from Amazon Australia.",Optimize
+Regency Hampers Ltd,G&A,$248,Gift hamper company used for client gifts or employee appreciation packages.,Terminate
+Bella Operation A/S,Facilities,$241,Danish cleaning or facility management services for office maintenance.,Terminate
+The Plant Man,Facilities,$235,Provides indoor plant rental and maintenance services for office spaces.,Terminate
+Media Promo Plus D.O.O.,Marketing,$226,Balkan region promotional products and branded merchandise supplier.,Terminate
+Expert-Ing D.O.O.,Engineering,$225,Croatian engineering consulting or technical services provider.,Terminate
+Atlassian Pty Ltd,Engineering,$224,Provides project management and software development tools like Jira and Confluence.,Optimize
+Djs For U,HR,$220,DJ entertainment services for corporate events or company parties.,Terminate
+Freepik Company,Marketing,$203,"Stock graphics, photos, and design asset subscription platform.",Optimize
+Nastavni Zavod Za Javno Zdravstvo Dr. Andrija Å Tampar,HR,$199,Croatian public health institute providing employee health screenings or occupational medicine.,Terminate
+Rishi Events And Entainment,HR,$198,Indian event management company organizing corporate events and entertainment.,Terminate
+Kosmaz Technologies Croatia,IT/Infrastructure,$195,Provides IT consulting or technology services in Croatia.,Terminate
+Dhl,Facilities,$191,Handles express shipping and logistics for international package delivery.,Terminate
+Hotel Laguna D.D.,G&A,$190,Provides hotel accommodations in Croatia for business travel.,Terminate
+Bigshare Services Private Limited,Finance,$188,Manages share registry and corporate secretarial services in India.,Terminate
+Zettanet,IT/Infrastructure,$183,Provides cloud hosting or managed IT infrastructure services.,Terminate
+Hahn Air,G&A,$183,Issues ticketing for flights not available through standard airline booking systems.,Terminate
+Vitality Works,HR,$182,Delivers corporate wellness programs and employee health initiatives.,Terminate
+Avoxi Inc,Sales,$178,Provides cloud-based virtual phone numbers and call forwarding for sales teams.,Terminate
+Zapier Inc.,IT/Infrastructure,$167,Automates workflows by connecting different cloud applications without coding.,Terminate
+"Solarwinds, Inc",IT/Infrastructure,$166,Provides network monitoring and IT infrastructure management software.,Terminate
+Xenon Savjetovanje D.O.O.,G&A,$164,Delivers business consulting or advisory services in Croatia.,Terminate
+Floom Ltd,Facilities,$162,Provides flower delivery services for office or corporate gifting.,Terminate
+Notino S.R.O.,G&A,$161,"Supplies cosmetics and beauty products, likely for employee gifts or office amenities.",Terminate
+"Paint&Wine, Vl. Stevo Dosen",HR,$159,Hosts paint and wine team-building events for employee engagement.,Terminate
+Parcelforce Worldwide,Facilities,$155,Handles parcel delivery services within the UK domestic market.,Terminate
+Advena,G&A,$154,Provides hotel accommodations for business travel in Germany.,Terminate
+Hrvatski Nezavisnici Izvoznici Softvera,G&A,$154,"Represents Croatian independent software exporters association, likely membership dues.",Terminate
+Monile J.D.O.O.,Marketing,$152,Supplies promotional merchandise and branded corporate gifts.,Terminate
+Puzzle Promotion J.D.O.O.,Marketing,$143,Provides promotional products and branded merchandise for marketing campaigns.,Terminate
+ZagrebaäKi Holding D.O.O.,Facilities,$143,Handles municipal utilities and waste management services in Zagreb.,Terminate
+Event Ors,HR,$143,Organizes corporate events and team-building activities for employees.,Terminate
+Sportkart D.O.O.,HR,$141,Provides go-kart racing experiences for team-building events.,Terminate
+"Interaction Design Foundation, Inc",Product,$138,Offers online courses and training in UX/UI design principles.,Terminate
+(Blank),G&A,$137,Unknown vendor with unspecified services.,Terminate
+Escape Art D.O.O.,HR,$133,Operates escape room activities for employee team-building events.,Terminate
+Fero-Term,Facilities,$131,Provides terminal or endpoint equipment for facilities operations.,Terminate
+Ustanova Za Zdravstvenu Skrb P.P.,HR,$131,Healthcare provider for employee medical services and occupational health screenings.,Terminate
+Vistaprint,Marketing,$130,"Prints business cards, flyers, and promotional materials for marketing campaigns.",Terminate
+Teb Poslovno Savjetovanje D.O.O.,G&A,$129,Provides business consulting and advisory services for general operations.,Terminate
+Illunis D.O.O.,IT/Infrastructure,$128,Delivers IT consulting or technology infrastructure services.,Terminate
+The Cook Kitchen,Facilities,$123,Catering service providing prepared meals and food for office events.,Terminate
+Australian Taxation Office (Ato),Finance,$123,Australian government tax authority for corporate tax payments and compliance.,Optimize
+Capitol Services,Facilities,$120,"Provides building maintenance, cleaning, or facility management services.",Terminate
+Bonus Opinio D.O.O.,Marketing,$120,Market research and customer opinion survey platform for feedback collection.,Terminate
+Dhl Express (Uk) Ltd,G&A,$119,International express courier service for urgent package and document delivery.,Optimize
+Kat'S Kitchen D.O.O.,Facilities,$119,Catering vendor providing prepared meals and food services for office.,Terminate
+Soho Kitchen Ltd,Facilities,$104,Restaurant or catering service providing food for employee meals and events.,Terminate
+Fortis Trade J.D.O.O.,Facilities,$95,"Supplies office equipment, furniture, or facility-related products.",Terminate
+Till Trade D.O.O.,Facilities,$93,"Wholesale supplier of office supplies, equipment, or facility materials.",Terminate
+Pret A Manger,Facilities,$92,Quick-service restaurant chain providing employee meals and catering.,Terminate
+Axil Coffee Roasters,Facilities,$89,Specialty coffee roaster supplying coffee beans and beverages for office.,Terminate
+Pepco Croatia D.O.O.,Facilities,$89,"Discount retailer providing office supplies, consumables, and general merchandise.",Terminate
+Lemia D.O.O.,Facilities,$88,"Supplier of cleaning products, janitorial supplies, or facility maintenance goods.",Terminate
+Retriever Llc,Legal,$88,Provides document retrieval and legal research services for compliance matters.,Terminate
+Meluba Limited,G&A,$88,General business services or administrative support provider.,Terminate
+London Waste Management,Facilities,$86,Waste collection and disposal service for office facility management.,Terminate
+Hilton Garden Inn - Zagreb City Hotels D.O.O.,G&A,$82,Hotel accommodations for employee business travel and lodging.,Terminate
+Lider Media D.O.O.,Marketing,$80,Media publishing and advertising platform for brand promotion and content distribution.,Terminate
+Uptime Robot Service Provider Ltd,IT/Infrastructure,$78,Website and server uptime monitoring service with automated alerts and reporting.,Terminate
+Mithras Consultants,G&A,$77,Management consulting firm providing strategic advisory and business optimization services.,Terminate
+6Sense Insights Inc,Marketing,$76,Provides AI-powered account identification and buyer intent data for B2B marketing teams.,Terminate
+Ico,G&A,$67,Provides general business services or supplies with unclear category.,Terminate
+Sportska Udruga Split,Facilities,$66,"Local sports association in Split, likely sponsorship or community engagement.",Terminate
+Prezzee,HR,$64,Delivers digital gift card rewards and incentives for employee recognition programs.,Terminate
+Inet Telecoms Ltd.,IT/Infrastructure,$63,Provides telecommunications and internet connectivity services in the UK.,Terminate
+Wolt Enterprises Oy,G&A,$62,Operates food delivery platform for restaurant meals to offices or employees.,Terminate
+Platinum Office D.O.O.,Facilities,$62,"Supplies office furniture, equipment, or workspace solutions in regional market.",Terminate
+Snappy Snaps,Marketing,$59,"Provides printing services for marketing materials, photos, and promotional items.",Terminate
+New Block D.O.O.,Facilities,$56,Local building or facilities management services provider in regional market.,Terminate
+Cayman Islands Government,Legal,$56,"Government fees for business registration, licensing, or corporate compliance filings.",Terminate
+Officeworks,Facilities,$56,"Retail supplier of office supplies, furniture, and technology products in Australia.",Terminate
+Click Send Pty Ltd,Marketing,$55,"Provides SMS, email, and direct mail API services for transactional communications.",Terminate
+Kall Kwik Centre 565,Marketing,$55,"Local print shop providing business cards, flyers, and marketing collateral printing.",Terminate
+Shilton Hospitality Llp,Facilities,$55,"Provides corporate hospitality, catering, or event venue services.",Terminate
+Axosoft Gitkraken,Engineering,$54,Git client with visual commit history and collaboration tools for development teams.,Terminate
+Istra Wine,G&A,$53,Wine retailer or distributor for corporate gifts or employee entertainment.,Terminate
+Gophr,Facilities,$52,On-demand courier and same-day delivery service for documents and packages.,Terminate
+Pan-Pek D.O.O.,G&A,$50,Bakery or food supplier providing catering or employee meal services.,Terminate
+Uber *Eats,G&A,$50,Food delivery service for employee meals or working dinners.,Terminate
+Fedex Express Uk Transportation Ltd,Facilities,$47,Express shipping and courier services for international and domestic packages.,Terminate
+Garden City D.O.O.,Facilities,$45,"Shopping center or retail complex, likely for local purchases or services.",Terminate
+Livingstone,Finance,$41,Investment banking advisory services for M&A transactions and financial restructuring.,Terminate
+Ekupi D.O.O.,Facilities,$40,"Retail chain providing household goods, office supplies, or general merchandise.",Terminate
+Farmacia - Specijalizirana Prodavaonica D.O.O.,Facilities,$36,Pharmacy or specialized retail store for health and wellness products.,Terminate
+Cupcake Central (Life Is Sweet Bakery),G&A,$35,Bakery providing cupcakes and desserts for office events or celebrations.,Terminate
+Post Office Ltd,G&A,$32,Postal services for mailing letters and packages.,Terminate
+Currys Pc World,IT/Infrastructure,$30,UK electronics and computer hardware retailer for device purchases.,Terminate
+Brodomerkur D.D.,Facilities,$29,Croatian shipping and maritime services company.,Terminate
+Sport Vision D.O.O.,Facilities,$26,Croatian sporting goods and athletic equipment retailer.,Terminate
+Harissa D.O.O.,Facilities,$21,Croatian restaurant or food service establishment.,Terminate
+Specijalisticka Ordinacija Medicine Rada I Sporta Ina Kardos,HR,$20,Croatian occupational health clinic providing workplace medical examinations.,Consolidate
+Specijalisticka Ordinacija Medicine Rada Helena Blazic,HR,$20,Croatian occupational health clinic providing workplace medical examinations.,Consolidate
+Ustanova Za Medicinu Rada I Sporta Dr. Novacki,HR,$20,Croatian occupational health and sports medicine facility for employee health services.,Consolidate
+M&S Simply Food,Facilities,$19,UK convenience food store for office snacks and meals.,Terminate
+Bakemono Bakers Melbourne,Facilities,$18,Australian bakery for office catering or employee meals.,Terminate
+Coles,Facilities,$18,Australian supermarket chain for office supplies and food purchases.,Terminate
