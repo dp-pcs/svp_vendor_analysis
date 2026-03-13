@@ -9,34 +9,34 @@
 
 ## Executive Summary
 
-Following our recent acquisition, I conducted a comprehensive review of the acquired company's vendor portfolio — 386 vendors representing $7.9M in annual spend. Using AI-assisted analysis, I classified every vendor by department, assessed strategic fit, and identified consolidation and optimization opportunities.
+Following our recent acquisition, I conducted a comprehensive review of the acquired company's vendor portfolio — 386 vendors representing $7.9M in annual spend. Using AI-assisted analysis validated through a multi-agent quality assurance process, I classified every vendor by department, assessed strategic fit, and identified consolidation and optimization opportunities.
 
-The analysis identified **$968,000 in achievable annual savings** — a 12.3% reduction in total vendor spend — through three targeted initiatives executable within 90 days of close. These savings require no headcount reduction and carry manageable implementation risk.
+The analysis identified **$1.85M in addressable annual savings** — a 23.5% reduction in total vendor spend — through targeted initiatives executable within 90 days of close. The three highest-impact opportunities alone account for **$1.0M in annual savings**.
 
 ---
 
 ## Key Findings
 
-The vendor portfolio reflects the typical profile of a growth-stage company pre-acquisition: strong investment in core infrastructure, but significant redundancy across HR, engineering, and productivity tools accumulated through rapid scaling. Of 386 vendors analyzed:
+The vendor portfolio reflects a growth-stage company that scaled rapidly across multiple geographies: strong investment in Sales infrastructure, but significant redundancy in Facilities, G&A, and Professional Services accumulated through decentralized procurement. Of 386 vendors analyzed:
 
-- **180 vendors (47%)** flagged for cost optimization — valuable tools with renegotiable contracts or over-provisioned usage
-- **88 vendors (23%)** flagged for consolidation — duplicative tools performing the same function
-- **118 vendors (30%)** flagged for termination — one-time purchases, food vendors, and tools with no recurring strategic value
+- **190 vendors (49%)** flagged for cost optimization — core tools with renegotiable contracts
+- **49 vendors (13%)** flagged for consolidation — duplicate vendors performing the same function
+- **147 vendors (38%)** flagged for termination — one-time purchases, redundant subscriptions, and vendors with no ongoing strategic value
 
-Cloud infrastructure (AWS at $3.1M) represents 40% of total vendor spend and is the single largest lever. HR technology shows the clearest redundancy — four payroll/HR platforms running simultaneously across entities. Enterprise SaaS contracts for Salesforce, Slack, Zoom, and Okta have never been renegotiated with acquisition leverage and are priced above current market benchmarks.
+Sales infrastructure (dominated by Salesforce at $3.1M) represents 40% of total vendor spend and is the single largest lever. Facilities spend reveals 11 separate workspace arrangements across global offices — a consolidation opportunity worth $267K. G&A shows the same vendor (Navan/Tripactions) billed twice under separate entity contracts.
 
 ---
 
 ## Top 3 Recommendations
 
-### 1. AWS Cloud Right-Sizing — $623,000 annual savings
-AWS spend of $3.1M reflects pre-acquisition infrastructure with no Reserved Instance coverage and likely significant idle resources. A 90-day right-sizing engagement using AWS Cost Explorer will identify orphaned instances, over-provisioned compute, and committed use discount opportunities. Industry benchmarks support 20–35% reduction; our estimate is conservative at 20%.
+### 1. Salesforce Contract Renegotiation — $623,000 annual savings
+Salesforce at $3.1M is 40% of total vendor spend and the highest-priority renegotiation target. Post-acquisition context provides strong leverage: we can offer expanded volume across the broader group, run a competitive benchmark against HubSpot and Microsoft Dynamics, and time negotiations around Salesforce's end-of-quarter close pressure. A conservative 20% reduction saves $623K annually with no operational disruption.
 
-### 2. HR Platform Consolidation — $143,000 annual savings
-The company is currently paying for four HR/payroll platforms: Gusto (two instances, $104K combined), Zenefits ($39K), and Namely ($38K) — all running alongside Workday ($106K), which is already our enterprise standard. Migrating all entities to Workday eliminates $143K in redundant spend and reduces administrative overhead from managing four systems.
+### 2. Global Workspace Consolidation — $267,000 annual savings
+Eleven separate workspace/lease arrangements across global offices represent $891K in annual Facilities spend. A post-acquisition space audit will identify locations operating below 60% capacity. Exiting redundant arrangements and renegotiating remaining leases at actual headcount delivers an estimated 30% reduction — $267K annually.
 
-### 3. Enterprise SaaS Renegotiation — $202,000 annual savings
-Five enterprise contracts — Salesforce, Slack, Zoom, Okta, and HubSpot — represent $1.0M in combined annual spend. Post-acquisition is our strongest negotiating position: we can offer expanded volume commitments across the broader group in exchange for improved pricing. A 20% blended reduction is achievable within 60–90 days.
+### 3. Travel Platform Consolidation — $125,000 annual savings
+Navan (Tripactions) appears twice in the vendor list at $358K and $58K — separate contracts from different entities that were never unified. Consolidating into a single enterprise agreement eliminates the duplicate and creates volume leverage for renegotiation. The same cross-entity duplication pattern appears in insurance (Bupa) and telecoms (Vodafone), suggesting a broader G&A rationalization opportunity.
 
 ---
 
@@ -44,10 +44,10 @@ Five enterprise contracts — Salesforce, Slack, Zoom, Okta, and HubSpot — rep
 
 | Phase | Timeline | Actions | Savings Unlocked |
 |---|---|---|---|
-| Quick Wins | Days 1–30 | Terminate 118 redundant/one-time vendors; initiate AWS idle resource audit | ~$40K immediate |
-| Consolidation | Days 30–60 | Begin HR platform migration; open SaaS renegotiation conversations | $143K+ annually |
-| Optimization | Days 60–90 | Complete AWS right-sizing; finalize renegotiated contracts | $623K+ annually |
-| **Total** | **90 days** | | **~$968K annually** |
+| Quick Wins | Days 1–30 | Terminate 147 redundant vendors; audit Navan duplicate contracts; pull Salesforce contract terms | ~$153K immediate |
+| Consolidation | Days 30–60 | Merge Navan contracts; initiate workspace capacity audit; exit low-utilization offices | ~$392K annually |
+| Optimization | Days 60–90 | Complete Salesforce renegotiation; finalize remaining lease consolidations | ~$1.3M annually |
+| **Total** | **90 days** | | **~$1.85M annually** |
 
 ---
 
@@ -55,18 +55,18 @@ Five enterprise contracts — Salesforce, Slack, Zoom, Okta, and HubSpot — rep
 
 | Risk | Likelihood | Mitigation |
 |---|---|---|
-| Cloud right-sizing disrupts active workloads | Medium | Snapshot before termination; enforce 30-day idle threshold before action |
-| HR migration causes payroll errors | Low-Medium | Parallel-run one full pay cycle before cutover; never migrate mid-cycle |
-| SaaS vendors resist renegotiation | Low | Maintain credible alternatives; stagger negotiations across vendors |
-| Missed vendors requiring termination notice periods | Low | Legal review of all contracts before termination; flag 30/60/90-day notice requirements |
+| Salesforce resists renegotiation | Low-Medium | Maintain credible HubSpot/Dynamics alternative; initiate 90 days before renewal |
+| Lease termination penalties | Medium | Legal review before action; prioritize month-to-month arrangements first |
+| Navan contract minimums block consolidation | Low | Time consolidation with nearest renewal; negotiate new master agreement |
+| Cross-entity data migration disruption | Low | Run parallel systems for one billing cycle before cutover |
 
 ---
 
 ## Conclusion
 
-This vendor portfolio is healthy in its strategic core but carries meaningful redundancy and overspend typical of a growth-stage acquisition. The $968K in identified savings is conservative, achievable within 90 days, and requires no reduction in operational capability. I recommend approving Phase 1 actions immediately and scheduling a 30-day check-in to confirm Phase 2 is on track.
+This vendor portfolio is operationally sound but carries $1.85M in recoverable spend — typical of a growth-stage company that prioritized speed over procurement discipline. The savings are specific, financially justified, and achievable within 90 days without reducing operational capability or headcount.
 
-I am prepared to begin vendor outreach and contract review upon your approval.
+I recommend approving immediate termination of the 147 flagged vendors and authorizing renegotiation outreach to Salesforce and Navan. I am prepared to begin execution upon your approval.
 
 ---
 *David Proctor | SVP of Operations*

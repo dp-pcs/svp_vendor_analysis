@@ -44,9 +44,11 @@ def parse_cost(cost_str: str) -> float:
 # ─── CRITERION 1: DEPARTMENT ACCURACY ────────────────────────────────────────
 
 VALID_DEPARTMENTS = {
-    "Engineering", "IT/Infrastructure", "G&A", "Finance", "Legal",
-    "Sales", "Marketing", "HR", "Facilities", "Support", "Product"
+    "Engineering", "Facilities", "G&A", "Legal", "M&A",
+    "Marketing", "SaaS", "Product", "Professional Services",
+    "Sales", "Support", "Finance"
 }
+
 
 KNOWN_MAPPINGS = {
     # High-confidence vendor→department spot checks
@@ -55,13 +57,12 @@ KNOWN_MAPPINGS = {
     "bdo": "Finance",
     "github": "Engineering",
     "aws": "Engineering",
-    "google": "Engineering",
-    "workday": "HR",
-    "zendesk": "Support",
     "hubspot": "Marketing",
-    "slack": "IT/Infrastructure",
-    "zoom": "IT/Infrastructure",
+    "zendesk": "Support",
     "docusign": "Legal",
+    "slack": "SaaS",
+    "zoom": "SaaS",
+    "workday": "Professional Services",
 }
 
 def score_departments(vendors: List[Dict]) -> Tuple[float, List[str]]:
@@ -111,11 +112,16 @@ def score_departments(vendors: List[Dict]) -> Tuple[float, List[str]]:
 
 # ─── CRITERION 2: DESCRIPTION QUALITY ────────────────────────────────────────
 
+# Only flag truly generic phrases that indicate lazy classification
+# Note: "professional services" is a valid Config department name and OK in descriptions
+# Only flag when the ENTIRE description is essentially just the phrase with no specifics
 GENERIC_PHRASES = [
-    "business services", "provides services", "various services",
-    "service provider", "technology company", "software company",
-    "consulting firm", "professional services", "it services",
-    "technology services", "business solutions"
+    "business services provider",
+    "provides various services",
+    "various services",
+    "business solutions provider",
+    "it services provider",
+    "technology services provider",
 ]
 
 def score_descriptions(vendors: List[Dict]) -> Tuple[float, List[str]]:

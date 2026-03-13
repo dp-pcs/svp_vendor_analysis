@@ -1,59 +1,62 @@
 # Top 3 Opportunities
 
-## Opportunity 1: AWS Cloud Spend Right-Sizing
-**Category:** Cost Optimization
+## Opportunity 1: Salesforce Contract Renegotiation
+**Department:** Sales
 **Annual Spend:** $3,117,226
 **Estimated Annual Savings:** $623,445 (20% reduction)
 
-AWS is the single largest vendor at $3.1M — nearly 40% of total vendor spend. Acquired companies typically carry significant cloud waste: orphaned instances, over-provisioned compute, no Reserved Instance coverage, and environments spun up during due diligence that were never decommissioned. A structured right-sizing engagement (CloudHealth, AWS Cost Explorer, or Spot.io) in the first 90 days post-close routinely yields 20–35% reductions. At a conservative 20%, this single initiative saves $623K annually — more than the combined savings of all other opportunities.
+Salesforce is the single largest vendor at $3.1M — nearly 40% of total vendor spend. Post-acquisition is the strongest negotiating position available: the acquirer can offer expanded seat volume across the broader group, benchmark against HubSpot and Microsoft Dynamics alternatives, and leverage Salesforce's well-known end-of-quarter close pressure. A 20% reduction is conservative — enterprise customers renegotiating with acquisition leverage typically achieve 25–35%. This single initiative saves more than the combined savings of all other opportunities.
 
 **Implementation:**
-- 30 days: Audit active vs. idle resources; terminate orphaned instances immediately
-- 60 days: Identify Reserved Instance and Savings Plan opportunities; commit to 1-year terms
-- 90 days: Right-size over-provisioned compute; implement tagging policy for ongoing visibility
+- Days 1–30: Pull current contract terms, user counts, active vs. inactive seats, renewal date
+- Days 30–45: Run competitive benchmark via Vendr or direct HubSpot/Dynamics quotes
+- Days 45–90: Open renegotiation anchored to volume expansion across the group
 
-**Risk:** Premature termination of instances supporting active workloads. Mitigation: freeze/snapshot before termination; run 30-day idle threshold before action.
+**Risk:** Salesforce may resist or delay. Mitigation: initiate 90 days before renewal date; have a credible alternative platform identified before entering negotiations.
 
 ---
 
-## Opportunity 2: HR Platform Consolidation
-**Category:** Vendor Consolidation
-**Vendors Affected:** Gusto (x2: $65,418 + $38,841), Zenefits ($39,342), Namely ($38,148) → consolidate into Workday ($106,399, already active)
-**Estimated Annual Savings:** $143,000 (eliminate 3 redundant platforms)
+## Opportunity 2: Global Workspace Consolidation
+**Department:** Facilities
+**Vendors:** Cloudcrossing Bvba ($208,675), Zagrebtower D.O.O. ($183,754), Innovent Spaces Private Limited ($147,348), Weking D.O.O. ($144,093), Gpt Space & Co ($133,507) + 6 additional
+**Total Consolidate Cluster Spend:** $891,336
+**Estimated Annual Savings:** $267,401 (30% reduction through lease renegotiation and space reduction)
 
-The company is running at least four HR/payroll platforms simultaneously — a clear artifact of the acquisition where multiple business units retained their own systems. Gusto appears twice (likely two separate entities), alongside Zenefits and Namely. Workday is already active at $106K and is the enterprise-grade platform. Migrating all entities onto Workday eliminates $143K in redundant HR SaaS spend and reduces HR admin overhead from managing four separate systems.
+The acquired company is maintaining 11 separate workspace/office arrangements across multiple geographies — a common artifact of growth-stage scaling where each regional team independently sourced office space. Post-acquisition audit of actual headcount vs. leased capacity typically reveals 30–40% excess space. Consolidating to preferred providers, exiting redundant locations, and renegotiating remaining leases with a unified real estate strategy recovers significant spend with no operational impact.
 
 **Implementation:**
-- 30 days: Map which employees/entities are on each platform; identify data migration requirements
-- 60–90 days: Migrate all entities to Workday; run parallel for one payroll cycle to validate
-- 90 days: Terminate Gusto (both instances), Zenefits, Namely contracts
+- Days 1–30: Audit headcount vs. capacity at each location; identify locations with <60% utilization
+- Days 30–60: Initiate exit from lowest-utilization locations; consolidate into remaining sites or hot-desk arrangements
+- Days 60–90: Renegotiate remaining leases with updated headcount; pursue multi-location discount where same provider appears twice
 
-**Risk:** Payroll disruption during migration. Mitigation: never cut over mid-cycle; maintain parallel run for one full pay period; confirm Workday can handle all geographies (note: UK/Australia entities present in vendor list).
+**Risk:** Lease termination penalties and notice periods. Mitigation: legal review of all lease terms before action; prioritize month-to-month arrangements first.
 
 ---
 
-## Opportunity 3: Enterprise SaaS Contract Renegotiation
-**Category:** Contract Optimization
-**Vendors:** Salesforce ($343,081), Slack ($263,821), Zoom ($142,700), Okta ($133,507), HubSpot ($124,661)
-**Combined Spend:** $1,007,770
-**Estimated Annual Savings:** $201,554 (20% blended renegotiation)
+## Opportunity 3: Travel & Expense Platform Consolidation
+**Department:** G&A
+**Vendors:** Navan (Tripactions Inc) ($357,984) + Navan, Inc ($57,929) = same platform billed twice across entities
+**Total Spend:** $415,913
+**Estimated Annual Savings:** $124,774 (30% through contract consolidation + renegotiation)
 
-These five vendors represent $1M in combined annual spend and are among the most negotiable enterprise SaaS contracts in the market. Post-acquisition is the single best leverage moment: the acquirer can credibly threaten consolidation onto competing platforms, expand the contract to include other group companies (volume discount), or simply point to market benchmarks showing below-market pricing. A 15–20% reduction across these five contracts yields $150K–$200K annually with no operational disruption.
+The company is paying for Navan/Tripactions twice — once as "Navan (Tripactions Inc)" at $358K and again as "Navan, Inc" at $58K — almost certainly separate contracts from different entities or regions that were never unified post-acquisition. Consolidating both into a single enterprise agreement eliminates the duplicate contract and creates leverage to renegotiate the combined volume at a materially lower rate. Additional G&A consolidation (Bupa appearing multiple times, Vodafone duplicated) follows the same pattern.
 
 **Implementation:**
-- 30 days: Pull current contract terms, renewal dates, and seat counts for all five
-- 45 days: Benchmark pricing via Vendr, Gartner, or direct competitive quotes
-- 60–90 days: Open renegotiation conversations anchored to acquisition context and volume opportunity
+- Days 1–15: Confirm both Navan contracts are for the same platform; identify account owners
+- Days 15–30: Merge into single enterprise agreement; renegotiate on combined volume
+- Days 30–60: Audit remaining G&A vendors for similar cross-entity duplication patterns
 
-**Risk:** Vendors may push back or threaten service degradation. Mitigation: always have a credible alternative (e.g., Salesforce vs. HubSpot CRM, Zoom vs. Teams). Avoid renegotiating more than two major vendors simultaneously.
+**Risk:** Contract minimum commitments may complicate early termination. Mitigation: time consolidation with nearest renewal date; negotiate new master agreement to supersede both existing contracts.
 
 ---
 
 ## Summary
 
-| Opportunity | Savings Estimate |
+| Opportunity | Annual Savings Estimate |
 |---|---|
-| AWS Cloud Right-Sizing | $623,445 |
-| HR Platform Consolidation | $143,000 |
-| Enterprise SaaS Renegotiation | $201,554 |
-| **Total** | **$967,999** |
+| Salesforce Contract Renegotiation | $623,445 |
+| Global Workspace Consolidation | $267,401 |
+| Travel Platform Consolidation (Navan) | $124,774 |
+| **Total** | **$1,015,620** |
+
+*Additional savings of ~$837K identified across 190 Optimize-flagged vendors and 147 Terminate-flagged vendors. Full detail in vendor analysis tab.*

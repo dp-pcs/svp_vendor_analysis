@@ -16,16 +16,16 @@
 
 ## Summary Statistics
 
-| Metric | Value |
-|--------|-------|
-| Total Vendors in Agent 2 | 386 |
-| Total Vendors in Agent 1 | 386 |
-| Vendors Successfully Matched | 383 |
-| Unmatched (encoding issues) | 3 |
-| **Department Agreement Rate** | **34.7%** (133/383) |
-| **Recommendation Agreement Rate** | **38.1%** (146/383) |
-| High-Spend (>$25K) Dept Discrepancies | 17 |
-| High-Spend (>$25K) Rec Discrepancies | 17 |
+| Metric | Before Taxonomy Fix | After Taxonomy Fix |
+|--------|---------------------|-------------------|
+| Total Vendors Compared | 383 | 383 |
+| Unmatched (encoding) | 3 | 3 |
+| **Department Agreement** | 34.7% (133/383) | **43.1%** (165/383) |
+| **Recommendation Agreement** | 38.1% (146/383) | **38.1%** (146/383) |
+| High-Spend Dept Discrepancies | 17 | **14** |
+| High-Spend Rec Discrepancies | 17 | 17 |
+
+**Note:** Department agreement improved from 34.7% to 43.1% after Agent 2 reclassified vendors to use the Config tab's 12 defined departments. Remaining discrepancies are due to Agent 1 using "IT/Infrastructure" while Agent 2 uses "SaaS" or "Engineering".
 
 ---
 
@@ -136,12 +136,19 @@ These vendors have identical names but different character encoding:
 
 Resolution: Minor issue, both agents classified these Croatian government/municipal vendors correctly.
 
-### Previous Errors Caught
+### Errors Caught Through Cross-Validation
 
 | Error | Agent | Caught By | Resolution |
 |-------|-------|-----------|------------|
 | Missing 3 vendors (383 vs 386) | Agent 2 | Agent 1 | User provided authoritative CSV |
 | Hallucinated vendor names | Agent 1 | Agent 2 | Agent 1 fixed to merge by row position |
+| Wrong department taxonomy | Agent 2 | Agent 1 | Reclassified 218 vendors to use Config tab's 12 departments |
+
+**Department Taxonomy Issue:**
+- Agent 2 initially used custom categories: HR, IT, Operations, Travel & Entertainment, Sales & Marketing
+- Google Sheets Config tab defines 12 specific departments
+- Agent 1 correctly followed Config taxonomy; Agent 2 did not
+- Resolution: All 386 vendors reclassified (218 changes)
 
 ---
 
