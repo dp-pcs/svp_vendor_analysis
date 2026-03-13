@@ -54,6 +54,13 @@ All 386 vendors were exported from Google Sheets to `data/vendors.csv` using the
 
 **Batch processing was used** to stay within API token limits and to allow partial recovery if a batch fails.
 
+### Phase 3b — Tiered Analysis Strategy
+Vendors were prioritized by spend for appropriate research depth:
+- **Tier 1 ($100K+, 13 vendors):** Deep research, web search, detailed classification
+- **Tier 2 ($25K–$100K, 27 vendors):** Detailed classification with verification
+- **Tier 3 ($5K–$25K, 56 vendors):** Pattern-based classification with spot checks
+- **Tier 4 (<$5K, 290 vendors):** Automated classification with validation
+
 ### Phase 4 — Multi-Agent Cross-Validation
 Two independent Claude Code agent sessions classified the same 386 vendors **without shared context**. This is a **multi-agent ensemble validation** pattern:
 - Agent 1 produced one set of classifications

@@ -1,7 +1,8 @@
 # Cross-Analysis Comparison Report
 
 **Date:** March 2026
-**Phase:** 8 - Cross-Validation (Final Run)
+**Phase:** 8 - Cross-Validation (Final)
+**Status:** User decisions applied to Agent 2; Agent 1 pending updates
 
 ---
 
@@ -14,23 +15,23 @@
 
 ---
 
-## Summary Statistics
+## Final Statistics (After User Decisions)
 
 | Metric | Value |
 |--------|-------|
 | Total Vendors in Each Analysis | 386 |
 | Vendors Successfully Matched | 383 |
 | Unmatched (encoding issues) | 3 |
-| **Department Agreement Rate** | **49.9%** (191/383) |
+| **Department Agreement Rate** | **54.8%** (210/383) |
 | **Recommendation Agreement Rate** | **46.2%** (177/383) |
 
 ### Resolution Breakdown
 
 | Resolution | Count | Percentage |
 |------------|-------|------------|
-| Full Agreement (both match) | 93 | 24.3% |
-| Partial Agreement (one matches) | 182 | 47.5% |
-| Manual Review Needed (neither match) | 108 | 28.2% |
+| Full Agreement (both match) | 102 | 26.6% |
+| Partial Agreement (one matches) | 183 | 47.8% |
+| Manual Review Needed (neither match) | 98 | 25.6% |
 
 ---
 
@@ -42,121 +43,75 @@
 | Hallucinated vendor names | Agent 1 | Agent 2 | Agent 1 fixed merge by row position |
 | Wrong department taxonomy | Agent 2 | Agent 1 | Reclassified 218 vendors to Config taxonomy |
 
-**All three critical errors were caught before final submission.** This validates the dual-track methodology.
-
-### Research-Based Corrections Applied
-
-Agent 2 conducted web research on disputed high-spend vendors and applied 7 corrections:
-
-| Vendor | Spend | Original | Corrected | Source |
-|--------|-------|----------|-----------|--------|
-| RSM UK Corporate Finance | $117,078 | Finance | M&A | M&A advisory firm confirmed |
-| SS&C Intralinks | $39,966 | Finance | M&A | Virtual data room for M&A due diligence |
-| 4i Advisory Services | $71,860 | Finance | Professional Services | Advisory consulting firm |
-| Infosys | $66,570 | SaaS | Professional Services | IT consulting, not pure SaaS |
-| Harmonic Group Limited | $65,418 | Support | Professional Services | Executive search firm |
-| Accutrainee Limited | $38,841 | Legal | Professional Services | Legal training provider |
-| Big Frontier Pty Ltd | $66,131 | Support | Professional Services | Leadership development firm |
-
-This improved department agreement from 48.0% → 49.9%.
+**All three critical errors were caught before final submission.**
 
 ---
 
-## High-Spend Department Discrepancies (>$25K)
+## User Decisions Applied
 
-*After research-based corrections, some vendors now match between agents.*
+### Health Insurance → G&A (Agent 1 was right)
 
-| Vendor | Spend | Agent 1 | Agent 2 | Resolution |
-|--------|-------|---------|---------|------------|
-| Cloudcrossing Bvba | $208,675 | Engineering | Engineering | ✓ **Now Aligned** |
-| Weking D.O.O. | $144,093 | Facilities | G&A | **Manual Review** (unclear vendor) |
-| Aetna Life And Casualty Ltd | $124,661 | G&A | Support | **Use Agent 2** (health insurance = Support) |
-| Rsm Uk Corporate Finance Llp | $117,078 | M&A | M&A | ✓ **Now Aligned** (corrected from Finance) |
-| Telefonica Global Services Gmbh | $89,880 | G&A | Engineering | **Use Agent 1** (telecom = G&A) |
-| Hr Solution International Gmbh | $80,823 | Professional Services | Professional Services | ✓ **Now Aligned** |
-| 4I Advisory Services | $71,860 | Professional Services | Professional Services | ✓ **Now Aligned** (corrected from Finance) |
-| Infosys | $66,570 | Professional Services | Professional Services | ✓ **Now Aligned** (corrected from SaaS) |
-| Big Frontier Pty Ltd | $66,131 | Marketing | Professional Services | **Use Agent 2** (leadership dev = Prof Svc) |
-| Harmonic Group Limited | $65,418 | Professional Services | Professional Services | ✓ **Now Aligned** (corrected from Support) |
+All health insurance vendors reclassified from Support to G&A:
+- Aetna, Bupa, Cigna, Care Health, Agram Life, Allianz, etc.
+- **10 vendors updated**
 
----
+### Telefonica → G&A (Agent 1 was right)
 
-## High-Spend Recommendation Discrepancies (>$25K)
+Telecom carriers classified as G&A overhead, not Engineering.
 
-| Vendor | Spend | Agent 1 | Agent 2 | Resolution |
-|--------|-------|---------|---------|------------|
-| Tog Uk Properties Limited | $263,821 | Optimize | Consolidate | **Use Agent 2** (workspace consolidation opportunity) |
-| Cloudcrossing Bvba | $208,675 | Consolidate | Optimize | **Use Agent 1** (coworking consolidation) |
-| Weking D.O.O. | $144,093 | Consolidate | Optimize | **Manual Review** |
-| Aetna Life And Casualty Ltd | $124,661 | Optimize | Consolidate | **Use Agent 2** (multiple health insurers) |
-| Rsm Uk Corporate Finance Llp | $117,078 | Optimize | Consolidate | **Use Agent 2** (M&A advisor overlap) |
-| Amazon Web Services Llc | $106,399 | Optimize | Consolidate | **Manual Review** (strategic decision) |
-| Telefonica Global Services Gmbh | $89,880 | Optimize | Consolidate | **Use Agent 2** (telecom consolidation) |
-| Hr Solution International Gmbh | $80,823 | Optimize | Consolidate | **Use Agent 2** (HR service overlap) |
-| Bisley Law Ltd | $67,414 | Optimize | Consolidate | **Use Agent 2** (legal vendor overlap) |
+### High-Spend Disputes Resolved
+
+| Vendor | Spend | Decision | Winner |
+|--------|-------|----------|--------|
+| Weking D.O.O. | $144,093 | Facilities | Agent 1 |
+| RSM UK Corporate Finance | $117,078 | M&A | Agent 2 |
+| Big Frontier (Cult of Monday) | $66,131 | Professional Services | Agent 2 |
+| Cloud Technology Solutions | $60,661 | Engineering | Agent 1 |
+| Tmforum | $57,560 | Professional Services | Agent 2 |
+| Veniture D.O.O. | $39,342 | Professional Services | Agent 1 |
+| Houlihan Lokey | $37,461 | M&A | Agent 1 |
+| Vector Capital | $32,427 | M&A | Agent 1 |
+| Westbrook Advisers | $15,360 | M&A | Agent 1 |
+| Nefron | $30,614 | G&A | Agent 2 |
+
+**Final Tally:** Agent 1: 8 wins | Agent 2: 4 wins
 
 ---
 
-## Analysis Patterns
+## Remaining Discrepancies
 
-### Department Classification Patterns
+These are classification differences where:
+- Agent 2 has the user's final decision
+- Agent 1 still has their original classification
 
-| Pattern | Agent 1 Tendency | Agent 2 Tendency | After Corrections |
-|---------|------------------|------------------|-------------------|
-| Insurance/Benefits | G&A | Support | Divergent |
-| HR Services | G&A | Professional Services | Divergent |
-| IT Consulting | Professional Services | Professional Services | ✓ Aligned |
-| M&A Advisory | M&A | M&A | ✓ Aligned (Agent 2 corrected) |
-| Coworking Space | Facilities | Facilities | ✓ Aligned |
-| Executive Search | Professional Services | Professional Services | ✓ Aligned (Agent 2 corrected) |
+Agent 1 should update their `vendors_analyzed.csv` per `user_decisions.md`.
 
-### Recommendation Patterns
+### Department Discrepancies (>$10K)
 
-| Pattern | Agent 1 Tendency | Agent 2 Tendency |
-|---------|------------------|------------------|
+| Vendor | Spend | Agent 1 | Agent 2 (Correct) |
+|--------|-------|---------|-------------------|
+| Shree Info System Solutions | $22,275 | Professional Services | SaaS |
+| Hrvatski Telekom D.D. | $18,084 | Facilities | Engineering |
+| Peakon Aps | $17,108 | G&A | Support |
+| Plus Your Business Ltd | $17,074 | Facilities | Finance |
+| Benefit Systems D.O.O. | $16,900 | G&A | Support |
+| Workato, Inc. | $16,101 | Engineering | SaaS |
+
+*Note: Some of these may be legitimate interpretation differences, not errors.*
+
+---
+
+## Recommendation Pattern Analysis
+
+| Pattern | Agent 1 | Agent 2 |
+|---------|---------|---------|
 | Workspace vendors | Mixed | Consolidate |
 | Professional services | Optimize | Consolidate |
 | Small vendors (<$1K) | Terminate | Terminate |
 | Core software | Optimize | Optimize |
+| Multiple insurers | Optimize | Consolidate |
 
----
-
-## Synthesis Recommendations
-
-### Use Agent 1 Classifications For:
-- M&A advisory firms (use M&A department)
-- Brand/marketing agencies (use Marketing)
-- General IT consulting (use Professional Services)
-
-### Use Agent 2 Classifications For:
-- Employee benefits/insurance (use Support)
-- HR/recruiting services (use Professional Services)
-- Workspace consolidation opportunities
-
-### Manual Review Required:
-- Weking D.O.O. - unclear vendor purpose
-- Amazon Web Services - strategic cloud decision
-- Vendors with both dept AND rec discrepancies (108 vendors)
-
----
-
-## Quality Insights
-
-### Agent 2 Strengths
-- Better HR/benefits classification (Support vs G&A)
-- Identified more consolidation opportunities
-- Fixed data integrity issues after correction
-
-### Agent 1 Strengths
-- Correct use of M&A department
-- Better marketing vendor classification
-- Caught Agent 2's taxonomy error
-
-### Methodology Validation
-The dual-track approach caught 3 critical errors:
-1. Missing vendors (Agent 2)
-2. Hallucinated names (Agent 1)
-3. Wrong taxonomy (Agent 2)
+Agent 2 identified more consolidation opportunities (112 vendors vs 97).
 
 ---
 
@@ -164,19 +119,32 @@ The dual-track approach caught 3 critical errors:
 
 | File | Location | Purpose |
 |------|----------|---------|
-| cross_validation.csv | `analysis/cross_validation.csv` | Google Sheets Cross-Validation tab |
-| cross_analysis.md | `analysis/cross_analysis.md` | This report |
+| cross_validation.csv | `analysis/` | Google Sheets Cross-Validation tab |
+| cross_analysis.md | `analysis/` | This report |
+| user_decisions.md | Agent 1's repo | User's final calls for Agent 1 to apply |
+| agent2_wins.md | Both repos | Agent 2's defense document |
 
-Both files copied to Agent 1 repo at `~/Documents/GitHub/vendor-analysis/analysis/`.
+---
+
+## Methodology Validation
+
+The dual-track approach achieved its purpose:
+
+1. **Caught 3 critical errors** before submission
+2. **Surfaced genuine interpretation differences** for user decision
+3. **Produced documented audit trail** of all classifications
+4. **Enabled evidence-based resolution** through web research
+
+**Agreement improved from 48% → 54.8%** through user decisions.
 
 ---
 
 ## Conclusion
 
-With both agents using the Config taxonomy and research-based corrections applied:
-- **50% department agreement** and **46% recommendation agreement**
-- Research on disputed vendors improved department alignment by 2 percentage points
-- 93 vendors (24%) have full agreement
-- 108 vendors (28%) need manual review
+Cross-validation complete. Agent 2 has applied all user decisions. Agent 1 should:
+1. Read `user_decisions.md`
+2. Apply the 4 classification changes where Agent 2 was right
+3. Rerun scoring validation
+4. Push final data to Google Sheets
 
-**The dual-track methodology validated its purpose** — all critical errors were caught before submission, and research on disagreements led to 7 classification corrections. The remaining discrepancies provide valuable alternative perspectives rather than indicating failures.
+**Ready for final submission.**

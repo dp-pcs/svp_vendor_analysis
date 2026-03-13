@@ -2,7 +2,9 @@
 
 ## Approach
 
-This analysis was conducted entirely using the Claude Code CLI and the Anthropic API. The goal was to build a repeatable, auditable workflow — not a one-time manual review — so that the same process can be applied to future acquisitions.
+This analysis was conducted entirely using the Claude Code CLI and the Anthropic API. The goal was to build a repeatable, auditable workflow — not a one-time manual review — so the same process can be applied to future acquisitions.
+
+---
 
 ## Tools Used
 
@@ -10,44 +12,64 @@ This analysis was conducted entirely using the Claude Code CLI and the Anthropic
 - **Anthropic API (claude-sonnet-4-5)** — AI model used for vendor classification
 - **Python 3** — Scripting, CSV processing, validation logic
 - **Google Sheets API** — Data extraction and output publishing
+- **Web Research** — Unknown vendor identification via web search for high-spend vendors
 - **Git** — Version control for all scripts and outputs
+
+---
 
 ## Process
 
 ### Step 1: Spec-First Planning
-Before writing any code, a planning document (CLAUDE.md) was written to define the department taxonomy, recommendation criteria, and output format. This ensures the AI operates within bounded, consistent parameters rather than making unconstrained judgment calls.
+Before writing any code, a planning document (CLAUDE.md) was written to define the department taxonomy, recommendation criteria, and output format. This ensures the AI operates within bounded, consistent parameters.
 
-### Step 2: Data Extraction
-All 386 vendors were exported from the source Google Sheet to a local CSV file via the Google Sheets API. Vendors were already sorted by annual spend (descending), which was preserved to ensure high-spend vendors received the most scrutiny.
+### Step 2: Data Extraction + Config Review
+All 386 vendors were exported from the source Google Sheet to a local CSV file. **Critically — the Config tab was reviewed first** to identify the exact 12 department categories defined by the assessment. This is a step both independent agents initially missed and had to correct.
 
-### Step 3: AI Classification via Claude Code CLI
-A Python script (analyze_vendors.py) was written and executed via Claude Code CLI. The script:
+### Step 3: Tiered Analysis Strategy
+Vendors were prioritized by spend for appropriate research depth:
+
+| Tier | Spend Range | Count | Approach |
+|---|---|---|---|
+| 1 | $100K+ | 13 | Deep research, web search, detailed classification |
+| 2 | $25K–$100K | 27 | Detailed classification with verification |
+| 3 | $5K–$25K | 56 | Pattern-based classification with spot checks |
+| 4 | <$5K | 290 | Automated classification with validation |
+
+### Step 4: AI Classification via Claude Code CLI
+A Python script (`scripts/analyze_vendors.py`) was written and executed via Claude Code CLI. The script:
 - Processes vendors in batches of 25
 - Sends each batch to the Anthropic API with a structured prompt
-- Validates the JSON response (field count, valid recommendation values)
-- Retries failed batches up to 3 times with exponential backoff
-- Writes classified output to CSV
+- Validates JSON responses (field count, valid recommendation values, valid department names)
+- **Merges by row position — never trusts the model to return input values accurately**
+- Retries up to 3x with exponential backoff on failure
+- Writes classified output preserving original vendor names
 
-### Classification Prompt
-The prompt instructed the model to assign each vendor:
-- **Department** (one of 11 defined categories: Engineering, IT/Infrastructure, G&A, Finance, Legal, Sales, Marketing, HR, Facilities, Support, Product)
-- **Description** — one tight, specific sentence (explicit instruction: not "business services provider")
-- **Recommendation** — exactly one of: Terminate | Consolidate | Optimize
+**Key lesson learned:** An early run had the model hallucinating plausible vendor names instead of returning the actual input names. The fix — merge by row position — was identified through cross-validation and applied before submission.
 
-Recommendation criteria provided in the prompt:
-- **Terminate**: Redundant, one-off spend <$500, food/local/single-purchase vendors
-- **Consolidate**: Same function as another vendor in the list
-- **Optimize**: Core vendor, valuable but likely over-provisioned or renegotiable
+### Step 5: Multi-Agent Cross-Validation
+Two independent Claude Code agent sessions (Agent 1 and Agent 2) classified the same 386 vendors without shared context. This multi-agent ensemble validation pattern catches errors that single-pass review misses.
 
-### Step 4: Multi-Agent Cross-Validation
-Two independent Claude Code agent sessions (Agent 1 and Agent 2) classified the same 386 vendors without shared context. This multi-agent ensemble validation pattern catches classification errors that single-pass review misses — two agents trained on the same data can still diverge on ambiguous vendors (e.g., a legal-tech SaaS that could reasonably fall under Legal or Engineering).
+After both sessions completed, outputs were compared vendor-by-vendor. The comparison identified:
 
-After both sessions completed, outputs were compared vendor-by-vendor. Divergences were reviewed and resolved using a third-pass judgment call documented in the Cross-Validation tab.
+| Error | Agent | Caught By | Resolution |
+|---|---|---|---|
+| Hallucinated vendor names | Agent 1 | Agent 2 | Fixed merge-by-position; full re-run |
+| Incorrect vendor count (383 vs 386) | Agent 2 | Agent 1 | User provided authoritative CSV |
+| Wrong department taxonomy | Agent 2 | Agent 1 | Agent 2 reclassified 218 vendors to Config taxonomy |
 
-### Step 5: Automated Scoring Validation
-A dedicated scoring script (scoring_validation.py) was written to evaluate output quality against six criteria mapped directly to the published evaluation rubric:
+**Standard applied:** Neither AI output was accepted until verifiably correct. 100% accuracy was the only acceptable standard — "close enough" was explicitly rejected on both runs.
 
-| Check | What it tested |
+Disagreements on 293 vendors were reviewed and resolved through:
+1. Web research on high-spend ambiguous vendors
+2. User judgment calls on genuine toss-ups
+3. Document `analysis/user_decisions.md` records all final calls with rationale
+
+**Final user decision scorecard: Agent 1 correct on 7 of 11 disputed high-spend vendors; Agent 2 correct on 4.**
+
+### Step 6: Automated Scoring Validation
+A dedicated scoring script (`scripts/scoring_validation.py`) was written to evaluate output quality against six criteria mapped directly to the published evaluation rubric:
+
+| Check | What It Tested |
 |---|---|
 | Department Accuracy | Valid values, distribution sanity, spot-check against known vendors |
 | Description Quality | Length distribution, generic phrase detection, duplicate detection |
@@ -56,49 +78,95 @@ A dedicated scoring script (scoring_validation.py) was written to evaluate outpu
 | Project Organization | Required file checklist |
 | Description Specificity | Top-10 spend vendor depth, uniqueness ratio |
 
-**Score after remediation: 93% (A grade)**
+**Agent 1 final score: 98% (A) — Agent 2 score: 79% (C)**
 
-### Step 6: Issue Remediation
-Flagged issues from the scoring report were corrected:
-- Generic descriptions rewritten (Verizon Wireless, Amazon Marketplace entries)
-- Department corrections applied (DocuSign → Legal, AWS → Engineering)
-- Re-scored to confirm improvement
+The primary gap in Agent 2's score: 105 descriptions under 5 words, and duplicate descriptions ("Croatian business services" used 7x) indicating template reuse on the long tail.
 
-### Step 7: Reusable Skill Creation
-A reusable vendor-classifier skill (skills/vendor-classifier/SKILL.md) was created so this workflow can be applied to any future acquisition without rebuilding from scratch.
+### Step 7: Issue Remediation
+All flagged issues were corrected before final submission:
+- Cloudcrossing Bvba → Engineering (PDF Butler = Salesforce ISV)
+- RSM UK → M&A (M&A advisory, dedicated Config category)
+- Telefonica → G&A + Consolidate
+- Aetna, Bupa, Cigna, Care Health, Agram Life → G&A (health insurance = G&A, not Support)
+- Big Frontier → Professional Services
+- Tmforum → Professional Services
+
+### Step 8: Reusable Skill
+A reusable `vendor-classifier` skill was created (`skills/vendor-classifier/SKILL.md`) so this workflow can be applied to future acquisition due diligence without rebuilding from scratch.
+
+---
+
+## Classification Prompt
+
+```
+You are analyzing vendor spend for an acquired company. For each vendor, provide:
+- department: MUST be exactly one of these 12:
+  Engineering, Facilities, G&A, Legal, M&A, Marketing, SaaS, Product,
+  Professional Services, Sales, Support, Finance
+- description: one tight specific sentence. Be concrete, not generic.
+  Bad: "business services provider"
+  Good: "Corporate travel booking and expense management platform."
+- recommendation: exactly one of Terminate | Consolidate | Optimize
+
+Criteria:
+- Terminate: one-off purchase, food/local vendor, spend <$100, clearly redundant
+- Consolidate: duplicates another vendor in this list doing the same function
+- Optimize: core vendor, renegotiable or over-provisioned
+
+IMPORTANT: Return results in EXACT same order as input. Use index to match.
+
+Return JSON array ONLY:
+[{"index": 1, "department": "...", "description": "...", "recommendation": "..."}]
+```
+
+---
 
 ## Quality Check Evidence
 
-Quality was validated at three distinct levels:
+Quality was validated at four distinct levels:
 
-1. **API response validation** — Every batch response was checked for correct JSON structure, field count, and valid recommendation values before being written to output
-2. **Automated scoring script** — scoring_validation.py produces a scored report (output/scoring_report.md) with specific pass/fail checks
-3. **Multi-agent cross-validation** — Two independent sessions compared; divergences documented in the Cross-Validation tab
+**1. API response validation** — Every batch response was checked for JSON structure, field count, valid department names, and valid recommendation values before being written to output.
+
+**2. Name integrity check** — Output vendor names were verified against source names by row position. Any mismatch flags a critical hallucination error.
+
+**3. Automated scoring script** — `scoring_validation.py` produces a scored report mapped to 6 evaluation criteria (see `output/scoring_report.md`).
+
+**4. Multi-agent cross-validation** — Two independent sessions compared; all divergences reviewed; final decisions documented in `analysis/user_decisions.md`.
+
+**QA checklist for exec memo:**
+- ✅ ≤1 page
+- ✅ Timeline included
+- ✅ Risk table included
+- ✅ Savings math verified
+- ✅ Grammar and spelling reviewed
+- ✅ Savings material for $1B business (>$500K)
 
 The QA process specifically looked for:
 - Generic or copy-paste descriptions
-- Invalid or unlikely department assignments
+- Invalid department assignments
 - High-spend vendors incorrectly flagged for termination
 - Duplicate descriptions indicating template reuse
 - Savings estimates too small to be material for a $1B business
+- Vendor names not matching source data
 
-### Errors Found and Remediated
-
-The cross-validation process identified real errors in both agent outputs — errors that would have compromised the submission if not caught:
-
-**Agent 1 (critical):** The classification script asked the model to return vendor names in its JSON response. The model hallucinated plausible vendor names (e.g., returning "Amazon Web Services" for a vendor named "Salesforce Uk Ltd-Uk") instead of echoing the original input. All 386 classifications were applied to the wrong vendor names. The fix: merge results by row position only, never trust the model to return input values accurately. Corrected and re-run to 100%.
-
-**Agent 2:** Initial run returned an incorrect vendor count (92% coverage). "Close enough" was explicitly rejected. 100% coverage was the only acceptable standard. Re-run until complete.
-
-**Standard applied:** Neither AI output was accepted until it was verifiably correct. This is the appropriate standard for any data product going to senior leadership — a CFO looking at vendor spend recommendations needs to trust that the data is accurate, not approximately accurate.
+---
 
 ## Project Repository
 
-All inputs, outputs, scripts, and documentation are version-controlled in the project GitHub repository. Structure:
+All inputs, outputs, scripts, and documentation are version-controlled in Git. Key commits document each phase including error discovery and remediation.
 
-- data/ — Raw input CSV
-- output/ — Classified vendors CSV, scoring report
-- scripts/ — analyze_vendors.py, quality_check.py, scoring_validation.py
-- skills/vendor-classifier/ — Reusable classification skill
-- CLAUDE.md — Planning spec
-- README.md — Full methodology documentation
+```
+vendor-analysis/
+├── data/vendors.csv                      # Raw input (386 vendors)
+├── output/vendors_analyzed.csv           # Final classified output
+├── output/scoring_report.md             # Automated QA score: 98%
+├── scripts/analyze_vendors.py           # Main classification script
+├── scripts/scoring_validation.py        # Scoring framework
+├── scripts/quality_check.py            # First-pass QA
+├── skills/vendor-classifier/SKILL.md   # Reusable classification skill
+├── analysis/cross_analysis.md          # Cross-validation report
+├── analysis/user_decisions.md          # David Proctor's final calls
+├── analysis/agent1_wins.md             # Agent 1 position paper
+├── CLAUDE.md                           # Planning spec
+└── README.md                           # Full methodology
+```
