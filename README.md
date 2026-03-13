@@ -1,151 +1,65 @@
 # Vendor Analysis Assessment — David Proctor
 
-## Overview
-This project analyzes ~386 vendors for an acquired company, acting as VP of Operations. For each vendor it assigns a department, a one-line description, and a strategic recommendation (Terminate / Consolidate / Optimize). The analysis was performed entirely using the **Claude Code CLI** with the **Anthropic API**.
+Analysis of 386 vendors across $7.9M in annual spend for a post-acquisition due diligence scenario.
 
-**Google Sheet (view-only):**
-https://docs.google.com/spreadsheets/d/1I9_S_uhLqcFSHvz3RbvwDR_Y1gc5CzHalUVLJqf8Pn8
+## Google Sheet
+[Vendor Analysis Assessment](https://docs.google.com/spreadsheets/d/1I9_S_uhLqcFSHvz3RbvwDR_Y1gc5CzHalUVLJqf8Pn8)
 
----
+Tabs: Vendor Analysis Assessment | Session A - Agent 1 | Session B - Agent 2 | Cross-Validation | Top 3 Opportunities | Methodology | CEO/CFO Recommendations
+
+## Executive Memo (Google Doc)
+[Vendor Spend Analysis — Executive Memo](https://docs.google.com/document/d/1SO3Y3U0C9d3oC4lSzAv3G771mzyZR4v59ShXf2S8pJ4/edit)
+
+## Key Results
+- **386 vendors** analyzed | **$7,887,359** total annual spend
+- **$1,853,331** in addressable savings (23.4%)
+- Optimize: 190 vendors | Consolidate: 49 | Terminate: 147
+- QA score: **98% (A)** — validated via automated scoring script
+
+## Top 3 Opportunities
+1. **Salesforce Renegotiation** — $312K–$623K (40% of total spend, post-acq leverage window)
+2. **Global Workspace Consolidation** — $150K–$261K (11 vendors, 6 countries, fragmented procurement)
+3. **Travel, Benefits & Telecom** — $150K–$224K (Navan duplicate + 5 health carriers + 3 telecom carriers)
 
 ## Project Structure
 
 ```
 vendor-analysis/
+├── PLAN.md                          # 8-phase execution plan
+├── CLAUDE.md                        # Classification spec and taxonomy
+├── STANDARDS.md                     # Quality standards
 ├── data/
-│   └── vendors.csv                  # Raw vendor data exported from Google Sheets (386 vendors)
+│   └── vendors.csv                  # Source data (386 vendors)
 ├── output/
-│   ├── vendors_analyzed.csv         # Classified output: department + description + recommendation
-│   └── scoring_report.md            # Automated QA scoring report
+│   └── vendors_final.csv            # Final classified output
+├── deliverables/
+│   ├── top_3_opportunities.md       # Part 2: Top 3 opportunities
+│   ├── methodology.md               # Part 3: Methodology documentation
+│   └── executive_memo.md            # Part 4: CEO/CFO memo
+├── analysis/
+│   ├── spend_analysis.md            # Initial spend breakdown
+│   ├── consolidation_opportunities.md  # Grouped consolidation targets
+│   ├── cross_analysis.md            # Cross-validation report
+│   ├── cross_validation.csv         # Agent 1 vs Agent 2 comparison
+│   ├── user_decisions.md            # Final human judgment calls
+│   └── cross-validation/            # Agent debate artifacts
+├── qa/
+│   ├── scoring_validation.md        # Pre-built scoring framework
+│   ├── scoring_report.md            # Final QA score: 98% (A)
+│   └── quality_check_log.md         # QA evidence log
 ├── scripts/
-│   ├── analyze_vendors.py           # Main classification script (Anthropic API, batched)
-│   ├── quality_check.py             # First-pass QA script
-│   └── scoring_validation.py        # Scoring framework mapped to evaluation criteria
-├── skills/
-│   └── vendor-classifier/
-│       └── SKILL.md                 # Reusable Claude Code skill for vendor classification
-├── CLAUDE.md                        # Planning spec written before any code was run
-└── README.md                        # This file
+│   ├── analyze_vendors.py           # Main classification script
+│   ├── quality_check.py             # First-pass QA
+│   └── scoring_validation.py        # Automated scoring (run against either agent)
+└── skills/
+    └── vendor-classifier/SKILL.md   # Reusable classification skill
 ```
 
----
+## Methodology Summary
 
-## How It Was Done
+Two independent Claude Code CLI sessions classified all 386 vendors with no shared context until cross-validation. Tiered analysis by spend (deep research for $100K+ vendors, automated for <$5K). Custom `/cross-analyze` skill built to compare outputs. Three critical errors caught before submission through cross-validation. Final disputed classifications resolved via web research; documented in `analysis/user_decisions.md`.
 
-### Phase 1 — Planning (CLAUDE.md)
-Before writing any code, a planning spec (`CLAUDE.md`) was written in Claude Code to define:
-- The department taxonomy (11 categories)
-- Recommendation criteria (Terminate / Consolidate / Optimize with specific thresholds)
-- Output format and quality expectations
+**Agent 1: 7 wins | Agent 2: 4 wins** on disputed high-spend vendor calls.
+**Both agents converged within 2% on total savings** ($1.844M vs $1.88M) — independent validation of the methodology.
 
-This mirrors professional spec-first engineering practice and ensures the AI has clear, bounded instructions before execution.
-
-### Phase 2 — Data Extraction
-All 386 vendors were exported from Google Sheets to `data/vendors.csv` using the Google Sheets API. Vendors were already sorted by annual spend (descending), which was preserved for prioritization.
-
-### Phase 3 — AI Classification (Claude Code CLI)
-`scripts/analyze_vendors.py` was written and executed via Claude Code CLI. It:
-- Reads all vendors from CSV
-- Sends batches of 25 vendors to the Anthropic API (`claude-sonnet-4-5`)
-- Prompts for department, specific one-line description, and recommendation
-- Validates each JSON response (correct field count, valid recommendation values)
-- Retries up to 3x with exponential backoff on API errors
-- Writes classified output to `output/vendors_analyzed.csv`
-
-**Batch processing was used** to stay within API token limits and to allow partial recovery if a batch fails.
-
-### Phase 3b — Tiered Analysis Strategy
-Vendors were prioritized by spend for appropriate research depth:
-- **Tier 1 ($100K+, 13 vendors):** Deep research, web search, detailed classification
-- **Tier 2 ($25K–$100K, 27 vendors):** Detailed classification with verification
-- **Tier 3 ($5K–$25K, 56 vendors):** Pattern-based classification with spot checks
-- **Tier 4 (<$5K, 290 vendors):** Automated classification with validation
-
-### Phase 4 — Multi-Agent Cross-Validation
-Two independent Claude Code agent sessions classified the same 386 vendors **without shared context**. This is a **multi-agent ensemble validation** pattern:
-- Agent 1 produced one set of classifications
-- Agent 2 (a separate Claude Code instance with no shared context) produced an independent set
-- Divergent classifications were identified and resolved using a reconciliation judgment pass
-
-This approach catches classification errors that a single-pass review would miss, because two agents trained on the same data can still diverge on ambiguous vendors (e.g., a legal-tech SaaS that straddles Legal and Engineering).
-
-### Phase 5 — Automated Scoring Validation
-`scripts/scoring_validation.py` runs six programmatic checks mapped directly to the published evaluation criteria:
-
-| Check | What it tests |
-|---|---|
-| Department Accuracy | Valid values, distribution sanity, spot-check against known vendors |
-| Description Quality | Length, generic phrase detection, duplicate detection |
-| Recommendation Quality | Valid values, spread distribution, high-spend Terminate flags |
-| Financial Defensibility | Total savings potential, $1B business materiality threshold |
-| Project Organization | Required file checklist |
-| Description Specificity | Top-10 spend vendor depth, uniqueness ratio |
-
-**Final score: 86% (B grade)** — see `output/scoring_report.md` for full detail.
-
-### Phase 6 — Issue Remediation
-Flagged issues from the scoring report were corrected:
-- Generic descriptions rewritten (Verizon Wireless, Amazon Marketplace entries)
-- Department corrections applied (DocuSign → Legal, AWS → Engineering)
-- Re-scored after fixes
-
-### Phase 7 — Reusable Skill
-A reusable `vendor-classifier` skill was created in `skills/vendor-classifier/SKILL.md`. This skill can be applied to any acquisition due diligence engagement — not just this one. It documents the prompt structure, department taxonomy, batch approach, and validation steps so any Claude Code session can reproduce the full workflow from scratch.
-
----
-
-## Prompts Used
-
-### Classification Prompt (per batch of 25)
-```
-You are a VP of Operations analyzing vendors for an acquired company.
-For each vendor, provide:
-- department: one of [Engineering, IT/Infrastructure, G&A, Finance, Legal, Sales, Marketing, HR, Facilities, Support, Product]
-- description: one tight, specific sentence. Be concrete. Bad: "business services provider". Good: "Corporate travel booking and expense management platform."
-- recommendation: exactly Terminate | Consolidate | Optimize
-
-Criteria:
-- Terminate: redundant, one-off spend <$500, food/local/single-purchase, no clear business value
-- Consolidate: same function as other vendors in this list
-- Optimize: core vendor, valuable but likely over-provisioned or renegotiable
-
-Return JSON array only: [{vendor_name, department, description, recommendation}]
-```
-
----
-
-## Quality Assurance
-
-Quality was validated at three levels:
-1. **Script-level**: JSON validation and field count checks on every API response
-2. **Automated scoring**: `scoring_validation.py` produces a scored report against 6 criteria
-3. **Multi-agent cross-validation**: Two independent Claude Code sessions compared, divergences resolved
-
-The QA process specifically looked for:
-- Generic or copy-paste descriptions
-- Invalid department assignments
-- High-spend vendors incorrectly marked Terminate
-- Duplicate descriptions indicating template reuse
-- Financial savings estimates that are too small to be meaningful for a $1B business
-
----
-
-## Results Summary
-
-| Metric | Value |
-|---|---|
-| Total vendors analyzed | 386 |
-| Total annual spend | ~$7.9M |
-| Optimize (cost reduction) | 180 vendors |
-| Consolidate (eliminate duplicates) | 88 vendors |
-| Terminate (eliminate entirely) | 118 vendors |
-| Estimated total savings potential | ~$1.67M (21.3% of spend) |
-
----
-
-## Tools Used
-- **Claude Code CLI (Agent 1 + Agent 2)** — two independent sessions for classification and cross-validation
-- **Anthropic API** (`claude-sonnet-4-5`) — vendor classification
-- **Python 3** — scripting, CSV processing, validation
-- **Google Sheets API** (via `gws` CLI) — data extraction and output upload
-- **Git** — version control
+See `deliverables/methodology.md` for full detail.
