@@ -6,13 +6,13 @@ Tog Uk Properties Limited,"$263,821",Facilities,Facilities,Yes,Optimize,Consolid
 Cloudcrossing Bvba,"$208,675",Engineering,Engineering,Yes,Optimize,Optimize,Yes,Full Agreement
 Zagrebtower D.O.O.,"$183,754",Facilities,Facilities,Yes,Consolidate,Consolidate,Yes,Full Agreement
 Innovent Spaces Private Limited,"$147,348",Facilities,Facilities,Yes,Consolidate,Consolidate,Yes,Full Agreement
-Weking D.O.O.,"$144,093",Facilities,G&A,No,Consolidate,Optimize,No,Manual Review
+Weking D.O.O.,"$144,093",Facilities,Facilities,Yes,Consolidate,Optimize,No,Partial Agreement
 Jensten Insurance Brokers,"$142,700",G&A,G&A,Yes,Optimize,Optimize,Yes,Full Agreement
 Gpt Space & Co,"$133,507",Facilities,Facilities,Yes,Consolidate,Consolidate,Yes,Full Agreement
-Aetna Life And Casualty Ltd,"$124,661",G&A,Support,No,Optimize,Consolidate,No,Manual Review
+Aetna Life And Casualty Ltd,"$124,661",G&A,G&A,Yes,Optimize,Consolidate,No,Partial Agreement
 Rsm Uk Corporate Finance Llp,"$117,078",Finance,M&A,No,Consolidate,Consolidate,Yes,Partial Agreement
 Amazon Web Services Llc,"$106,399",Engineering,Engineering,Yes,Optimize,Consolidate,No,Partial Agreement
-Telefonica Global Services Gmbh,"$89,880",G&A,Engineering,No,Optimize,Consolidate,No,Manual Review
+Telefonica Global Services Gmbh,"$89,880",G&A,G&A,Yes,Optimize,Consolidate,No,Partial Agreement
 Hr Solution International Gmbh,"$80,823",Professional Services,Professional Services,Yes,Optimize,Consolidate,No,Partial Agreement
 4I Advisory Services,"$71,860",Professional Services,Professional Services,Yes,Optimize,Optimize,Yes,Full Agreement
 Bisley Law Ltd,"$67,414",Legal,Legal,Yes,Optimize,Consolidate,No,Partial Agreement
@@ -20,7 +20,7 @@ Infosys,"$66,570",Professional Services,Professional Services,Yes,Optimize,Optim
 Big Frontier Pty Ltd (Cult Of Monday),"$66,131",Marketing,Professional Services,No,Optimize,Optimize,Yes,Partial Agreement
 Harmonic Group Limited,"$65,418",Professional Services,Professional Services,Yes,Optimize,Consolidate,No,Partial Agreement
 Wework Singapore Pte. Ltd.,"$64,373",Facilities,Facilities,Yes,Consolidate,Consolidate,Yes,Full Agreement
-Cloud Technology Solutions Ltd,"$60,661",Engineering,SaaS,No,Optimize,Optimize,Yes,Partial Agreement
+Cloud Technology Solutions Ltd,"$60,661",Engineering,Engineering,Yes,Optimize,Optimize,Yes,Full Agreement
 "Navan, Inc","$57,929",G&A,G&A,Yes,Consolidate,Consolidate,Yes,Full Agreement
 Tmforum,"$57,560",Product,Professional Services,No,Optimize,Optimize,Yes,Partial Agreement
 Linkedin Ireland Limited,"$55,573",Marketing,Marketing,Yes,Optimize,Consolidate,No,Partial Agreement
@@ -28,22 +28,22 @@ Kimble Applications Ltd,"$52,825",SaaS,SaaS,Yes,Optimize,Optimize,Yes,Full Agree
 Sage Uk Limited,"$46,895",Finance,Finance,Yes,Optimize,Optimize,Yes,Full Agreement
 Grant Thornton,"$46,539",Finance,Finance,Yes,Optimize,Consolidate,No,Partial Agreement
 Ss&C Intralinks Inc,"$39,966",M&A,M&A,Yes,Optimize,Optimize,Yes,Full Agreement
-Veniture D.O.O.,"$39,342",Professional Services,Engineering,No,Optimize,Optimize,Yes,Partial Agreement
+Veniture D.O.O.,"$39,342",Professional Services,Professional Services,Yes,Optimize,Optimize,Yes,Full Agreement
 Accutrainee Limited,"$38,841",Professional Services,Professional Services,Yes,Optimize,Optimize,Yes,Full Agreement
 Mason Frank International Ltd,"$38,148",Professional Services,Professional Services,Yes,Consolidate,Consolidate,Yes,Full Agreement
-"Houlihan Lokey Advisors, Llc","$37,461",M&A,Finance,No,Optimize,Optimize,Yes,Partial Agreement
-Vector Capital Management Lp,"$32,427",M&A,Finance,No,Optimize,Optimize,Yes,Partial Agreement
+"Houlihan Lokey Advisors, Llc","$37,461",M&A,M&A,Yes,Optimize,Optimize,Yes,Full Agreement
+Vector Capital Management Lp,"$32,427",M&A,M&A,Yes,Optimize,Optimize,Yes,Full Agreement
 Hubspot Ireland Limited,"$32,187",Marketing,Marketing,Yes,Optimize,Consolidate,No,Partial Agreement
 Nefron - Obrt Za Poslovne Usluge,"$30,614",Professional Services,G&A,No,Optimize,Terminate,No,Manual Review
 "Planful, Inc.","$27,741",Finance,Finance,Yes,Optimize,Optimize,Yes,Full Agreement
 Cognism Limited,"$27,013",Sales,Sales,Yes,Optimize,Consolidate,No,Partial Agreement
 Uberflip,"$26,091",Marketing,Marketing,Yes,Optimize,Consolidate,No,Partial Agreement
-Agram Life Osiguranje D.O.O.,"$24,952",G&A,Support,No,Optimize,Consolidate,No,Manual Review
+Agram Life Osiguranje D.O.O.,"$24,952",G&A,G&A,Yes,Optimize,Consolidate,No,Partial Agreement
 Google Ireland Limited,"$24,798",Marketing,Marketing,Yes,Optimize,Optimize,Yes,Full Agreement
 Zuric I Partneri Odvjetnicko Drustvo D.O.O.,"$24,135",Legal,Legal,Yes,Optimize,Consolidate,No,Partial Agreement
-Care Health Insurance Company Limited,"$24,045",G&A,Support,No,Optimize,Consolidate,No,Manual Review
+Care Health Insurance Company Limited,"$24,045",G&A,G&A,Yes,Optimize,Consolidate,No,Partial Agreement
 New Star Networks(Nsn),"$23,887",Engineering,Engineering,Yes,Optimize,Consolidate,No,Partial Agreement
-Bupa- Supplier,"$22,800",G&A,Support,No,Consolidate,Consolidate,Yes,Partial Agreement
+Bupa- Supplier,"$22,800",G&A,G&A,Yes,Consolidate,Consolidate,Yes,Full Agreement
 Shree Info System Solutions Pvt Ltd,"$22,275",Professional Services,SaaS,No,Consolidate,Optimize,No,Manual Review
 Technet It Recruitment,"$21,952",Professional Services,Professional Services,Yes,Consolidate,Consolidate,Yes,Full Agreement
 Mightyhive Ltd,"$19,042",Marketing,Marketing,Yes,Optimize,Consolidate,No,Partial Agreement
@@ -58,16 +58,16 @@ Smart Group Services D.O.O.,"$16,438",G&A,G&A,Yes,Consolidate,Optimize,No,Partia
 Jones Lang Lasalle (Nsw) Pty Ltd,"$16,274",Facilities,Facilities,Yes,Optimize,Optimize,Yes,Full Agreement
 "Workato, Inc.","$16,101",Engineering,SaaS,No,Optimize,Optimize,Yes,Partial Agreement
 Konzum Plus D.O.O.,"$15,684",Facilities,Facilities,Yes,Optimize,Optimize,Yes,Full Agreement
-Westbrook Advisers,"$15,360",M&A,Finance,No,Optimize,Optimize,Yes,Partial Agreement
+Westbrook Advisers,"$15,360",M&A,M&A,Yes,Optimize,Optimize,Yes,Full Agreement
 Work Easy Space Solutions Private Limited,"$14,913",Facilities,Facilities,Yes,Optimize,Consolidate,No,Partial Agreement
 "Taxstudio, Ltd.","$14,642",Finance,Finance,Yes,Consolidate,Consolidate,Yes,Full Agreement
 Pingo D.O.O.,"$14,508",Facilities,Facilities,Yes,Optimize,Optimize,Yes,Full Agreement
 Magazin Raunalni Sistemi D.O.O.,"$13,870",Facilities,SaaS,No,Optimize,Optimize,Yes,Partial Agreement
 Tp Prime D.O.O.,"$13,785",Facilities,G&A,No,Optimize,Optimize,Yes,Partial Agreement
 Granttree Limited,"$13,659",Finance,Finance,Yes,Optimize,Optimize,Yes,Full Agreement
-Cigna Sg,"$13,249",G&A,Support,No,Optimize,Consolidate,No,Manual Review
+Cigna Sg,"$13,249",G&A,G&A,Yes,Optimize,Consolidate,No,Partial Agreement
 Collards Chartered Accountants,"$12,879",Finance,Finance,Yes,Consolidate,Consolidate,Yes,Full Agreement
-Bupa Australia,"$12,463",G&A,Support,No,Optimize,Consolidate,No,Manual Review
+Bupa Australia,"$12,463",G&A,G&A,Yes,Optimize,Consolidate,No,Partial Agreement
 4I Management Consulting Private Limited,"$12,117",Professional Services,G&A,No,Optimize,Optimize,Yes,Partial Agreement
 Bijeli Pijesak Obrt Za Poslovno Savjetovanje,"$11,605",Professional Services,G&A,No,Optimize,Optimize,Yes,Partial Agreement
 Ramiro D.O.O.,"$11,516",Facilities,G&A,No,Optimize,Optimize,Yes,Partial Agreement
@@ -88,8 +88,8 @@ Goto Technologies Uk Limited,"$7,316",SaaS,SaaS,Yes,Consolidate,Optimize,No,Part
 Hrsolution International Ag,"$6,987",Professional Services,Professional Services,Yes,Optimize,Consolidate,No,Partial Agreement
 Trello,"$6,674",SaaS,Engineering,No,Optimize,Consolidate,No,Manual Review
 Obrt Sjaj Sunca,"$6,596",Facilities,Facilities,Yes,Consolidate,Optimize,No,Partial Agreement
-Telefã³Nica Compras Electrã³Nicas S.L.,"$6,157",G&A,Engineering,No,Optimize,Consolidate,No,Manual Review
-Allianz Australia Workers' Compensation (Victoria) Limited,"$6,099",Finance,Support,No,Optimize,Consolidate,No,Manual Review
+Telefã³Nica Compras Electrã³Nicas S.L.,"$6,157",G&A,G&A,Yes,Optimize,Consolidate,No,Partial Agreement
+Allianz Australia Workers' Compensation (Victoria) Limited,"$6,099",Finance,G&A,No,Optimize,Consolidate,No,Manual Review
 Icici Lombard Gic Ltd,"$5,972",Finance,Finance,Yes,Optimize,Optimize,Yes,Full Agreement
 Mosaic Concept D.O.O.,"$5,731",Marketing,G&A,No,Optimize,Optimize,Yes,Partial Agreement
 Limes Plus D.O.O.,"$5,624",Professional Services,Facilities,No,Optimize,Optimize,Yes,Partial Agreement
@@ -138,7 +138,7 @@ Grad Split,"$3,483",Facilities,G&A,No,Optimize,Optimize,Yes,Partial Agreement
 T-Mobile,"$3,357",G&A,Engineering,No,Consolidate,Consolidate,Yes,Partial Agreement
 Akton D.O.O.,"$3,254",Facilities,Engineering,No,Optimize,Optimize,Yes,Partial Agreement
 Bureau Veritas Croatia D.O.O.,"$3,200",Facilities,Professional Services,No,Optimize,Optimize,Yes,Partial Agreement
-Cici Prudential Life Insurance Co. Ltd.,"$3,195",G&A,Support,No,Optimize,Consolidate,No,Manual Review
+Cici Prudential Life Insurance Co. Ltd.,"$3,195",G&A,G&A,Yes,Optimize,Consolidate,No,Partial Agreement
 Ncc Services Limited,"$3,036",Professional Services,G&A,No,Optimize,Optimize,Yes,Partial Agreement
 Smartsheet Inc.,"$2,995",Product,Engineering,No,Optimize,Optimize,Yes,Partial Agreement
 Good Game Global D.O.O.,"$2,954",Marketing,Marketing,Yes,Optimize,Terminate,No,Partial Agreement
@@ -196,7 +196,7 @@ P S Recreation Club,"$1,219",G&A,G&A,Yes,Terminate,Optimize,No,Partial Agreement
 Fastspring,"$1,179",SaaS,SaaS,Yes,Optimize,Optimize,Yes,Full Agreement
 Dsv Solutions A/S,"$1,162",G&A,G&A,Yes,Optimize,Optimize,Yes,Full Agreement
 Curzon Green Solicitors,"$1,158",Legal,Legal,Yes,Consolidate,Consolidate,Yes,Full Agreement
-Icare Nsw,"$1,150",Finance,Support,No,Optimize,Consolidate,No,Manual Review
+Icare Nsw,"$1,150",Finance,G&A,No,Optimize,Consolidate,No,Manual Review
 Thomas Mansfield Solicitors Limited,"$1,135",Legal,Legal,Yes,Optimize,Consolidate,No,Partial Agreement
 Amazon.Co.Uk,"$1,107",G&A,G&A,Yes,Optimize,Optimize,Yes,Full Agreement
 Backoffice Associates,"$1,080",Finance,SaaS,No,Optimize,Optimize,Yes,Partial Agreement
@@ -207,7 +207,7 @@ Lunch Nutrition D.O.O.,"$1,012",Facilities,G&A,No,Terminate,Optimize,No,Manual R
 Winmaxi Tours & Travels,"$1,001",G&A,G&A,Yes,Consolidate,Optimize,No,Partial Agreement
 Digitalna Produkcija J.D.O.O.,$993,Marketing,Marketing,Yes,Optimize,Optimize,Yes,Full Agreement
 Computershare-Caboodle Technology Limited,$981,Finance,Finance,Yes,Optimize,Optimize,Yes,Full Agreement
-Allianz Wa,$971,Finance,Support,No,Optimize,Consolidate,No,Manual Review
+Allianz Wa,$971,Finance,G&A,No,Optimize,Consolidate,No,Manual Review
 Trending Technology Services Gmbh,$961,SaaS,SaaS,Yes,Optimize,Optimize,Yes,Full Agreement
 "Godaddy.Com, Llc",$923,SaaS,SaaS,Yes,Optimize,Optimize,Yes,Full Agreement
 Time Out Group,$920,Marketing,Marketing,Yes,Optimize,Optimize,Yes,Full Agreement

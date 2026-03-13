@@ -16,14 +16,14 @@
 - FINANCIAL SUMMARY:
 -   Total vendor spend: $7,887,359
 -   Terminate savings: $152,920
--   Consolidate savings (est. 30%): $460,570
--   Optimize savings (est. 20%): $1,239,841
--   Total potential savings: $1,853,331 (23.5% of spend)
+-   Consolidate savings (est. 30%): $433,091
+-   Optimize savings (est. 20%): $1,258,161
+-   Total potential savings: $1,844,171 (23.4% of spend)
 
 ## 5. Project Organization: 10.0/10 ✅
 - ✅ README.md (7,017 bytes) — Project documentation
 - ✅ data/vendors.csv (13,115 bytes) — Raw input data
-- ✅ output/vendors_analyzed.csv (47,210 bytes) — Classified vendor output
+- ✅ output/vendors_analyzed.csv (47,356 bytes) — Classified vendor output
 - ✅ scripts/analyze_vendors.py (8,202 bytes) — Main analysis script
 - ✅ CLAUDE.md (1,971 bytes) — Claude Code spec/planning document
 - ✅ scripts/quality_check.py — Quality check script
