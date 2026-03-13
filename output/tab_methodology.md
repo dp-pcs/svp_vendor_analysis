@@ -82,6 +82,16 @@ The QA process specifically looked for:
 - Duplicate descriptions indicating template reuse
 - Savings estimates too small to be material for a $1B business
 
+### Errors Found and Remediated
+
+The cross-validation process identified real errors in both agent outputs — errors that would have compromised the submission if not caught:
+
+**Agent 1 (critical):** The classification script asked the model to return vendor names in its JSON response. The model hallucinated plausible vendor names (e.g., returning "Amazon Web Services" for a vendor named "Salesforce Uk Ltd-Uk") instead of echoing the original input. All 386 classifications were applied to the wrong vendor names. The fix: merge results by row position only, never trust the model to return input values accurately. Corrected and re-run to 100%.
+
+**Agent 2:** Initial run returned an incorrect vendor count (92% coverage). "Close enough" was explicitly rejected. 100% coverage was the only acceptable standard. Re-run until complete.
+
+**Standard applied:** Neither AI output was accepted until it was verifiably correct. This is the appropriate standard for any data product going to senior leadership — a CFO looking at vendor spend recommendations needs to trust that the data is accurate, not approximately accurate.
+
 ## Project Repository
 
 All inputs, outputs, scripts, and documentation are version-controlled in the project GitHub repository. Structure:
