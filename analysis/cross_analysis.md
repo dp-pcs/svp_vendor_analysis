@@ -1,7 +1,7 @@
 # Cross-Analysis Comparison Report
 
 **Date:** March 2026
-**Phase:** 8 - Cross-Validation
+**Phase:** 8 - Cross-Validation (Final Run)
 
 ---
 
@@ -16,157 +16,167 @@
 
 ## Summary Statistics
 
-| Metric | Before Taxonomy Fix | After Taxonomy Fix |
-|--------|---------------------|-------------------|
-| Total Vendors Compared | 383 | 383 |
-| Unmatched (encoding) | 3 | 3 |
-| **Department Agreement** | 34.7% (133/383) | **43.1%** (165/383) |
-| **Recommendation Agreement** | 38.1% (146/383) | **38.1%** (146/383) |
-| High-Spend Dept Discrepancies | 17 | **14** |
-| High-Spend Rec Discrepancies | 17 | 17 |
+| Metric | Value |
+|--------|-------|
+| Total Vendors in Each Analysis | 386 |
+| Vendors Successfully Matched | 383 |
+| Unmatched (encoding issues) | 3 |
+| **Department Agreement Rate** | **49.9%** (191/383) |
+| **Recommendation Agreement Rate** | **46.2%** (177/383) |
 
-**Note:** Department agreement improved from 34.7% to 43.1% after Agent 2 reclassified vendors to use the Config tab's 12 defined departments. Remaining discrepancies are due to Agent 1 using "IT/Infrastructure" while Agent 2 uses "SaaS" or "Engineering".
+### Resolution Breakdown
 
----
-
-## Key Finding: Low Agreement Rates
-
-The 34.7% department agreement and 38.1% recommendation agreement indicate **significant methodological differences** between the two analyses. This is not necessarily bad — it reflects different interpretive approaches.
-
-### Root Causes of Department Discrepancies
-
-| Pattern | Agent 1 | Agent 2 | Count | Resolution |
-|---------|---------|---------|-------|------------|
-| Marketing vs Sales & Marketing | Marketing | Sales & Marketing | ~15 | Taxonomy difference |
-| Travel classification | G&A | Travel & Entertainment | ~10 | Agent 2 more specific |
-| IT vs Engineering | IT/Infrastructure | Engineering | ~8 | Taxonomy overlap |
-| Insurance classification | Finance vs HR | HR | ~5 | Agent 2 correct (benefits = HR) |
-
-### Root Causes of Recommendation Discrepancies
-
-| Pattern | Observation |
-|---------|-------------|
-| Agent 1 favors Optimize | Agent 1 recommended "Optimize" more frequently |
-| Agent 2 favors Consolidate | Agent 2 identified more consolidation opportunities |
-| Terminate threshold | Agent 1 recommended more terminations for small vendors |
+| Resolution | Count | Percentage |
+|------------|-------|------------|
+| Full Agreement (both match) | 93 | 24.3% |
+| Partial Agreement (one matches) | 182 | 47.5% |
+| Manual Review Needed (neither match) | 108 | 28.2% |
 
 ---
 
-## High-Priority Review Items
+## Errors Caught Through Cross-Validation
 
-### Department Discrepancies >$25K (17 vendors)
+| Error | Agent | Caught By | Resolution |
+|-------|-------|-----------|------------|
+| Missing 3 vendors (383 vs 386) | Agent 2 | Agent 1 | User provided authoritative CSV |
+| Hallucinated vendor names | Agent 1 | Agent 2 | Agent 1 fixed merge by row position |
+| Wrong department taxonomy | Agent 2 | Agent 1 | Reclassified 218 vendors to Config taxonomy |
+
+**All three critical errors were caught before final submission.** This validates the dual-track methodology.
+
+### Research-Based Corrections Applied
+
+Agent 2 conducted web research on disputed high-spend vendors and applied 7 corrections:
+
+| Vendor | Spend | Original | Corrected | Source |
+|--------|-------|----------|-----------|--------|
+| RSM UK Corporate Finance | $117,078 | Finance | M&A | M&A advisory firm confirmed |
+| SS&C Intralinks | $39,966 | Finance | M&A | Virtual data room for M&A due diligence |
+| 4i Advisory Services | $71,860 | Finance | Professional Services | Advisory consulting firm |
+| Infosys | $66,570 | SaaS | Professional Services | IT consulting, not pure SaaS |
+| Harmonic Group Limited | $65,418 | Support | Professional Services | Executive search firm |
+| Accutrainee Limited | $38,841 | Legal | Professional Services | Legal training provider |
+| Big Frontier Pty Ltd | $66,131 | Support | Professional Services | Leadership development firm |
+
+This improved department agreement from 48.0% → 49.9%.
+
+---
+
+## High-Spend Department Discrepancies (>$25K)
+
+*After research-based corrections, some vendors now match between agents.*
 
 | Vendor | Spend | Agent 1 | Agent 2 | Resolution |
 |--------|-------|---------|---------|------------|
-| Salesforce Uk Ltd-Uk | $3,117,226 | Sales | Sales & Marketing | **Use Agent 2** (includes marketing automation) |
-| Navan (Tripactions Inc) | $357,984 | G&A | Travel & Entertainment | **Use Agent 2** (dedicated travel platform) |
-| Cloudcrossing Bvba | $208,675 | Facilities | Engineering | **Use Agent 2** (Salesforce dev tools, not facilities) |
-| Weking D.O.O. | $144,093 | Facilities | G&A | **Manual Review** (unclear vendor purpose) |
-| Jensten Insurance Brokers | $142,700 | Finance | G&A | **Use Agent 1** (insurance = Finance) |
-| Amazon Web Services Llc | $106,399 | IT/Infrastructure | Engineering | **Either** (valid both ways) |
-| Big Frontier Pty Ltd | $66,131 | Marketing | HR | **Use Agent 2** (leadership coaching = HR) |
-| Harmonic Group Limited | $65,418 | Marketing | HR | **Use Agent 2** (exec search = HR) |
-| Navan, Inc | $57,929 | G&A | Travel & Entertainment | **Use Agent 2** (same as Tripactions) |
-| Tmforum | $57,560 | Product | G&A | **Manual Review** (industry association) |
+| Cloudcrossing Bvba | $208,675 | Engineering | Engineering | ✓ **Now Aligned** |
+| Weking D.O.O. | $144,093 | Facilities | G&A | **Manual Review** (unclear vendor) |
+| Aetna Life And Casualty Ltd | $124,661 | G&A | Support | **Use Agent 2** (health insurance = Support) |
+| Rsm Uk Corporate Finance Llp | $117,078 | M&A | M&A | ✓ **Now Aligned** (corrected from Finance) |
+| Telefonica Global Services Gmbh | $89,880 | G&A | Engineering | **Use Agent 1** (telecom = G&A) |
+| Hr Solution International Gmbh | $80,823 | Professional Services | Professional Services | ✓ **Now Aligned** |
+| 4I Advisory Services | $71,860 | Professional Services | Professional Services | ✓ **Now Aligned** (corrected from Finance) |
+| Infosys | $66,570 | Professional Services | Professional Services | ✓ **Now Aligned** (corrected from SaaS) |
+| Big Frontier Pty Ltd | $66,131 | Marketing | Professional Services | **Use Agent 2** (leadership dev = Prof Svc) |
+| Harmonic Group Limited | $65,418 | Professional Services | Professional Services | ✓ **Now Aligned** (corrected from Support) |
 
-### Recommendation Discrepancies >$25K (17 vendors)
+---
+
+## High-Spend Recommendation Discrepancies (>$25K)
 
 | Vendor | Spend | Agent 1 | Agent 2 | Resolution |
 |--------|-------|---------|---------|------------|
-| Tog Uk Properties Limited | $263,821 | Optimize | Consolidate | **Use Agent 2** (multiple workspace vendors exist) |
-| Zagrebtower D.O.O. | $183,754 | Optimize | Consolidate | **Use Agent 2** (regional workspace consolidation) |
-| Innovent Spaces Private Limited | $147,348 | Optimize | Consolidate | **Use Agent 2** (Indian workspace overlap) |
+| Tog Uk Properties Limited | $263,821 | Optimize | Consolidate | **Use Agent 2** (workspace consolidation opportunity) |
+| Cloudcrossing Bvba | $208,675 | Consolidate | Optimize | **Use Agent 1** (coworking consolidation) |
 | Weking D.O.O. | $144,093 | Consolidate | Optimize | **Manual Review** |
 | Aetna Life And Casualty Ltd | $124,661 | Optimize | Consolidate | **Use Agent 2** (multiple health insurers) |
-| RSM UK Corporate Finance | $117,078 | Optimize | Consolidate | **Use Agent 2** (M&A advisors overlap) |
-| Amazon Web Services Llc | $106,399 | Optimize | Consolidate | **Manual Review** (cloud strategy dependent) |
-| Telefonica Global Services | $89,880 | Optimize | Consolidate | **Use Agent 2** (multiple telecom providers) |
+| Rsm Uk Corporate Finance Llp | $117,078 | Optimize | Consolidate | **Use Agent 2** (M&A advisor overlap) |
+| Amazon Web Services Llc | $106,399 | Optimize | Consolidate | **Manual Review** (strategic decision) |
+| Telefonica Global Services Gmbh | $89,880 | Optimize | Consolidate | **Use Agent 2** (telecom consolidation) |
+| Hr Solution International Gmbh | $80,823 | Optimize | Consolidate | **Use Agent 2** (HR service overlap) |
+| Bisley Law Ltd | $67,414 | Optimize | Consolidate | **Use Agent 2** (legal vendor overlap) |
+
+---
+
+## Analysis Patterns
+
+### Department Classification Patterns
+
+| Pattern | Agent 1 Tendency | Agent 2 Tendency | After Corrections |
+|---------|------------------|------------------|-------------------|
+| Insurance/Benefits | G&A | Support | Divergent |
+| HR Services | G&A | Professional Services | Divergent |
+| IT Consulting | Professional Services | Professional Services | ✓ Aligned |
+| M&A Advisory | M&A | M&A | ✓ Aligned (Agent 2 corrected) |
+| Coworking Space | Facilities | Facilities | ✓ Aligned |
+| Executive Search | Professional Services | Professional Services | ✓ Aligned (Agent 2 corrected) |
+
+### Recommendation Patterns
+
+| Pattern | Agent 1 Tendency | Agent 2 Tendency |
+|---------|------------------|------------------|
+| Workspace vendors | Mixed | Consolidate |
+| Professional services | Optimize | Consolidate |
+| Small vendors (<$1K) | Terminate | Terminate |
+| Core software | Optimize | Optimize |
 
 ---
 
 ## Synthesis Recommendations
 
-### When to Use Agent 2 Classifications
+### Use Agent 1 Classifications For:
+- M&A advisory firms (use M&A department)
+- Brand/marketing agencies (use Marketing)
+- General IT consulting (use Professional Services)
 
-1. **Travel & Entertainment** - Agent 2 correctly separated travel vendors from G&A
-2. **HR (Benefits/Recruiting)** - Agent 2 correctly classified insurance, coaching, and recruiting firms under HR
-3. **Consolidation opportunities** - Agent 2 identified more workspace and service overlaps
+### Use Agent 2 Classifications For:
+- Employee benefits/insurance (use Support)
+- HR/recruiting services (use Professional Services)
+- Workspace consolidation opportunities
 
-### When to Use Agent 1 Classifications
-
-1. **Finance (Insurance)** - Agent 1 correctly classified some insurance brokers under Finance
-2. **Individual contractors** - Agent 1 better flagged for termination
-
-### Manual Review Required
-
-| Vendor | Issue |
-|--------|-------|
-| Weking D.O.O. | Unclear vendor purpose, both agents uncertain |
-| Tmforum | Industry association - could be G&A or Product |
-| AWS | Strategic decision: consolidate cloud or multi-cloud? |
+### Manual Review Required:
+- Weking D.O.O. - unclear vendor purpose
+- Amazon Web Services - strategic cloud decision
+- Vendors with both dept AND rec discrepancies (108 vendors)
 
 ---
 
 ## Quality Insights
 
 ### Agent 2 Strengths
-- More granular department taxonomy (Travel & Entertainment separate from G&A)
-- Better HR classification (benefits, recruiting, coaching)
-- Identified more consolidation opportunities across workspace and service categories
-- Fixed data integrity issue (vendor count) after user intervention
+- Better HR/benefits classification (Support vs G&A)
+- Identified more consolidation opportunities
+- Fixed data integrity issues after correction
 
 ### Agent 1 Strengths
-- Caught Agent 2's initial vendor count error
-- More decisive on termination recommendations for small vendors
-- Better classification of pure finance vendors
+- Correct use of M&A department
+- Better marketing vendor classification
+- Caught Agent 2's taxonomy error
 
-### Both Agents
-- Caught each other's errors before submission
-- Validated the dual-track methodology works
-
----
-
-## Data Integrity Notes
-
-### Encoding Mismatch (3 vendors)
-These vendors have identical names but different character encoding:
-- `Grad Zagreb, Gradski Ured Za Prostorno Ureä'Enje,..`
-- `SveuäIliå¡Te U Zagrebu, Studentski Centar`
-- `ZagrebaäKi Holding D.O.O.`
-
-Resolution: Minor issue, both agents classified these Croatian government/municipal vendors correctly.
-
-### Errors Caught Through Cross-Validation
-
-| Error | Agent | Caught By | Resolution |
-|-------|-------|-----------|------------|
-| Missing 3 vendors (383 vs 386) | Agent 2 | Agent 1 | User provided authoritative CSV |
-| Hallucinated vendor names | Agent 1 | Agent 2 | Agent 1 fixed to merge by row position |
-| Wrong department taxonomy | Agent 2 | Agent 1 | Reclassified 218 vendors to use Config tab's 12 departments |
-
-**Department Taxonomy Issue:**
-- Agent 2 initially used custom categories: HR, IT, Operations, Travel & Entertainment, Sales & Marketing
-- Google Sheets Config tab defines 12 specific departments
-- Agent 1 correctly followed Config taxonomy; Agent 2 did not
-- Resolution: All 386 vendors reclassified (218 changes)
+### Methodology Validation
+The dual-track approach caught 3 critical errors:
+1. Missing vendors (Agent 2)
+2. Hallucinated names (Agent 1)
+3. Wrong taxonomy (Agent 2)
 
 ---
 
 ## Files Generated
 
-| File | Purpose |
-|------|---------|
-| `analysis/cross_validation.csv` | Structured CSV for Google Sheets Cross-Validation tab |
-| `analysis/cross_analysis.md` | This human-readable report |
+| File | Location | Purpose |
+|------|----------|---------|
+| cross_validation.csv | `analysis/cross_validation.csv` | Google Sheets Cross-Validation tab |
+| cross_analysis.md | `analysis/cross_analysis.md` | This report |
+
+Both files copied to Agent 1 repo at `~/Documents/GitHub/vendor-analysis/analysis/`.
 
 ---
 
 ## Conclusion
 
-Despite low raw agreement rates (34.7% dept, 38.1% rec), the discrepancies are largely **explainable taxonomy differences** rather than errors. The high-spend discrepancies have clear resolutions, and the dual-track methodology successfully caught critical data integrity errors in both agents.
+With both agents using the Config taxonomy and research-based corrections applied:
+- **50% department agreement** and **46% recommendation agreement**
+- Research on disputed vendors improved department alignment by 2 percentage points
+- 93 vendors (24%) have full agreement
+- 108 vendors (28%) need manual review
 
-**Recommended Final Action:**
-1. Use Agent 2's classifications as the baseline (more specific taxonomy)
-2. Review the 10 high-spend department discrepancies manually
-3. Import `cross_validation.csv` to Google Sheets Cross-Validation tab
-4. Document the resolution decisions for each major discrepancy
+**The dual-track methodology validated its purpose** — all critical errors were caught before submission, and research on disagreements led to 7 classification corrections. The remaining discrepancies provide valuable alternative perspectives rather than indicating failures.
